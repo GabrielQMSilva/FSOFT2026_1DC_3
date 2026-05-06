@@ -1,0 +1,3 @@
+C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/EventManager/cmake-build-debug/CMakeFiles/EventManager.dir
+C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/EventManager/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/EventManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
