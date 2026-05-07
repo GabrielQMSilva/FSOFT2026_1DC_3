@@ -176,6 +176,30 @@ sources/model/Cliente.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.s
 .PHONY : sources/model/Cliente.cpp.s
 
+sources/model/Date.obj: sources/model/Date.cpp.obj
+.PHONY : sources/model/Date.obj
+
+# target to build an object file
+sources/model/Date.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj
+.PHONY : sources/model/Date.cpp.obj
+
+sources/model/Date.i: sources/model/Date.cpp.i
+.PHONY : sources/model/Date.i
+
+# target to preprocess a source file
+sources/model/Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Date.cpp.i
+.PHONY : sources/model/Date.cpp.i
+
+sources/model/Date.s: sources/model/Date.cpp.s
+.PHONY : sources/model/Date.s
+
+# target to generate assembly for a file
+sources/model/Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Date.cpp.s
+.PHONY : sources/model/Date.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... sources/model/Cliente.obj
 	@echo ... sources/model/Cliente.i
 	@echo ... sources/model/Cliente.s
+	@echo ... sources/model/Date.obj
+	@echo ... sources/model/Date.i
+	@echo ... sources/model/Date.s
 .PHONY : help
 
 

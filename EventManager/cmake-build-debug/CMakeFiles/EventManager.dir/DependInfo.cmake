@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/main.cpp" "CMakeFiles/EventManager.dir/main.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/main.cpp.obj.d"
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Cliente.cpp" "CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj.d"
+  "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Date.cpp" "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

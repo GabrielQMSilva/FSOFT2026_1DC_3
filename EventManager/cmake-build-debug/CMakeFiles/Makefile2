@@ -80,12 +80,12 @@ clean: CMakeFiles/EventManager.dir/clean
 CMakeFiles/EventManager.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target EventManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target EventManager"
 .PHONY : CMakeFiles/EventManager.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/EventManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/EventManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/EventManager.dir/rule
