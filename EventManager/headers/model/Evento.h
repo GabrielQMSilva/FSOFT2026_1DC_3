@@ -5,4 +5,23 @@
 #ifndef EVENTO_H
 #define EVENTO_H
 
+#include <string>
+#include <iostream>
+#include "Date.h"
+using namespace std;
+
+class Evento {
+  private:
+    string nome;
+    string tipo;
+    string listaArtistas;
+    string lotacao;
+    string lotacaoMaxima;
+    Date horario;
+
+  public:
+    Evento(string nome, string tipo, string listaArtistas, string lotacao, string horario, string lotacaoMaxima, Date horario);
+
+};
+
 #endif //EVENTO_H
