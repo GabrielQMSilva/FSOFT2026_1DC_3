@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/main.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj"
+  "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj.d"
   "EventManager.exe"
   "EventManager.exe.manifest"
   "EventManager.pdb"
