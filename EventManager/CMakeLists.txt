@@ -20,7 +20,7 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/Cliente.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Utilizador.h
         ${PROJECT_HEADERS_MODEL_DIR}/Date.h
-        ${PROJECT_SOURCES_MODEL_DIR}/Data.cpp
+        ${PROJECT_SOURCES_MODEL_DIR}/Date.cpp
 
 )
 
