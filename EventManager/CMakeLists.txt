@@ -22,7 +22,7 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/Organizador.h
         ${PROJECT_SOURCES_MODEL_DIR}/Organizador.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Date.h
-        ${PROJECT_SOURCES_MODEL_DIR}/Data.cpp
+        ${PROJECT_SOURCES_MODEL_DIR}/Date.cpp
 )
 
 add_executable(EventManager main.cpp
