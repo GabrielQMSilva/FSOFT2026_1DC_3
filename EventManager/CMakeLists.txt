@@ -19,6 +19,9 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/Cliente.h
         ${PROJECT_SOURCES_MODEL_DIR}/Cliente.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Utilizador.h
+        ${PROJECT_HEADERS_MODEL_DIR}/Date.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Data.cpp
+
 )
 
 add_executable(EventManager main.cpp
@@ -26,4 +29,6 @@ add_executable(EventManager main.cpp
         headers/model/Utilizador.h
         headers/model/Cliente.h
         headers/model/Organizador.h
+        headers/model/Date.h
+        sources/model/Date.cpp
 )
