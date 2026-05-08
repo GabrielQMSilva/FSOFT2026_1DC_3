@@ -1,6 +1,6 @@
 #include <string>
 #include "Date.h"
-
+#include <iostream>
 using namespace std;
 
 bool Date:: isLeapYear(int year){
@@ -17,11 +17,18 @@ bool Date:: isLeapYear(int year){
 
 
 }
-bool Date::isValid(int year, int moth, int day,int hour,int minute){
+bool Date::isValid(int year, int month, int day,int hour,int minute){
 	bool result = true;
+	if (minute < 0 && minute > 59) {
+		result = false;
+	}
+	if (  hour < 0 && hour > 23 ) {
+		result = false;
+	}
 	if(day <= 0 || day > 31 || month <= 0 || month > 12){
 		result = false;
-	}else{
+	}
+	else{
 		switch(month){
 		case 2:
 			if(isLeapYear(year) == true){
@@ -43,16 +50,10 @@ bool Date::isValid(int year, int moth, int day,int hour,int minute){
 			}
 			break;
 		}
-	if (  minute < 0 && minute > 59 ) {
-		result = false;
-	}
-		if (  hour < 0 && hour > 23 ) {
-			result = false;
-		}
 	}
 	return result;
-
 }
+
 Date::Date(){
 	//default date
 	setDate(1,1, 1900,0,0);
@@ -71,11 +72,11 @@ void Date::setDate(int year, int month, int day,int hour, int minute){
 			this->hour = hour;
 			this->minute = minute;
 		}
-	/* -- INVALID DATA EXCEPTION PLACE HOLDER
-		else{
-			string msg =to_string(day)+ "/"+to_string(month)+"/"+to_string(year);
-			throw InvalidDataException(msg);
-		} */
+	/*   -- INVALID DATA EXCEPTION PLACE HOLDER --
+	else{
+		string msg =to_string(day)+ "/"+to_string(month)+"/"+to_string(year);
+		throw InvalidDataException(msg);
+	} */
 }
 void Date::getDate(int& year, int& month, int& day,int& hour,int& minute) const{
 	day = this->day;
@@ -92,46 +93,46 @@ bool Date::operator == (const Date& obj) const{
 }
 bool Date::operator > (const Date& obj)const {
 	if(this->year > obj.year) {
-		return true;
 		if(this->month > obj.month){
-			return true;
 			if(this->day > obj.day) {
-				return true;
 				if(this->hour > obj.hour){
 					return true;
 				}
 				if(this->minute > obj.minute){
 					return true;
 				}
+				return true;
 			}
+			return true;
 		}
+		return true;
 	}
 	if(this->month > obj.month){
-		return true;
 		if(this->day > obj.day) {
-			return true;
 			if(this->hour > obj.hour){
 				return true;
 			}
 			if(this->minute > obj.minute){
 				return true;
 			}
+			return true;
 		}
+		return true;
 	}
 	if(this->day > obj.day){
-		return true;
 		if(this->hour > obj.hour){
 			return true;
 		}
 		if(this->minute > obj.minute){
 			return true;
 		}
+		return true;
 	}
 	if(this->hour > obj.hour){
-		return true;
 		if(this->minute > obj.minute){
 			return true;
 		}
+		return true;
 	}
 	if(this->minute > obj.minute){
 		return true;
