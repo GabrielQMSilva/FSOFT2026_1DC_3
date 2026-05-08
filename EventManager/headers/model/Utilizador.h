@@ -21,10 +21,20 @@ public:
 
     virtual ~Utilizador() {}
 
+    virtual void dataValidation() {
+        cout << "Por favor introduza dados válidos." << endl;
+    };
+
     virtual void mostrarInfo() {
         cout << "Nome: " << nome << endl;
         cout << "Email: " << email << endl;
     }
+
+    virtual void terminarSessao() {
+        cout << "A encerrar sessão... " << endl << "Sessão Encerrada. " << endl;
+    }
+
+    virtual void alterarDados() {}
 
 };
 

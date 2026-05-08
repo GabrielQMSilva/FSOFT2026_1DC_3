@@ -5,6 +5,6 @@
 #include "Organizador.h"
 using namespace std;
 
-void consultarEventos() {
+void Organizador::consultarEventosOrg() {
     cout << "A mostrar lista de eventos..." << endl;
 }

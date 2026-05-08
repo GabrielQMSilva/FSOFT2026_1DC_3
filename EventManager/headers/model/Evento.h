@@ -8,19 +8,23 @@
 #include <string>
 #include <iostream>
 #include "Date.h"
+#include "Artista.h"
+#include "Cliente.h"
 using namespace std;
 
 class Evento {
-  private:
+private:
     string nome;
     string tipo;
     string listaArtistas;
+    string listaClientes;
     string lotacao;
     string lotacaoMaxima;
     Date horario;
 
-  public:
-    Evento(string nome, string tipo, string listaArtistas, string lotacao, string horario, string lotacaoMaxima, Date horario);
+public:
+    Evento(string nome, string tipo, Artista listaArtistas, string lotacao, string lotacaoMaxima, Date horario);
+    void dataValidation();
 
 };
 

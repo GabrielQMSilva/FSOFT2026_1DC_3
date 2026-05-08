@@ -22,4 +22,5 @@ public:
     bool operator < (const Date& obj) const;
 };
 
+#endif //DATE_H
 

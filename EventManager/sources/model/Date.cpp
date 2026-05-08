@@ -5,7 +5,6 @@ using namespace std;
 
 bool Date:: isLeapYear(int year){
 
-
     if (year % 400 == 0)
         return true;
 
@@ -17,7 +16,6 @@ bool Date:: isLeapYear(int year){
     if (year % 4 == 0)
         return true;
     return false;
-
 
 }
 bool Date::isValid(int day, int month, int year){
@@ -66,10 +64,11 @@ void Date::setDate(int day, int month, int year){
         this->month = month;
         this->year = year;
     }
+    /*  -- INVALID DATA EXCEPTION PLACE HOLDER --
     else{
         string msg =to_string(day)+ "/"+to_string(month)+"/"+to_string(year);
         throw InvalidDataException(msg);
-    }
+    }*/
 }
 void Date::getDate(int& day, int& month, int& year) const{
     day = this->day;

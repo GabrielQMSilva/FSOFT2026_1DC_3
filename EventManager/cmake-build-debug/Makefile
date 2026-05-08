@@ -152,6 +152,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sources/model/Aluguer_Material.obj: sources/model/Aluguer_Material.cpp.obj
+.PHONY : sources/model/Aluguer_Material.obj
+
+# target to build an object file
+sources/model/Aluguer_Material.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Aluguer_Material.cpp.obj
+.PHONY : sources/model/Aluguer_Material.cpp.obj
+
+sources/model/Aluguer_Material.i: sources/model/Aluguer_Material.cpp.i
+.PHONY : sources/model/Aluguer_Material.i
+
+# target to preprocess a source file
+sources/model/Aluguer_Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Aluguer_Material.cpp.i
+.PHONY : sources/model/Aluguer_Material.cpp.i
+
+sources/model/Aluguer_Material.s: sources/model/Aluguer_Material.cpp.s
+.PHONY : sources/model/Aluguer_Material.s
+
+# target to generate assembly for a file
+sources/model/Aluguer_Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Aluguer_Material.cpp.s
+.PHONY : sources/model/Aluguer_Material.cpp.s
+
+sources/model/Artista.obj: sources/model/Artista.cpp.obj
+.PHONY : sources/model/Artista.obj
+
+# target to build an object file
+sources/model/Artista.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj
+.PHONY : sources/model/Artista.cpp.obj
+
+sources/model/Artista.i: sources/model/Artista.cpp.i
+.PHONY : sources/model/Artista.i
+
+# target to preprocess a source file
+sources/model/Artista.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Artista.cpp.i
+.PHONY : sources/model/Artista.cpp.i
+
+sources/model/Artista.s: sources/model/Artista.cpp.s
+.PHONY : sources/model/Artista.s
+
+# target to generate assembly for a file
+sources/model/Artista.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Artista.cpp.s
+.PHONY : sources/model/Artista.cpp.s
+
 sources/model/Cliente.obj: sources/model/Cliente.cpp.obj
 .PHONY : sources/model/Cliente.obj
 
@@ -200,6 +248,78 @@ sources/model/Date.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Date.cpp.s
 .PHONY : sources/model/Date.cpp.s
 
+sources/model/Evento.obj: sources/model/Evento.cpp.obj
+.PHONY : sources/model/Evento.obj
+
+# target to build an object file
+sources/model/Evento.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj
+.PHONY : sources/model/Evento.cpp.obj
+
+sources/model/Evento.i: sources/model/Evento.cpp.i
+.PHONY : sources/model/Evento.i
+
+# target to preprocess a source file
+sources/model/Evento.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Evento.cpp.i
+.PHONY : sources/model/Evento.cpp.i
+
+sources/model/Evento.s: sources/model/Evento.cpp.s
+.PHONY : sources/model/Evento.s
+
+# target to generate assembly for a file
+sources/model/Evento.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Evento.cpp.s
+.PHONY : sources/model/Evento.cpp.s
+
+sources/model/Organizador.obj: sources/model/Organizador.cpp.obj
+.PHONY : sources/model/Organizador.obj
+
+# target to build an object file
+sources/model/Organizador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj
+.PHONY : sources/model/Organizador.cpp.obj
+
+sources/model/Organizador.i: sources/model/Organizador.cpp.i
+.PHONY : sources/model/Organizador.i
+
+# target to preprocess a source file
+sources/model/Organizador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.i
+.PHONY : sources/model/Organizador.cpp.i
+
+sources/model/Organizador.s: sources/model/Organizador.cpp.s
+.PHONY : sources/model/Organizador.s
+
+# target to generate assembly for a file
+sources/model/Organizador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.s
+.PHONY : sources/model/Organizador.cpp.s
+
+sources/model/Recurso_Material.obj: sources/model/Recurso_Material.cpp.obj
+.PHONY : sources/model/Recurso_Material.obj
+
+# target to build an object file
+sources/model/Recurso_Material.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Recurso_Material.cpp.obj
+.PHONY : sources/model/Recurso_Material.cpp.obj
+
+sources/model/Recurso_Material.i: sources/model/Recurso_Material.cpp.i
+.PHONY : sources/model/Recurso_Material.i
+
+# target to preprocess a source file
+sources/model/Recurso_Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Recurso_Material.cpp.i
+.PHONY : sources/model/Recurso_Material.cpp.i
+
+sources/model/Recurso_Material.s: sources/model/Recurso_Material.cpp.s
+.PHONY : sources/model/Recurso_Material.s
+
+# target to generate assembly for a file
+sources/model/Recurso_Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Recurso_Material.cpp.s
+.PHONY : sources/model/Recurso_Material.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,12 +332,27 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sources/model/Aluguer_Material.obj
+	@echo ... sources/model/Aluguer_Material.i
+	@echo ... sources/model/Aluguer_Material.s
+	@echo ... sources/model/Artista.obj
+	@echo ... sources/model/Artista.i
+	@echo ... sources/model/Artista.s
 	@echo ... sources/model/Cliente.obj
 	@echo ... sources/model/Cliente.i
 	@echo ... sources/model/Cliente.s
 	@echo ... sources/model/Date.obj
 	@echo ... sources/model/Date.i
 	@echo ... sources/model/Date.s
+	@echo ... sources/model/Evento.obj
+	@echo ... sources/model/Evento.i
+	@echo ... sources/model/Evento.s
+	@echo ... sources/model/Organizador.obj
+	@echo ... sources/model/Organizador.i
+	@echo ... sources/model/Organizador.s
+	@echo ... sources/model/Recurso_Material.obj
+	@echo ... sources/model/Recurso_Material.i
+	@echo ... sources/model/Recurso_Material.s
 .PHONY : help
 
 

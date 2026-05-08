@@ -6,11 +6,10 @@
 #include "Cliente.h"
 using namespace std;
 
-void consultarEventos() {
+void Cliente::consultarEventosCl() {
     cout << "A mostrar lista de eventos..." << endl;
 }
 
-void comprarBilhete() {
+void Cliente::comprarBilhete() {
     cout << "Bilhete comprado!" << endl;
 }
-

@@ -11,6 +11,8 @@
 using namespace std;
 
 class Cliente : public Utilizador {
+private:
+    string historico;
 public:
     Cliente(string nome, string email, string password)
         : Utilizador(nome, email, password) {}
@@ -19,6 +21,8 @@ public:
         cout << "[Cliente]" << endl;
         Utilizador::mostrarInfo();
     }
+    void comprarBilhete();
+    void consultarEventosCl();
 
 };
 

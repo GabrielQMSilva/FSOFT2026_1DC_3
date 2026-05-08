@@ -16,9 +16,11 @@ public:
         : Utilizador(nome, email, password) {}
 
     void mostrarInfo() override {
-        cout << "[Cliente]" << endl;
+        cout << "[Organizador]" << endl;
         Utilizador::mostrarInfo();
     }
+
+    void consultarEventosOrg();
 
 };
 
