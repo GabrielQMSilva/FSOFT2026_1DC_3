@@ -25,7 +25,7 @@ private:
     Date horario;
 
 public:
-    Evento(string nome, string tipo, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date horario);
+    Evento(string nome, string tipo, int ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
     void dataValidation();
 
 };
