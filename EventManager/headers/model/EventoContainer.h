@@ -14,8 +14,9 @@ using namespace std;
 class EventoContainer {
 private:
     list<Evento*> eventos;
+    Evento* search(int ID);
 public:
-    list<Evento*> getAll(string nome);
+    list<Evento*> getAll();
     void add(Evento* evento);
     Evento* remove(int ID);
 

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj"
+  "CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj"

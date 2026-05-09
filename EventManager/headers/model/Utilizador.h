@@ -34,7 +34,11 @@ public:
         cout << "A encerrar sessão... " << endl << "Sessão encerrada. " << endl;
     }
 
-    virtual void alterarDados() {}
+    virtual void getNome() {
+        cout << nome << endl;
+    }
+
+    virtual void alterarDados();
 
 };
 

@@ -11,13 +11,13 @@
 #include "Cliente.h"
 using namespace std;
 
-using namespace std;
-
 class ClienteContainer {
 private:
     list<Cliente*> clientes;
+    Cliente* search(int ID);
+
 public:
-    list<Cliente*> getAll(string nome);
+    list<Cliente*> getAll();
     void add(Cliente* cliente);
 
 };

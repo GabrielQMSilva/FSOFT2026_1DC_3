@@ -57,4 +57,5 @@ add_executable(EventManager main.cpp
         headers/model/RecursoMaterial.h
         sources/model/RecursoMaterial.cpp
         headers/model/RecursoMaterialContainer.h
+        sources/model/ClienteContainer.cpp
 )

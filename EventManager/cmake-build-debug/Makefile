@@ -224,6 +224,30 @@ sources/model/Cliente.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.s
 .PHONY : sources/model/Cliente.cpp.s
 
+sources/model/ClienteContainer.obj: sources/model/ClienteContainer.cpp.obj
+.PHONY : sources/model/ClienteContainer.obj
+
+# target to build an object file
+sources/model/ClienteContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj
+.PHONY : sources/model/ClienteContainer.cpp.obj
+
+sources/model/ClienteContainer.i: sources/model/ClienteContainer.cpp.i
+.PHONY : sources/model/ClienteContainer.i
+
+# target to preprocess a source file
+sources/model/ClienteContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.i
+.PHONY : sources/model/ClienteContainer.cpp.i
+
+sources/model/ClienteContainer.s: sources/model/ClienteContainer.cpp.s
+.PHONY : sources/model/ClienteContainer.s
+
+# target to generate assembly for a file
+sources/model/ClienteContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.s
+.PHONY : sources/model/ClienteContainer.cpp.s
+
 sources/model/Date.obj: sources/model/Date.cpp.obj
 .PHONY : sources/model/Date.obj
 
@@ -341,6 +365,9 @@ help:
 	@echo ... sources/model/Cliente.obj
 	@echo ... sources/model/Cliente.i
 	@echo ... sources/model/Cliente.s
+	@echo ... sources/model/ClienteContainer.obj
+	@echo ... sources/model/ClienteContainer.i
+	@echo ... sources/model/ClienteContainer.s
 	@echo ... sources/model/Date.obj
 	@echo ... sources/model/Date.i
 	@echo ... sources/model/Date.s
