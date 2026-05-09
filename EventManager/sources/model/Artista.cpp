@@ -13,7 +13,7 @@ bool Artista::dataValidation() {
     return result;
 }
 
-void Artista::setArtista(string nome, int membros, string agencia, float budget, int ID) {
+void Artista::setArtista(const string& nome, int membros,const string& agencia, float budget, int ID) {
 
 }
 
