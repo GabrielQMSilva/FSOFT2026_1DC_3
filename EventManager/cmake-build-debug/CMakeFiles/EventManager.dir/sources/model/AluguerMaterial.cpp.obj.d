@@ -135,4 +135,5 @@ CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/AluguerMaterial.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Date.h
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Date.h \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Artista.h

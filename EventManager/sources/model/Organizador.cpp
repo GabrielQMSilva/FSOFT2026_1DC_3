@@ -4,7 +4,3 @@
 #include <iostream>
 #include "Organizador.h"
 using namespace std;
-
-void Organizador::consultarEventosOrg() {
-    cout << "A mostrar lista de eventos..." << endl;
-}

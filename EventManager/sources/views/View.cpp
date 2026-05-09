@@ -23,7 +23,7 @@ int View::LoginView() {
 
         op = Utils::getNumber("Opcao");
 
-    } while(op < 0  op > 3);
+    } while(op > 0 && op <= 3);
 
     return op;
 }
@@ -41,7 +41,7 @@ int View::ClienteView() {
 
         op = Utils::getNumber("Opcao");
 
-    } while(op < 0  op > 4);
+    } while(op > 0 && op <= 4);
 
     return op;
 }
@@ -61,7 +61,7 @@ int View::OrganizadorView() {
 
         op = Utils::getNumber("Opcao");
 
-    } while(op < 0 || op > 5);
+    } while(op > 0 && op <= 6);
 
     return op;
 }

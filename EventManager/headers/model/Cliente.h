@@ -21,6 +21,7 @@ public:
         cout << "[Cliente]" << endl;
         Utilizador::mostrarInfo();
     }
+
     void comprarBilhete();
     void setHistorico(string historico);
     const string& getHistorico();
