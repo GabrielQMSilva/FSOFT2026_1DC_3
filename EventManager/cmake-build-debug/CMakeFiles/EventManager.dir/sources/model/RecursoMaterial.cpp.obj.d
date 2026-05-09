@@ -1,5 +1,5 @@
-CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj: \
- C:\Users\Lord\ Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Evento.cpp \
+CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj: \
+ C:\Users\Lord\ Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\RecursoMaterial.cpp \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -134,13 +134,4 @@ CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Evento.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Date.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Artista.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Cliente.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Utilizador.h
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/RecursoMaterial.h

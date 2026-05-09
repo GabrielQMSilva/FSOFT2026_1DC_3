@@ -11,4 +11,15 @@
 #include "Cliente.h"
 using namespace std;
 
+using namespace std;
+
+class ClienteContainer {
+private:
+    list<Cliente*> clientes;
+public:
+    list<Cliente*> getAll(string nome);
+    void add(Cliente* cliente);
+
+};
+
 #endif //CLIENTECONTAINER_H
