@@ -488,6 +488,30 @@ sources/model/Utilizador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.s
 .PHONY : sources/model/Utilizador.cpp.s
 
+sources/model/test.obj: sources/model/test.cpp.obj
+.PHONY : sources/model/test.obj
+
+# target to build an object file
+sources/model/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/test.cpp.obj
+.PHONY : sources/model/test.cpp.obj
+
+sources/model/test.i: sources/model/test.cpp.i
+.PHONY : sources/model/test.i
+
+# target to preprocess a source file
+sources/model/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/test.cpp.i
+.PHONY : sources/model/test.cpp.i
+
+sources/model/test.s: sources/model/test.cpp.s
+.PHONY : sources/model/test.s
+
+# target to generate assembly for a file
+sources/model/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/test.cpp.s
+.PHONY : sources/model/test.cpp.s
+
 sources/views/Utils.obj: sources/views/Utils.cpp.obj
 .PHONY : sources/views/Utils.obj
 
@@ -590,6 +614,9 @@ help:
 	@echo ... sources/model/Utilizador.obj
 	@echo ... sources/model/Utilizador.i
 	@echo ... sources/model/Utilizador.s
+	@echo ... sources/model/test.obj
+	@echo ... sources/model/test.i
+	@echo ... sources/model/test.s
 	@echo ... sources/views/Utils.obj
 	@echo ... sources/views/Utils.i
 	@echo ... sources/views/Utils.s

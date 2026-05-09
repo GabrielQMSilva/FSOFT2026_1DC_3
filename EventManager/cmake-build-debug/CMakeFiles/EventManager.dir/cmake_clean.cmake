@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/sources/model/test.cpp.obj"
+  "CMakeFiles/EventManager.dir/sources/model/test.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/views/View.cpp.obj"
