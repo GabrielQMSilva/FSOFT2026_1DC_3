@@ -34,6 +34,18 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/RecursoMaterial.h
         ${PROJECT_HEADERS_MODEL_DIR}/RecursoMaterialContainer.h
 )
+set(PROJECT_HEADERS_VIEWS_DIR
+        ${PROJECT_HEADERS_DIR}/Views)
+set(PROJECT_SOURCES_VIEWS_DIR
+        ${PROJECT_SOURCES_DIR}/Views)
+include_directories(
+        ${PROJECT_HEADERS_VIEWS_DIR}
+        ${PROJECT_SOURCES_VIEWS_DIR})
+set(VIEWS_SOURCE_FILES
+        ${PROJECT_HEADERS_VIEWS_DIR}/View.h
+        ${PROJECT_HEADERS_VIEWS_DIR}/View.cpp
+        ${PROJECT_HEADERS_VIEWS_DIR}/Utils.h
+        ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp)
 
 add_executable(EventManager main.cpp
         headers/model/Utilizador.h
@@ -59,4 +71,13 @@ add_executable(EventManager main.cpp
         headers/model/RecursoMaterialContainer.h
         sources/model/ClienteContainer.cpp
         sources/model/Utilizador.cpp
+        sources/views/View.cpp
+        sources/views/Utils.cpp
+        headers/views/View.h
+        headers/views/Utils.h
+        sources/model/AluguerMaterialContainer.cpp
+        sources/model/ArtistaContainer.cpp
+        sources/model/EventoContainer.cpp
+        sources/model/OrganizadorContainer.cpp
+        sources/model/RecursoMaterialContainer.cpp
 )
