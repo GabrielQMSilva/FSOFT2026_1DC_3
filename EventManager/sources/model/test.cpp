@@ -10,3 +10,6 @@ void teste() {
 void test2() {
     cout <<"vamos la ver" << endl;
 }
+void test3() {
+    cout<<"ganda tono Oh IAN"  << endl;
+}
