@@ -11,34 +11,28 @@ using namespace std;
 
 class Utilizador {
 protected:
+    int ID;
     string nome;
     string email;
     string password;
+    virtual bool dataValidation() {
+        bool result = false;
+        cout << "Por favor introduza dados válidos." << endl;
+        return result;
+    }
 
 public:
-    Utilizador(string nome, string email, string password)
-        : nome(nome), email(email), password(password) {}
-
-    virtual ~Utilizador() {}
-
-    virtual void dataValidation() {
-        cout << "Por favor introduza dados válidos." << endl;
-    }
-
-    virtual void mostrarInfo() {
-        cout << "Nome: " << nome << endl;
-        cout << "Email: " << email << endl;
-    }
-
-    virtual void terminarSessao() {
-        cout << "A encerrar sessão... " << endl << "Sessão encerrada. " << endl;
-    }
-
-    virtual void getNome() {
-        cout << nome << endl;
-    }
-
-    virtual void alterarDados();
+    Utilizador(int ID, string nome, string email, string password)
+        : ID(ID), nome(nome), email(email), password(password) {}
+    virtual ~Utilizador();
+    virtual void mostrarInfo();
+    virtual void setNome();
+    virtual void setEmail();
+    virtual void setPassword();
+    virtual void getNome();
+    virtual void getEmail();
+    virtual void getPasswaord();
+    virtual void terminarSessao();
 
 };
 

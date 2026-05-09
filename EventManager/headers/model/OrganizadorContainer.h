@@ -5,10 +5,22 @@
 #ifndef ORGANIZADORCONTAINER_H
 #define ORGANIZADORCONTAINER_H
 
-#include <string>
 #include <list>
-#include <iostream>
 #include "Organizador.h"
 using namespace std;
+
+class OrganizadorContainer {
+private:
+    list<Organizador*> organizadores;
+    Organizador* search(int ID);
+
+public:
+    list<Organizador*> getAll();
+    void add(Organizador* organizador);
+    Organizador* getOrganizador(int ID);
+    Organizador* remove(int ID);
+    Organizador* update(int ID, string nome, string email, string password);
+
+};
 
 #endif //ORGANIZADORCONTAINER_H

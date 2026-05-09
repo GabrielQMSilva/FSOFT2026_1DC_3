@@ -4,12 +4,13 @@
 class Date{
 private:
     int day;
-    int month; // 1- january, ... 12- December
+    int month;
     int year;
     int hour;
     int minute;
     bool isLeapYear(int year);
     bool isValid(int year, int month, int day, int hour, int minute);
+
 public:
     Date();
     Date(int year, int month, int day, int hour, int minute);

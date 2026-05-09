@@ -7,6 +7,8 @@
 #include "RecursoMaterial.h"
 using namespace std;
 
-void RecursoMaterial::dataValidation() {
+bool RecursoMaterial::dataValidation() {
+    bool result = false;
     cout << "Por favor introduza dados válidos." << endl;
+    return result;
 }

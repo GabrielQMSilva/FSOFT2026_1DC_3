@@ -7,6 +7,8 @@
 #include "Evento.h"
 using namespace std;
 
-void Evento::dataValidation() {
+bool Evento::dataValidation() {
+    bool result = false;
     cout << "Por favor introduza dados válidos." << endl;
+    return result;
 }

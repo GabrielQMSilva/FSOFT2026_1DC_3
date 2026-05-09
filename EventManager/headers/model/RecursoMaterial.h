@@ -10,14 +10,17 @@ using namespace std;
 
 class RecursoMaterial {
 private:
-    string quantidade;
+    int quantidade;
     string tipo;
+    bool dataValidation();
 
 public:
     RecursoMaterial(string quantidade, string tipo);
-    void dataValidation();
+    void setTipo(string tipo);
+    void setQuantidade(int quantidade);
+    const string getTipo();
+    int getQuantidade();
 
 };
-
 
 #endif //RECURSO_MATERIAL_H

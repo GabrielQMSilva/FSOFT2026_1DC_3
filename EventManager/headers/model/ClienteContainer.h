@@ -5,9 +5,7 @@
 #ifndef CLIENTECONTAINER_H
 #define CLIENTECONTAINER_H
 
-#include <string>
 #include <list>
-#include <iostream>
 #include "Cliente.h"
 using namespace std;
 
@@ -19,6 +17,9 @@ private:
 public:
     list<Cliente*> getAll();
     void add(Cliente* cliente);
+    Cliente* getCliente(int ID);
+    Cliente* remove(int ID);
+    Cliente* update(int ID, string nome, string email, string password);
 
 };
 

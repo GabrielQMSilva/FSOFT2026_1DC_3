@@ -5,12 +5,21 @@
 #ifndef ALUGUERMATERIALCONTAINER_H
 #define ALUGUERMATERIALCONTAINER_H
 
-#include <string>
 #include <list>
-#include <iostream>
 #include "AluguerMaterial.h"
 using namespace std;
 
+class AluguerMaterialContainer {
+private:
+    list<AluguerMaterial*> aluguerMaterial;
+    AluguerMaterial* search(int ID);
 
+public:
+    list<AluguerMaterial*> getAll();
+    void add(AluguerMaterial* aluguerMaterial);
+    AluguerMaterial* getAM(int ID);
+    AluguerMaterial* remove(int ID);
+
+};
 
 #endif //ALUGUERMATERIALCONTAINER_H

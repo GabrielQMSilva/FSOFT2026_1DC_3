@@ -14,10 +14,12 @@ private:
     int membros;
     float budget;
     string agencia;
+    bool dataValidation();
 
 public:
     Artista(string nome, int membros, string agencia, float budget);
-    void dataValidation();
+    void setArtista(string nome, int membros, string agencia, float budget, int ID);
+    const string getNome();
 
 };
 

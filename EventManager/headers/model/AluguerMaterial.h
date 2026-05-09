@@ -7,19 +7,24 @@
 
 #include <string>
 #include "Date.h"
+#include "Artista.h"
 using namespace std;
 
 class AluguerMaterial {
 private:
     int ID;
-    string estado;
+    bool estado;
+    Artista* artista;
     Date dataInicio;
     Date dataFim;
+    bool dataValidation();
 
 public:
     AluguerMaterial(int ID, string estado, Date dataInicio, Date dataFim);
-    void dataValidation();
-
+    void setAluguerMaterial(int ID, string estado, Artista* artista);
+    void setHorario(Date& dataInicio, Date& dataFim);
+    const int getID();
+    const Date& getHorario();
 };
 
 #endif //ALUGUER_MATERIAL_H

@@ -344,6 +344,30 @@ sources/model/RecursoMaterial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.s
 .PHONY : sources/model/RecursoMaterial.cpp.s
 
+sources/model/Utilizador.obj: sources/model/Utilizador.cpp.obj
+.PHONY : sources/model/Utilizador.obj
+
+# target to build an object file
+sources/model/Utilizador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj
+.PHONY : sources/model/Utilizador.cpp.obj
+
+sources/model/Utilizador.i: sources/model/Utilizador.cpp.i
+.PHONY : sources/model/Utilizador.i
+
+# target to preprocess a source file
+sources/model/Utilizador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.i
+.PHONY : sources/model/Utilizador.cpp.i
+
+sources/model/Utilizador.s: sources/model/Utilizador.cpp.s
+.PHONY : sources/model/Utilizador.s
+
+# target to generate assembly for a file
+sources/model/Utilizador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.s
+.PHONY : sources/model/Utilizador.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -380,6 +404,9 @@ help:
 	@echo ... sources/model/RecursoMaterial.obj
 	@echo ... sources/model/RecursoMaterial.i
 	@echo ... sources/model/RecursoMaterial.s
+	@echo ... sources/model/Utilizador.obj
+	@echo ... sources/model/Utilizador.i
+	@echo ... sources/model/Utilizador.s
 .PHONY : help
 
 

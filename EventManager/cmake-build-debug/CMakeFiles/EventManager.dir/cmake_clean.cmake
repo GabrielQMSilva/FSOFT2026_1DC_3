@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj"
+  "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj.d"
   "EventManager.exe"
   "EventManager.exe.manifest"
   "EventManager.pdb"

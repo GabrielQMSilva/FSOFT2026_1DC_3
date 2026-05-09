@@ -23,10 +23,16 @@ private:
     int lotacao;
     int lotacaoMaxima;
     Date horario;
+    bool dataValidation();
 
 public:
     Evento(string nome, string tipo, int ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
-    void dataValidation();
+    void setDetails(string nome, string tipo, int lotacao, int lotacaoMaxima, Date& horario);
+    void setID(int ID);
+    const int getID() const;
+    const string& getDetails() const;
+    const list<Artista*>& getListaArtistas() const;
+    const list<Cliente*>& getListaClientes() const;
 
 };
 

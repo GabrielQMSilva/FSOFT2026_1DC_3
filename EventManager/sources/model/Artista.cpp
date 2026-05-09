@@ -7,6 +7,16 @@
 #include "Artista.h"
 using namespace std;
 
-void Artista::dataValidation() {
+bool Artista::dataValidation() {
+    bool result = false;
     cout << "Por favor introduza dados válidos." << endl;
+    return result;
+}
+
+void Artista::setArtista(string nome, int membros, string agencia, float budget, int ID) {
+
+}
+
+const string Artista::getNome() {
+    return nome;
 }

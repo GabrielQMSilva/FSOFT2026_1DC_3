@@ -7,6 +7,8 @@
 #include "AluguerMaterial.h"
 using namespace std;
 
-void AluguerMaterial::dataValidation() {
+bool AluguerMaterial::dataValidation() {
+    bool result = false;
     cout << "Por favor introduza dados válidos." << endl;
+    return result;
 }

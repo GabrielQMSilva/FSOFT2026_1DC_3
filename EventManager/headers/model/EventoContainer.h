@@ -15,9 +15,13 @@ class EventoContainer {
 private:
     list<Evento*> eventos;
     Evento* search(int ID);
+
 public:
     list<Evento*> getAll();
     void add(Evento* evento);
+    Evento* getEventoORG(int ID);
+    Evento* getEventoCL(string& nome);
+    Evento* update(string& nome, string& tipo, int ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
     Evento* remove(int ID);
 
 };

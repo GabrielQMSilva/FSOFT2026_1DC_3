@@ -78,7 +78,8 @@
 				14,
 				17,
 				20,
-				22
+				22,
+				23
 			]
 		}
 	],
@@ -123,7 +124,8 @@
 				14,
 				17,
 				20,
-				22
+				22,
+				23
 			]
 		},
 		{
@@ -271,6 +273,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "sources/model/ClienteContainer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sources/model/Utilizador.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

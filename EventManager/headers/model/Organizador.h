@@ -6,21 +6,20 @@
 #define ORGANIZADOR_H
 
 #include <iostream>
+#include "Cliente.h"
 #include "Utilizador.h"
 #include <string>
 using namespace std;
 
 class Organizador : public Utilizador {
 public:
-    Organizador(string nome, string email, string password)
-        : Utilizador(nome, email, password) {}
+    Organizador(int ID, string nome, string email, string password)
+        : Utilizador(ID, nome, email, password) {}
 
     void mostrarInfo() override {
         cout << "[Organizador]" << endl;
         Utilizador::mostrarInfo();
     }
-
-    void consultarEventosOrg();
 
 };
 

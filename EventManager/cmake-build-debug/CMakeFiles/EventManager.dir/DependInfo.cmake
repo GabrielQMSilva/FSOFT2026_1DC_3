@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Evento.cpp" "CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj.d"
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Organizador.cpp" "CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj.d"
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/RecursoMaterial.cpp" "CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj.d"
+  "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Utilizador.cpp" "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
