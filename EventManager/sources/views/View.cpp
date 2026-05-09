@@ -48,8 +48,7 @@ int View::ClienteView() {
 
 int View::OrganizadorView() {
     int op = -1;
-
-    do {
+    do{
         cout << "\n\n** MENU ORGANIZADOR **\n";
         cout << "1 - Criar Evento\n";
         cout << "2 - Editar Evento\n";
@@ -61,7 +60,6 @@ int View::OrganizadorView() {
 
         op = Utils::getNumber("Opcao");
 
-    } while(op > 0 && op <= 6);
-
+    }while(op > 0 && op <= 6);
     return op;
 }

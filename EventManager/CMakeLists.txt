@@ -80,4 +80,5 @@ add_executable(EventManager main.cpp
         sources/model/EventoContainer.cpp
         sources/model/OrganizadorContainer.cpp
         sources/model/RecursoMaterialContainer.cpp
+        sources/model/test.cpp
 )
