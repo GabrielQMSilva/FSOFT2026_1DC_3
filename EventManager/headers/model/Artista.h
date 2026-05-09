@@ -11,12 +11,12 @@ using namespace std;
 class Artista {
 private:
     string nome;
-    string membros;
-    string budget;
+    int membros;
+    float budget;
     string agencia;
 
 public:
-    Artista(string nome, string membros, string agencia, string budget);
+    Artista(string nome, int membros, string agencia, float budget);
     void dataValidation();
 
 };

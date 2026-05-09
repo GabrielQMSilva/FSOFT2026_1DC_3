@@ -23,7 +23,7 @@ public:
 
     virtual void dataValidation() {
         cout << "Por favor introduza dados válidos." << endl;
-    };
+    }
 
     virtual void mostrarInfo() {
         cout << "Nome: " << nome << endl;

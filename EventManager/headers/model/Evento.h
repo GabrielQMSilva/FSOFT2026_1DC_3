@@ -5,6 +5,7 @@
 #ifndef EVENTO_H
 #define EVENTO_H
 
+#include <list>
 #include <string>
 #include <iostream>
 #include "Date.h"
@@ -16,14 +17,15 @@ class Evento {
 private:
     string nome;
     string tipo;
-    string listaArtistas;
-    string listaClientes;
-    string lotacao;
-    string lotacaoMaxima;
+    int ID;
+    list<Artista*>& listaArtistas;
+    list<Cliente*>& listaClientes;
+    int lotacao;
+    int lotacaoMaxima;
     Date horario;
 
 public:
-    Evento(string nome, string tipo, Artista listaArtistas, string lotacao, string lotacaoMaxima, Date horario);
+    Evento(string nome, string tipo, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date horario);
     void dataValidation();
 
 };

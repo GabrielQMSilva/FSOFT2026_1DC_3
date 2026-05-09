@@ -37,10 +37,16 @@ add_executable(EventManager main.cpp
         sources/model/Date.cpp
         headers/model/Evento.h
         sources/model/Evento.cpp
-        headers/model/Recurso_Material.h
-        sources/model/Recurso_Material.cpp
+        headers/model/RecursoMaterial.h
+        sources/model/RecursoMaterial.cpp
         headers/model/Artista.h
         sources/model/Artista.cpp
-        headers/model/Aluguer_Material.h
-        sources/model/Aluguer_Material.cpp
+        headers/model/AluguerMaterial.h
+        sources/model/AluguerMaterial.cpp
+        headers/model/AluguerMaterialContainer.h
+        headers/model/ArtistaContainer.h
+        headers/model/ClienteContainer.h
+        headers/model/EventoContainer.h
+        headers/model/OrganizadorContainer.h
+        headers/model/RecursoMaterialContainer.h
 )

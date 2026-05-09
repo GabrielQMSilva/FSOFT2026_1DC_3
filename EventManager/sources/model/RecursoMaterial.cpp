@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <string>
-#include "Recurso_Material.h"
+#include "RecursoMaterial.h"
 using namespace std;
 
 void RecursoMaterial::dataValidation() {

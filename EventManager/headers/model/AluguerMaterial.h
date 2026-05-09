@@ -11,13 +11,13 @@ using namespace std;
 
 class AluguerMaterial {
 private:
-    string ID;
+    int ID;
     string estado;
     Date dataInicio;
     Date dataFim;
 
 public:
-    AluguerMaterial(string ID, string estado, Date dataInicio, Date dataFim);
+    AluguerMaterial(int ID, string estado, Date dataInicio, Date dataFim);
     void dataValidation();
 
 };
