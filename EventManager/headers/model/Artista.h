@@ -20,7 +20,7 @@ private:
 public:
     Artista(string nome, int membros, string agencia, float budget);
     void setArtista(const string& nome, int membros, const string& agencia, float budget);
-    const string getNome();
+    const string& getNome();
 
 };
 

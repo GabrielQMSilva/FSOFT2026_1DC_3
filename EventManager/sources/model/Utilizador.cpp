@@ -1,19 +1,38 @@
 //
 // Created by Lord Foog on 5/9/2026.
 //
-
+#include <cctype>
 #include <iostream>
 #include "Utilizador.h"
 
 bool Utilizador::stringValidation(const string& nome) {
     bool result = false;
-    if(nome.length() < 3 || nome.length() > 20) {
-        result = false;
-        return result;
+    if(nome.length() > 3 && nome.length() < 20) {
+        result = true;
     }
-    result = true;
     return result;
 }
+
+bool Utilizador::emailValidation(const std::string& email)
+{
+    size_t arrobaPos = email.find('@');
+    size_t pontoPos = email.find('.');
+
+    if (arrobaPos == string::npos || pontoPos == string::npos) {
+        return false;
+    }
+    if (arrobaPos == 0) {
+        return false;
+    }
+    if (pontoPos < arrobaPos) {
+        return false;
+    }
+    if (pontoPos >= email.length()) {
+        return false;
+    }
+    return true;
+}
+
 bool Utilizador::passwordValidation(const string& password)
 {
     bool result = false;
@@ -29,35 +48,43 @@ bool Utilizador::passwordValidation(const string& password)
     }
     if (letterCount >= 6 && numberCount >= 3) {
         result = true;
-        return result;
     }
+    return result;
 }
 
 void Utilizador::setNome() {
-    cout << "Introduza o seu nome: ";
-    getline(cin, nome);
+    if (stringValidation(nome)) {
+        this->nome = nome;
+    }else{
+        cout << "Nome inválido!" << endl;
+        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
+    }
 }
 void Utilizador::setEmail() {
-    cout << "Introduza o seu email: ";
-    getline(cin, email);
+    if (emailValidation(email)) {
+        this->email = email;
+    }else{
+        cout << "Email inválido!" << endl;
+        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
+    }
 }
 void Utilizador::setPassword() {
     if (passwordValidation(password)) {
         this->password = password;
     }else {
-        cout << "Password Inválida!" << endl;
+        cout << "Password inválida!" << endl;
         /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
     }
 }
 
-void Utilizador::getNome() {
-    cout << nome << endl;
+const string& Utilizador::getNome() {
+    return nome;
 }
-void Utilizador::getEmail() {
-    cout << email << endl;
+const string& Utilizador::getEmail() {
+    return email;
 }
-void Utilizador::getPasswaord() {
-    cout << password << endl;
+const string& Utilizador::getPasswaord() {
+    return password;
 }
 
 void Utilizador::terminarSessao() {
