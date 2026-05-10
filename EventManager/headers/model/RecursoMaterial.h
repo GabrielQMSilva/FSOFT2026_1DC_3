@@ -12,7 +12,8 @@ class RecursoMaterial {
 private:
     int quantidade;
     string tipo;
-    bool stringValidation();
+    bool stringValidation(const string& tipo);
+    bool quantidadeValidation(int quantidade);
 
 public:
     RecursoMaterial(int quantidade, string tipo);

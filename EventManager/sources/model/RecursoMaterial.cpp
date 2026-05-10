@@ -7,8 +7,39 @@
 #include "RecursoMaterial.h"
 using namespace std;
 
-bool RecursoMaterial::dataValidation() {
+bool RecursoMaterial::stringValidation(const string& tipo) {
     bool result = false;
-    cout << "Por favor introduza dados válidos." << endl;
+    if(tipo.length() < 3 || tipo.length() > 40) {
+        result = false;
+        return result;
+    }
+    result = true;
     return result;
+}
+
+bool RecursoMaterial::quantidadeValidation(int quantidade) {
+    bool result = false;
+    if(quantidade > 0 && quantidade <= 50) {
+        result = true;
+    }
+    return result;
+}
+
+void RecursoMaterial::setTipo(string tipo) {
+    if(stringValidation(tipo)) {
+        this-> tipo = tipo;
+
+    } else{
+        cout << "Tipo de Material Inválido!" << endl;
+        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
+    }
+}
+
+void RecursoMaterial::setQuantidade(int quantidade) {
+    if (quantidadeValidation(quantidade)) {
+        this-> quantidade = quantidade;
+    } else {
+        cout << "Quantidade de material inválida!" << endl;
+        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
+    }
 }
