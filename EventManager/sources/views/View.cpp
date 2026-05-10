@@ -63,3 +63,16 @@ int View::OrganizadorView() {
     }while(op > 0 && op <= 6);
     return op;
 }
+
+int View::CartView() {
+    int op = -1;
+    do{
+        cout << "\n\n** MENU CARRINHO **\n";
+        cout << "1 - Efetuar Compra\n";
+        cout << "2 - Remover Bilhetes\n";
+        cout << "3 - Retroceder\n";
+
+        op = Utils::getNumber("Opcao");
+    }while(op > 0 && op <= 3);
+    return op;
+}
