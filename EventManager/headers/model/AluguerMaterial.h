@@ -17,11 +17,10 @@ private:
     Artista* artista;
     Date dataInicio;
     Date dataFim;
-    bool dataValidation();
 
 public:
-    AluguerMaterial(int ID, string estado, Date dataInicio, Date dataFim);
-    void setAluguerMaterial(int ID, string estado, Artista* artista);
+    AluguerMaterial(int ID, bool estado, Date dataInicio, Date dataFim);
+    void setAluguerMaterial(int ID, bool estado, Artista* artista);
     void setHorario(Date& dataInicio, Date& dataFim);
     const int getID();
     const Date& getHorario();

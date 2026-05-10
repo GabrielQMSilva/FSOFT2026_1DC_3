@@ -14,6 +14,24 @@ bool Utilizador::stringValidation(const string& nome) {
     result = true;
     return result;
 }
+bool Utilizador::passwordValidation(const string& password)
+{
+    bool result = false;
+    int letterCount = 0;
+    int numberCount = 0;
+    for (char ch : password)
+    {
+        if (isalpha(ch)) {
+            letterCount++;
+        }else if (isdigit(ch)) {
+            numberCount++;
+        }
+    }
+    if (letterCount >= 6 && numberCount >= 3) {
+        result = true;
+        return result;
+    }
+}
 
 void Utilizador::setNome() {
     cout << "Introduza o seu nome: ";
@@ -24,8 +42,12 @@ void Utilizador::setEmail() {
     getline(cin, email);
 }
 void Utilizador::setPassword() {
-    cout << "Introduza a sua password: ";
-    getline(cin, password);
+    if (passwordValidation(password)) {
+        this->password = password;
+    }else {
+        cout << "Password Inválida!" << endl;
+        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
+    }
 }
 
 void Utilizador::getNome() {

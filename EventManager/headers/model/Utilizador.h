@@ -16,6 +16,7 @@ protected:
     string email;
     string password;
     virtual bool stringValidation(const string& nome);
+    virtual bool passwordValidation(const string& password);
     virtual bool emailValidation(const string& email);
 
 public:

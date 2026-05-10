@@ -12,10 +12,10 @@ class RecursoMaterial {
 private:
     int quantidade;
     string tipo;
-    bool dataValidation();
+    bool stringValidation();
 
 public:
-    RecursoMaterial(string quantidade, string tipo);
+    RecursoMaterial(int quantidade, string tipo);
     void setTipo(string tipo);
     void setQuantidade(int quantidade);
     const string getTipo();
