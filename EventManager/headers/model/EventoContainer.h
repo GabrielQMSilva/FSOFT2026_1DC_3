@@ -21,8 +21,8 @@ public:
     void add(Evento* evento);
     bool idVerification(const string& ID);
     Evento* getEventoORG(const string& ID);
-    Evento* getEventoCL(string& nome);
-    Evento* update(string& nome, string& tipo, const string& ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
+    Evento* getEventoCL(const string& nome);
+    Evento* update(const string& nome, const string& tipo, const string& ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
     Evento* remove(const string& ID);
 
 };

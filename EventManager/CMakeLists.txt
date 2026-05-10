@@ -85,4 +85,5 @@ add_executable(EventManager main.cpp
         sources/controllers/Controller.cpp
         headers/model/IDGenerator.h
         sources/model/IDGenerator.cpp
+        headers/model/Historico.h
 )

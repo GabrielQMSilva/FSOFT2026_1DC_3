@@ -7,12 +7,13 @@
 
 #include <iostream>
 #include "Utilizador.h"
+#include "Historico.h"
 #include <string>
 using namespace std;
 
 class Cliente : public Utilizador {
 private:
-    string historico;
+    Historico* historico;
 public:
     Cliente(const string& ID, const string& nome, const string& email, const string& password)
         : Utilizador(ID, nome, email, password) {}

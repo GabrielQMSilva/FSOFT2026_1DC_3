@@ -20,7 +20,8 @@ private:
 
 public:
     AluguerMaterial(string ID, bool estado, Date dataInicio, Date dataFim);
-    void setAluguerMaterial(const string& ID, bool estado, Artista* artista);
+    void setAluguerMaterial(const string& ID, Artista* artista);
+    void setEstado(bool estado);
     void setHorario(Date& dataInicio, Date& dataFim);
     const string& getID();
     const Date& getHorario();

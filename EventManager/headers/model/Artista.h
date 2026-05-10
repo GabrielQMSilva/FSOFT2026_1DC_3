@@ -22,6 +22,8 @@ public:
     void setArtista(const string& nome, int membros, const string& agencia, float budget);
     const string& getNome();
 
+    bool operator == (const string& nome) const;
+
 };
 
 #endif //ARTISTA_H

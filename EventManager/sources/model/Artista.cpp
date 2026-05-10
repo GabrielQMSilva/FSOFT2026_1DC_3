@@ -48,3 +48,10 @@ void Artista::setArtista(const string& nome, int membros, const string& agencia,
 const string& Artista::getNome() {
     return nome;
 }
+
+bool Artista::operator == (const string & nome) const{
+    if(this->nome == nome){
+        return true;
+    }
+    return false;
+}

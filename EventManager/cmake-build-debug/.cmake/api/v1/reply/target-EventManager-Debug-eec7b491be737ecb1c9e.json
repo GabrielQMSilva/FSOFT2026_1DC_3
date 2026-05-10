@@ -181,7 +181,8 @@
 				26,
 				27,
 				33,
-				35
+				35,
+				37
 			]
 		}
 	],
@@ -390,6 +391,11 @@
 			"compileGroupIndex" : 0,
 			"path" : "sources/model/IDGenerator.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/model/Historico.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

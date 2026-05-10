@@ -15,11 +15,12 @@ private:
     AluguerMaterial* search(const string& ID);
 
 public:
-    list<AluguerMaterial*> getAll();
+    list<AluguerMaterial*>& getAll();
     void add(AluguerMaterial* aluguerMaterial);
     bool idVerification(const string& ID);
     AluguerMaterial* getAM(const string& ID);
     AluguerMaterial* remove(const string& ID);
+    AluguerMaterial* update(const string& ID, bool estado);
 
 };
 

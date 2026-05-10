@@ -52,7 +52,7 @@ bool Utilizador::passwordValidation(const string& password)
     return result;
 }
 
-void Utilizador::setNome() {
+void Utilizador::setNome(const string& nome) {
     if (stringValidation(nome)) {
         this->nome = nome;
     }else{
@@ -60,7 +60,7 @@ void Utilizador::setNome() {
         /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
     }
 }
-void Utilizador::setEmail() {
+void Utilizador::setEmail(const string& email) {
     if (emailValidation(email)) {
         this->email = email;
     }else{
@@ -68,7 +68,7 @@ void Utilizador::setEmail() {
         /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
     }
 }
-void Utilizador::setPassword() {
+void Utilizador::setPassword(const string& password) {
     if (passwordValidation(password)) {
         this->password = password;
     }else {

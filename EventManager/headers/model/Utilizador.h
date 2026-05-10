@@ -23,9 +23,9 @@ public:
     Utilizador(const string& ID, const string& nome, const string& email, const string& password)
         : ID(ID), nome(nome), email(email), password(password) {}
     virtual ~Utilizador();
-    void setNome();
-    void setEmail();
-    void setPassword();
+    void setNome(const string& nome);
+    void setEmail(const string& email);
+    void setPassword(const string& password);
     void setID();
     const string& getNome();
     const string& getEmail();

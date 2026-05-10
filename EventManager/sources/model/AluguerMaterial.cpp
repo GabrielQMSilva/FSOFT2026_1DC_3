@@ -8,11 +8,15 @@
 #include "AluguerMaterial.h"
 using namespace std;
 
-void AluguerMaterial::setAluguerMaterial(const string& ID, bool estado, Artista* artista) {
+void AluguerMaterial::setAluguerMaterial(const string& ID, Artista* artista) {
     this->ID = ID;
     this->estado = estado;
     this->artista = artista;
     /* Vai existir validação de dados para o artista quando o ArtistaContainer estiver feito */
+}
+
+void AluguerMaterial::setEstado(bool estado) {
+    this->estado = estado;
 }
 
 void AluguerMaterial::setHorario(Date &dataInicio, Date &dataFim) {

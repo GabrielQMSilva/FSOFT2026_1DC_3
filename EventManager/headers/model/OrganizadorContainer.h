@@ -15,12 +15,13 @@ private:
     Organizador* search(const string& ID);
 
 public:
-    list<Organizador*> getAll();
+    list<Organizador*>& getAll();
     void add(Organizador* organizador);
     bool idVerification(const string& ID);
     Organizador* getOrganizador(const string& ID);
+    Organizador* getOrganizadorPassword(const string& password);
     Organizador* remove(const string& ID);
-    Organizador* update(const string& ID, string nome, string email, string password);
+    Organizador* update(const string& nome, const string& email, const string& password);
 
 };
 
