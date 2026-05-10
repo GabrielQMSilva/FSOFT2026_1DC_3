@@ -33,6 +33,7 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/AluguerMaterialContainer.h
         ${PROJECT_HEADERS_MODEL_DIR}/RecursoMaterial.h
         ${PROJECT_HEADERS_MODEL_DIR}/RecursoMaterialContainer.h
+        ${PROJECT_HEADERS_MODEL_DIR}/IDGenerator.h
 )
 set(PROJECT_HEADERS_VIEWS_DIR
         ${PROJECT_HEADERS_DIR}/Views)
@@ -82,4 +83,6 @@ add_executable(EventManager main.cpp
         sources/model/RecursoMaterialContainer.cpp
         headers/controllers/Controller.h
         sources/controllers/Controller.cpp
+        headers/model/IDGenerator.h
+        sources/model/IDGenerator.cpp
 )

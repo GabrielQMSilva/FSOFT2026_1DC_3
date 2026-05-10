@@ -14,13 +14,13 @@ class Cliente : public Utilizador {
 private:
     string historico;
 public:
-    Cliente(int ID, string nome, string email, string password)
+    Cliente(const string& ID, const string& nome, const string& email, const string& password)
         : Utilizador(ID, nome, email, password) {}
 
-    void comprarBilhete();
     void setHistorico(string historico);
     const string& getHistorico();
 
+    bool operator == (const string& ID) const;
 };
 
 #endif //CLIENTE_H

@@ -9,7 +9,7 @@ using namespace std;
 
 bool Artista::stringValidation(const string& nome) {
     bool result = false;
-    if(nome.length() > 3 && nome.length() < 20) {
+    if(nome.length() > 3 && nome.length() <= 20) {
         result = true;
 	}
     return result;
@@ -17,7 +17,7 @@ bool Artista::stringValidation(const string& nome) {
 
 bool Artista::membrosValidation(int membros) {
     bool result = false;
-    if(membros > 0 && membros < 6) {
+    if(membros > 0 && membros <= 6) {
         result = true;
     }
     return result;

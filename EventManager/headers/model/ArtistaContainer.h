@@ -12,13 +12,13 @@ using namespace std;
 class ArtistaContainer {
 private:
     list<Artista*> artista;
-    Artista* search(int ID);
+    Artista* search(const string& nome);
 
 public:
     list<Artista*> getAll();
     void add(Artista* artista);
-    Artista* getArtista(int ID);
-    Artista* remove(int ID);
+    Artista* getArtista(const string& nome);
+    Artista* remove(const string& nome);
 
 };
 

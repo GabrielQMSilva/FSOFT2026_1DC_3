@@ -12,14 +12,15 @@ using namespace std;
 class OrganizadorContainer {
 private:
     list<Organizador*> organizadores;
-    Organizador* search(int ID);
+    Organizador* search(const string& ID);
 
 public:
     list<Organizador*> getAll();
     void add(Organizador* organizador);
-    Organizador* getOrganizador(int ID);
-    Organizador* remove(int ID);
-    Organizador* update(int ID, string nome, string email, string password);
+    bool idVerification(const string& ID);
+    Organizador* getOrganizador(const string& ID);
+    Organizador* remove(const string& ID);
+    Organizador* update(const string& ID, string nome, string email, string password);
 
 };
 

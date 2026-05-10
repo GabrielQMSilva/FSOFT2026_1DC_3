@@ -392,6 +392,30 @@ sources/model/EventoContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.s
 .PHONY : sources/model/EventoContainer.cpp.s
 
+sources/model/IDGenerator.obj: sources/model/IDGenerator.cpp.obj
+.PHONY : sources/model/IDGenerator.obj
+
+# target to build an object file
+sources/model/IDGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj
+.PHONY : sources/model/IDGenerator.cpp.obj
+
+sources/model/IDGenerator.i: sources/model/IDGenerator.cpp.i
+.PHONY : sources/model/IDGenerator.i
+
+# target to preprocess a source file
+sources/model/IDGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.i
+.PHONY : sources/model/IDGenerator.cpp.i
+
+sources/model/IDGenerator.s: sources/model/IDGenerator.cpp.s
+.PHONY : sources/model/IDGenerator.s
+
+# target to generate assembly for a file
+sources/model/IDGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.s
+.PHONY : sources/model/IDGenerator.cpp.s
+
 sources/model/Organizador.obj: sources/model/Organizador.cpp.obj
 .PHONY : sources/model/Organizador.obj
 
@@ -602,6 +626,9 @@ help:
 	@echo ... sources/model/EventoContainer.obj
 	@echo ... sources/model/EventoContainer.i
 	@echo ... sources/model/EventoContainer.s
+	@echo ... sources/model/IDGenerator.obj
+	@echo ... sources/model/IDGenerator.i
+	@echo ... sources/model/IDGenerator.s
 	@echo ... sources/model/Organizador.obj
 	@echo ... sources/model/Organizador.i
 	@echo ... sources/model/Organizador.s

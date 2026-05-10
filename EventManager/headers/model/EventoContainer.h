@@ -14,15 +14,16 @@ using namespace std;
 class EventoContainer {
 private:
     list<Evento*> eventos;
-    Evento* search(int ID);
+    Evento* search(const string& ID);
 
 public:
-    list<Evento*> getAll();
+    list<Evento*>& getAll();
     void add(Evento* evento);
-    Evento* getEventoORG(int ID);
+    bool idVerification(const string& ID);
+    Evento* getEventoORG(const string& ID);
     Evento* getEventoCL(string& nome);
-    Evento* update(string& nome, string& tipo, int ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
-    Evento* remove(int ID);
+    Evento* update(string& nome, string& tipo, const string& ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
+    Evento* remove(const string& ID);
 
 };
 

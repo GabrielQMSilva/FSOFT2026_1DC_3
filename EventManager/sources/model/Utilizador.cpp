@@ -7,7 +7,7 @@
 
 bool Utilizador::stringValidation(const string& nome) {
     bool result = false;
-    if(nome.length() > 3 && nome.length() < 20) {
+    if(nome.length() > 3 && nome.length() <= 20) {
         result = true;
     }
     return result;
@@ -77,6 +77,11 @@ void Utilizador::setPassword() {
     }
 }
 
+void Utilizador::setID() {
+    this->ID = ID;
+}
+
+
 const string& Utilizador::getNome() {
     return nome;
 }
@@ -85,6 +90,16 @@ const string& Utilizador::getEmail() {
 }
 const string& Utilizador::getPasswaord() {
     return password;
+}
+const string& Utilizador::getID() {
+    return ID;
+}
+
+bool Utilizador::operator == (const string & ID) const{
+    if(this->ID == ID){
+        return true;
+    }
+    return false;
 }
 
 void Utilizador::terminarSessao() {

@@ -9,11 +9,9 @@ using namespace std;
 
 bool RecursoMaterial::stringValidation(const string& tipo) {
     bool result = false;
-    if(tipo.length() < 3 || tipo.length() > 40) {
-        result = false;
-        return result;
+    if(tipo.length() > 3 && tipo.length() <= 40) {
+        result = true;
     }
-    result = true;
     return result;
 }
 
@@ -28,8 +26,7 @@ bool RecursoMaterial::quantidadeValidation(int quantidade) {
 void RecursoMaterial::setTipo(string tipo) {
     if(stringValidation(tipo)) {
         this-> tipo = tipo;
-
-    } else{
+    }else{
         cout << "Tipo de Material Inválido!" << endl;
         /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
     }
@@ -38,8 +35,16 @@ void RecursoMaterial::setTipo(string tipo) {
 void RecursoMaterial::setQuantidade(int quantidade) {
     if (quantidadeValidation(quantidade)) {
         this-> quantidade = quantidade;
-    } else {
+    }else{
         cout << "Quantidade de material inválida!" << endl;
         /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
     }
+}
+
+const string& RecursoMaterial::getTipo() {
+    return tipo;
+}
+
+int RecursoMaterial::getQuantidade() {
+    return quantidade;
 }

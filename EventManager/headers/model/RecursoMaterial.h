@@ -16,10 +16,10 @@ private:
     bool quantidadeValidation(int quantidade);
 
 public:
-    RecursoMaterial(int quantidade, string tipo);
-    void setTipo(string tipo);
+    RecursoMaterial(int quantidade, const string& tipo);
+    void setTipo(const string& tipo);
     void setQuantidade(int quantidade);
-    const string getTipo();
+    const string& getTipo();
     int getQuantidade();
 
 };

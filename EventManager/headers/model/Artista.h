@@ -18,7 +18,7 @@ private:
     bool membrosValidation(int membros);
 
 public:
-    Artista(string nome, int membros, string agencia, float budget);
+    Artista(const string& nome, int membros, const string& agencia, float budget);
     void setArtista(const string& nome, int membros, const string& agencia, float budget);
     const string& getNome();
 

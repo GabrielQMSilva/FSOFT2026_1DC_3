@@ -12,14 +12,15 @@ using namespace std;
 class ClienteContainer {
 private:
     list<Cliente*> clientes;
-    Cliente* search(int ID);
+    Cliente* search(const string& ID);
 
 public:
     list<Cliente*> getAll();
     void add(Cliente* cliente);
-    Cliente* getCliente(int ID);
-    Cliente* remove(int ID);
-    Cliente* update(int ID, string nome, string email, string password);
+    bool idVerification(const string& ID);
+    Cliente* getCliente(const string& ID);
+    Cliente* remove(const string& ID);
+    Cliente* update(const string& ID, string nome, string email, string password);
 
 };
 

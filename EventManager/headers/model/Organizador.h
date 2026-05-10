@@ -13,7 +13,7 @@ using namespace std;
 
 class Organizador : public Utilizador {
 public:
-    Organizador(int ID, string nome, string email, string password)
+    Organizador(const string& ID, const string& nome, const string& email, const string& password)
         : Utilizador(ID, nome, email, password) {}
 
 };

@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj"
+  "CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj"

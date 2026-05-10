@@ -5,7 +5,3 @@
 #include <iostream>
 #include "Cliente.h"
 using namespace std;
-
-void Cliente::comprarBilhete() {
-    cout << "Bilhete comprado!" << endl;
-}

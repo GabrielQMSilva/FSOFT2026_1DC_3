@@ -17,23 +17,27 @@ class Evento {
 private:
     string nome;
     string tipo;
-    int ID;
+    string ID;
     list<Artista*>& listaArtistas;
     list<Cliente*>& listaClientes;
     int lotacao;
     int lotacaoMaxima;
     Date horario;
-    bool dataValidation();
+    bool stringValidation(const string& nome);
+    bool intValidation(const int& number);
 
 public:
-    Evento(string nome, string tipo, int ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
-    void setDetails(string nome, string tipo, int lotacao, int lotacaoMaxima, Date& horario);
-    void setID(int ID);
-    const int getID() const;
-    const string& getDetails() const;
+    Evento(const string& nome, const string& tipo, const string& ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
+    void setDetails(const string& nome, const string& tipo, int lotacao, int lotacaoMaxima, Date& horario);
+    void setID(const string& ID);
+    const string& getID() const;
+    const string& getStrings() const;
+    const string& getInts() const;
+    const Date& getHorario() const;
     const list<Artista*>& getListaArtistas() const;
     const list<Cliente*>& getListaClientes() const;
 
+    bool operator == (const string& ID) const;
 };
 
 #endif //EVENTO_H

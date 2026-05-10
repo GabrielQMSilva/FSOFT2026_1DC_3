@@ -11,26 +11,29 @@ using namespace std;
 
 class Utilizador {
 protected:
-    int ID;
+    string ID;
     string nome;
     string email;
     string password;
-    virtual bool stringValidation(const string& nome);
-    virtual bool passwordValidation(const string& password);
-    virtual bool emailValidation(const string& email);
+    bool stringValidation(const string& nome);
+    bool passwordValidation(const string& password);
+    bool emailValidation(const string& email);
 
 public:
-    Utilizador(int ID, string nome, string email, string password)
+    Utilizador(const string& ID, const string& nome, const string& email, const string& password)
         : ID(ID), nome(nome), email(email), password(password) {}
     virtual ~Utilizador();
-    virtual void setNome();
-    virtual void setEmail();
-    virtual void setPassword();
-    virtual const string& getNome();
-    virtual const string& getEmail();
-    virtual const string& getPasswaord();
-    virtual void terminarSessao();
+    void setNome();
+    void setEmail();
+    void setPassword();
+    void setID();
+    const string& getNome();
+    const string& getEmail();
+    const string& getPasswaord();
+    const string& getID();
+    void terminarSessao();
 
+    virtual bool operator == (const string& ID) const;
 };
 
 #endif //UTILIZADOR_H

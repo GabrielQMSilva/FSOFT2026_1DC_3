@@ -11,14 +11,15 @@ using namespace std;
 
 class AluguerMaterialContainer {
 private:
-    list<AluguerMaterial*> aluguerMaterial;
-    AluguerMaterial* search(int ID);
+    list<AluguerMaterial*> alugueres;
+    AluguerMaterial* search(const string& ID);
 
 public:
     list<AluguerMaterial*> getAll();
     void add(AluguerMaterial* aluguerMaterial);
-    AluguerMaterial* getAM(int ID);
-    AluguerMaterial* remove(int ID);
+    bool idVerification(const string& ID);
+    AluguerMaterial* getAM(const string& ID);
+    AluguerMaterial* remove(const string& ID);
 
 };
 

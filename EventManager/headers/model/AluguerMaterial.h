@@ -12,18 +12,20 @@ using namespace std;
 
 class AluguerMaterial {
 private:
-    int ID;
+    string ID;
     bool estado;
     Artista* artista;
     Date dataInicio;
     Date dataFim;
 
 public:
-    AluguerMaterial(int ID, bool estado, Date dataInicio, Date dataFim);
-    void setAluguerMaterial(int ID, bool estado, Artista* artista);
+    AluguerMaterial(string ID, bool estado, Date dataInicio, Date dataFim);
+    void setAluguerMaterial(const string& ID, bool estado, Artista* artista);
     void setHorario(Date& dataInicio, Date& dataFim);
-    const int getID();
+    const string& getID();
     const Date& getHorario();
+
+    bool operator == (const string& ID) const;
 };
 
 #endif //ALUGUER_MATERIAL_H
