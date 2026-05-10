@@ -23,7 +23,7 @@ bool RecursoMaterial::quantidadeValidation(int quantidade) {
     return result;
 }
 
-void RecursoMaterial::setTipo(string tipo) {
+void RecursoMaterial::setTipo(const string& tipo) {
     if(stringValidation(tipo)) {
         this-> tipo = tipo;
     }else{
@@ -47,4 +47,11 @@ const string& RecursoMaterial::getTipo() {
 
 int RecursoMaterial::getQuantidade() {
     return quantidade;
+}
+
+bool RecursoMaterial::operator == (const string & tipo) const{
+    if(this->tipo == tipo){
+        return true;
+    }
+    return false;
 }

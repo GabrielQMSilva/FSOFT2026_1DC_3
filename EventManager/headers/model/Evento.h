@@ -18,17 +18,17 @@ private:
     string nome;
     string tipo;
     string ID;
-    list<Artista*>& listaArtistas;
-    list<Cliente*>& listaClientes;
+    list<Artista*> listaArtistas;
+    list<Cliente*> listaClientes;
     int lotacao;
     int lotacaoMaxima;
     Date horario;
     bool stringValidation(const string& nome);
-    bool intValidation(const int& number);
+    bool intValidation(const int& lotacaoMaxima);
 
 public:
     Evento(const string& nome, const string& tipo, const string& ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
-    void setDetails(const string& nome, const string& tipo, int lotacao, int lotacaoMaxima, Date& horario);
+    void setDetails(const string& nome, const string& tipo, int lotacaoMaxima, Date& horario);
     void setID(const string& ID);
     void setListaArtistas(list<Artista*>& listaArtistas);
     const string& getID() const;

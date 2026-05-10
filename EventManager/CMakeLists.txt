@@ -20,20 +20,31 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/Cliente.h
         ${PROJECT_SOURCES_MODEL_DIR}/Cliente.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ClienteContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/ClienteContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Organizador.h
         ${PROJECT_SOURCES_MODEL_DIR}/Organizador.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/OrgaizadorContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/OrganizadorContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Artista.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Artista.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ArtistaContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/ArtistaContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Evento.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Evento.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/EventoContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/EventoContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Date.h
         ${PROJECT_SOURCES_MODEL_DIR}/Date.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/AluguerMaterial.h
+        ${PROJECT_SOURCES_MODEL_DIR}/AluguerMaterial.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/AluguerMaterialContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/AluguerMaterialContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/RecursoMaterial.h
+        ${PROJECT_SOURCES_MODEL_DIR}/RecursoMaterial.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/RecursoMaterialContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/RecursoMaterialContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/IDGenerator.h
+        ${PROJECT_SOURCES_MODEL_DIR}/IDGenerator.cpp
 )
 set(PROJECT_HEADERS_VIEWS_DIR
         ${PROJECT_HEADERS_DIR}/Views)

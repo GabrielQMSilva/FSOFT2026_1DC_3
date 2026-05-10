@@ -11,6 +11,11 @@
 
 using namespace std;
 
+int IDGenerator::clienteCounter = 0;
+int IDGenerator::organizadorCounter = 0;
+int IDGenerator::eventoCounter = 0;
+int IDGenerator::aluguerCounter = 0;
+
 string IDGenerator::generateClienteID(ClienteContainer& container) {
 
     string id;

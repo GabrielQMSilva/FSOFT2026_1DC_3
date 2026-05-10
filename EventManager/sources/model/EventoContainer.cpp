@@ -84,7 +84,7 @@ Evento* EventoContainer::update(const string& nome, const string& tipo, const st
     Evento* evento = search(ID);
     if (evento != NULL) {
         evento->setID(ID);
-        evento->setDetails(nome, tipo, lotacao, lotacaoMaxima, horario);
+        evento->setDetails(nome, tipo, lotacaoMaxima, horario);
         evento->setListaArtistas(listaArtistas);
         return evento;
     }else{

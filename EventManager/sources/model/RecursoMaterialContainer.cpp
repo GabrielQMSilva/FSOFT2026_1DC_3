@@ -16,6 +16,16 @@ list<RecursoMaterial*>& RecursoMaterialContainer::getAll() {
     return recursos;
 }
 
+RecursoMaterial* RecursoMaterialContainer::search(const string& tipo){
+    list<RecursoMaterial*>::iterator it = this->recursos.begin();
+    for (; it != this->recursos.end(); ++it){
+        if(**it == tipo){
+            return *it;
+        }
+    }
+    return NULL;
+}
+
 RecursoMaterial* RecursoMaterialContainer::getRM(const string& ID) {
     RecursoMaterial* recursoMaterial = search(ID);
     if (recursoMaterial != NULL) {

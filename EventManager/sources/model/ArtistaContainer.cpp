@@ -11,6 +11,16 @@ void ArtistaContainer::add(Artista* artista) {
     this->artistas.push_back(artista);
 }
 
+Artista* ArtistaContainer::search(const string& nome){
+    list<Artista*>::iterator it = this->artistas.begin();
+    for (; it != this->artistas.end(); ++it){
+        if(**it == nome){
+            return *it;
+        }
+    }
+    return NULL;
+}
+
 list<Artista*>& ArtistaContainer::getAll() {
     return artistas;
 }

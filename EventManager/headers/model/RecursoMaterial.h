@@ -22,6 +22,7 @@ public:
     const string& getTipo();
     int getQuantidade();
 
+    bool operator == (const string& tipo) const;
 };
 
 #endif //RECURSO_MATERIAL_H
