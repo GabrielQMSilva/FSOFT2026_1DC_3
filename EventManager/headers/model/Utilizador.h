@@ -15,17 +15,13 @@ protected:
     string nome;
     string email;
     string password;
-    virtual bool dataValidation() {
-        bool result = false;
-        cout << "Por favor introduza dados válidos." << endl;
-        return result;
-    }
+    virtual bool stringValidation(const string& nome);
+    virtual bool emailValidation(const string& email);
 
 public:
     Utilizador(int ID, string nome, string email, string password)
         : ID(ID), nome(nome), email(email), password(password) {}
     virtual ~Utilizador();
-    virtual void mostrarInfo();
     virtual void setNome();
     virtual void setEmail();
     virtual void setPassword();

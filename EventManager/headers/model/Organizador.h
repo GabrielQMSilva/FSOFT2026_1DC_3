@@ -16,11 +16,6 @@ public:
     Organizador(int ID, string nome, string email, string password)
         : Utilizador(ID, nome, email, password) {}
 
-    void mostrarInfo() override {
-        cout << "[Organizador]" << endl;
-        Utilizador::mostrarInfo();
-    }
-
 };
 
 #endif //ORGANIZADOR_H

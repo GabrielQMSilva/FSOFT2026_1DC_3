@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/main.cpp.obj"
   "CMakeFiles/EventManager.dir/main.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj"
+  "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj"
@@ -29,8 +31,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj.d"
-  "CMakeFiles/EventManager.dir/sources/model/test.cpp.obj"
-  "CMakeFiles/EventManager.dir/sources/model/test.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/views/View.cpp.obj"

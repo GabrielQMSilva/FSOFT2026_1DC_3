@@ -17,11 +17,6 @@ public:
     Cliente(int ID, string nome, string email, string password)
         : Utilizador(ID, nome, email, password) {}
 
-    void mostrarInfo() override {
-        cout << "[Cliente]" << endl;
-        Utilizador::mostrarInfo();
-    }
-
     void comprarBilhete();
     void setHistorico(string historico);
     const string& getHistorico();

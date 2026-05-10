@@ -7,14 +7,46 @@
 #include "Artista.h"
 using namespace std;
 
-bool Artista::dataValidation() {
+bool Artista::stringValidation(const string& nome) {
     bool result = false;
-    cout << "Por favor introduza dados válidos." << endl;
+    if(nome.length() < 3 || nome.length() > 20) {
+        result = false;
+		return result;
+	}
+    result = true;
     return result;
 }
 
-void Artista::setArtista(const string& nome, int membros,const string& agencia, float budget, int ID) {
+bool Artista::membrosValidation(int membros) {
+    bool result = false;
+    if(membros < 0 || membros > 6) {
+        result = false;
+        return result;
+    }
+    result = true;
+    return result;
+}
 
+void Artista::setArtista(const string& nome, int membros, const string& agencia, float budget) {
+    if (stringValidation(nome)) {
+        this->nome = nome;
+    }else{
+        cout << "Nome invalido!" << endl;
+        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
+    }
+    if (stringValidation(agencia)) {
+        this->agencia = agencia;
+    }else {
+        cout << "Agencia invalida!" << endl;
+        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
+    }
+    if (membrosValidation(membros)) {
+        this->membros = membros;
+    }else {
+        cout << "Número inválido!" << endl;
+        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
+    }
+    this->budget = budget;
 }
 
 const string Artista::getNome() {

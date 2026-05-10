@@ -5,9 +5,14 @@
 #include <iostream>
 #include "Utilizador.h"
 
-void Utilizador::mostrarInfo() {
-    cout << "Nome: " << nome << endl;
-    cout << "Email: " << email << endl;
+bool Utilizador::stringValidation(const string& nome) {
+    bool result = false;
+    if(nome.length() < 3 || nome.length() > 20) {
+        result = false;
+        return result;
+    }
+    result = true;
+    return result;
 }
 
 void Utilizador::setNome() {
