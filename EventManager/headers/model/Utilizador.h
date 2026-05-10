@@ -26,9 +26,9 @@ public:
     virtual void setNome();
     virtual void setEmail();
     virtual void setPassword();
-    virtual void getNome();
-    virtual void getEmail();
-    virtual void getPasswaord();
+    virtual const string& getNome();
+    virtual const string& getEmail();
+    virtual const string& getPasswaord();
     virtual void terminarSessao();
 
 };

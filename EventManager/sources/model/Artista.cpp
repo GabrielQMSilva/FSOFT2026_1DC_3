@@ -9,21 +9,17 @@ using namespace std;
 
 bool Artista::stringValidation(const string& nome) {
     bool result = false;
-    if(nome.length() < 3 || nome.length() > 20) {
-        result = false;
-		return result;
+    if(nome.length() > 3 && nome.length() < 20) {
+        result = true;
 	}
-    result = true;
     return result;
 }
 
 bool Artista::membrosValidation(int membros) {
     bool result = false;
-    if(membros < 0 || membros > 6) {
-        result = false;
-        return result;
+    if(membros > 0 && membros < 6) {
+        result = true;
     }
-    result = true;
     return result;
 }
 
@@ -31,24 +27,24 @@ void Artista::setArtista(const string& nome, int membros, const string& agencia,
     if (stringValidation(nome)) {
         this->nome = nome;
     }else{
-        cout << "Nome invalido!" << endl;
+        cout << "Nome inválido!" << endl;
         /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
     }
     if (stringValidation(agencia)) {
         this->agencia = agencia;
-    }else {
-        cout << "Agencia invalida!" << endl;
+    }else{
+        cout << "Agencia inválida!" << endl;
         /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
     }
     if (membrosValidation(membros)) {
         this->membros = membros;
-    }else {
+    }else{
         cout << "Número inválido!" << endl;
         /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
     }
     this->budget = budget;
 }
 
-const string Artista::getNome() {
+const string& Artista::getNome() {
     return nome;
 }
