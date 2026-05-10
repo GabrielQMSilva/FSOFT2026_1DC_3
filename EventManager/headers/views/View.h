@@ -13,6 +13,7 @@ public:
     int ClienteView();
     int OrganizadorView();
     int LoginView();
+    int CartView();
 };
 
 #endif //VIEW_H
