@@ -43,7 +43,7 @@ string IDGenerator::generateEventoID(EventoContainer& container) {
         clienteCounter++;
         stringstream ss;
 
-        ss << "O"
+        ss << "E"
            << setw(5)
            << setfill('0')
            << clienteCounter;
@@ -62,7 +62,7 @@ string IDGenerator::generateOrganizadorID(OrganizadorContainer& container) {
         clienteCounter++;
         stringstream ss;
 
-        ss << "E"
+        ss << "O"
            << setw(5)
            << setfill('0')
            << clienteCounter;
