@@ -80,7 +80,7 @@ Evento* EventoContainer::remove(const string& ID) {
     }
 }
 
-Evento* EventoContainer::update(const string& nome, const string& tipo, const string& ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario) {
+Evento* EventoContainer::update(const string& nome, const string& tipo, const string& ID, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario) {
     Evento* evento = search(ID);
     if (evento != NULL) {
         evento->setID(ID);

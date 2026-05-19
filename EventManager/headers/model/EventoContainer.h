@@ -22,7 +22,7 @@ public:
     bool idVerification(const string& ID);
     Evento* getEventoORG(const string& ID);
     Evento* getEventoCL(const string& nome);
-    Evento* update(const string& nome, const string& tipo, const string& ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
+    Evento* update(const string& nome, const string& tipo, const string& ID, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
     Evento* remove(const string& ID);
 
 };

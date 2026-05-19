@@ -45,7 +45,7 @@ void Evento::setDetails(const string &nome, const string &tipo, int lotacaoMaxim
     this->horario = horario;
 }
 
-void Evento::setListaArtistas(list<Artista *> &listaArtistas) {
+void Evento::setListaArtistas(ArtistaContainer& listaArtistas) {
     this->listaArtistas = listaArtistas;
 }
 

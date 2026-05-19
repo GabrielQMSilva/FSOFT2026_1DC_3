@@ -28,10 +28,10 @@ private:
     bool intValidation(const int& lotacaoMaxima);
 
 public:
-    Evento(const string& nome, const string& tipo, const string& ID, list<Artista*>& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
+    Evento(const string& nome, const string& tipo, const string& ID, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario);
     void setDetails(const string& nome, const string& tipo, int lotacaoMaxima, Date& horario);
     void setID(const string& ID);
-    void setListaArtistas(list<Artista*>& listaArtistas);
+    void setListaArtistas(ArtistaContainer& listaArtistas);
     const string& getID() const;
     const string& getStrings() const;
     const string& getInts() const;
