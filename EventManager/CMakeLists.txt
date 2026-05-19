@@ -46,6 +46,19 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/IDGenerator.h
         ${PROJECT_SOURCES_MODEL_DIR}/IDGenerator.cpp
 )
+
+set(PROJECT_HEADERS_SERVICES_DIR
+        ${PROJECT_HEADERS_DIR}/services)
+set(PROJECT_SOURCES_SERVICES_DIR
+        ${PROJECT_SOURCES_DIR}/services)
+include_directories(
+        ${PROJECT_HEADERS_SERVICES_DIR}
+        ${PROJECT_SOURCES_SERVICES_DIR})
+set(SERVICES_SOURCE_FILES
+        ${PROJECT_HEADERS_SERVICES_DIR}/ClienteService.h
+        ${PROJECT_SOURCES_SERVICES_DIR}/ClienteService.cpp
+)
+
 set(PROJECT_HEADERS_VIEWS_DIR
         ${PROJECT_HEADERS_DIR}/Views)
 set(PROJECT_SOURCES_VIEWS_DIR
@@ -55,9 +68,31 @@ include_directories(
         ${PROJECT_SOURCES_VIEWS_DIR})
 set(VIEWS_SOURCE_FILES
         ${PROJECT_HEADERS_VIEWS_DIR}/View.h
-        ${PROJECT_HEADERS_VIEWS_DIR}/View.cpp
+        ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/Utils.h
-        ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp)
+        ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp
+)
+
+set(PROJECT_HEADERS_MAPPERS_DIR
+        ${PROJECT_HEADERS_DIR}/mappers)
+set(PROJECT_SOURCES_MAPPERS_DIR
+        ${PROJECT_SOURCES_DIR}/mappers)
+include_directories(
+        ${PROJECT_HEADERS_MAPPERS_DIR}
+        ${PROJECT_SOURCES_MAPPERS_DIR})
+set(MAPPERS_SOURCE_FILES
+        ${PROJECT_HEADERS_MAPPERS_DIR}/ClienteMapper.h
+        ${PROJECT_SOURCES_MAPPERS_DIR}/ClienteMapper.cpp
+)
+
+set(PROJECT_HEADERS_DTO_DIR
+        ${PROJECT_HEADERS_DIR}/dto)
+include_directories(
+        ${PROJECT_HEADERS_DTO_DIR})
+set(DTO_SOURCE_FILES
+        ${PROJECT_HEADERS_DTO_DIR}/ClienteInDTO.h
+        ${PROJECT_HEADERS_DTO_DIR}/ClienteOutDTO.h
+)
 
 add_executable(EventManager main.cpp
         headers/model/Utilizador.h
@@ -97,4 +132,16 @@ add_executable(EventManager main.cpp
         headers/model/IDGenerator.h
         sources/model/IDGenerator.cpp
         headers/model/Historico.h
+        sources/services/ClienteService.cpp
+        headers/services/ClienteService.h
+        headers/dto/ClienteInDTO.h
+        headers/dto/ClienteOutDTO.h
+        headers/mappers/ClienteMapper.h
+        sources/mappers/ClienteMapper.cpp
+        headers/model/GestoraEventos.h
+        headers/repo/IGestoraEventosRepository.h
+        headers/dto/SessaoDTO.h
+        headers/services/SessaoService.h
+        sources/services/SessaoService.cpp
+        headers/repo/GestoraEventosRepositoryMemory.h
 )

@@ -9,8 +9,9 @@
 #include <string>
 #include <iostream>
 #include "Date.h"
-#include "Artista.h"
-#include "Cliente.h"
+#include "ClienteContainer.h"
+#include "ArtistaContainer.h"
+
 using namespace std;
 
 class Evento {
@@ -18,8 +19,8 @@ private:
     string nome;
     string tipo;
     string ID;
-    list<Artista*> listaArtistas;
-    list<Cliente*> listaClientes;
+    ArtistaContainer listaArtistas;
+    ClienteContainer listaClientes;
     int lotacao;
     int lotacaoMaxima;
     Date horario;
@@ -35,8 +36,8 @@ public:
     const string& getStrings() const;
     const string& getInts() const;
     const Date& getHorario() const;
-    const list<Artista*>& getListaArtistas() const;
-    const list<Cliente*>& getListaClientes() const;
+    ArtistaContainer& getListaArtistas();
+    ClienteContainer& getListaClientes();
 
     bool operator == (const string& ID) const;
 };

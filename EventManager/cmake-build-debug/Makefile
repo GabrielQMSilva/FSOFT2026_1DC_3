@@ -176,6 +176,30 @@ sources/controllers/Controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.s
 .PHONY : sources/controllers/Controller.cpp.s
 
+sources/mappers/ClienteMapper.obj: sources/mappers/ClienteMapper.cpp.obj
+.PHONY : sources/mappers/ClienteMapper.obj
+
+# target to build an object file
+sources/mappers/ClienteMapper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj
+.PHONY : sources/mappers/ClienteMapper.cpp.obj
+
+sources/mappers/ClienteMapper.i: sources/mappers/ClienteMapper.cpp.i
+.PHONY : sources/mappers/ClienteMapper.i
+
+# target to preprocess a source file
+sources/mappers/ClienteMapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.i
+.PHONY : sources/mappers/ClienteMapper.cpp.i
+
+sources/mappers/ClienteMapper.s: sources/mappers/ClienteMapper.cpp.s
+.PHONY : sources/mappers/ClienteMapper.s
+
+# target to generate assembly for a file
+sources/mappers/ClienteMapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.s
+.PHONY : sources/mappers/ClienteMapper.cpp.s
+
 sources/model/AluguerMaterial.obj: sources/model/AluguerMaterial.cpp.obj
 .PHONY : sources/model/AluguerMaterial.obj
 
@@ -536,6 +560,54 @@ sources/model/Utilizador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.s
 .PHONY : sources/model/Utilizador.cpp.s
 
+sources/services/ClienteService.obj: sources/services/ClienteService.cpp.obj
+.PHONY : sources/services/ClienteService.obj
+
+# target to build an object file
+sources/services/ClienteService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj
+.PHONY : sources/services/ClienteService.cpp.obj
+
+sources/services/ClienteService.i: sources/services/ClienteService.cpp.i
+.PHONY : sources/services/ClienteService.i
+
+# target to preprocess a source file
+sources/services/ClienteService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.i
+.PHONY : sources/services/ClienteService.cpp.i
+
+sources/services/ClienteService.s: sources/services/ClienteService.cpp.s
+.PHONY : sources/services/ClienteService.s
+
+# target to generate assembly for a file
+sources/services/ClienteService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.s
+.PHONY : sources/services/ClienteService.cpp.s
+
+sources/services/SessaoService.obj: sources/services/SessaoService.cpp.obj
+.PHONY : sources/services/SessaoService.obj
+
+# target to build an object file
+sources/services/SessaoService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj
+.PHONY : sources/services/SessaoService.cpp.obj
+
+sources/services/SessaoService.i: sources/services/SessaoService.cpp.i
+.PHONY : sources/services/SessaoService.i
+
+# target to preprocess a source file
+sources/services/SessaoService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.i
+.PHONY : sources/services/SessaoService.cpp.i
+
+sources/services/SessaoService.s: sources/services/SessaoService.cpp.s
+.PHONY : sources/services/SessaoService.s
+
+# target to generate assembly for a file
+sources/services/SessaoService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.s
+.PHONY : sources/services/SessaoService.cpp.s
+
 sources/views/Utils.obj: sources/views/Utils.cpp.obj
 .PHONY : sources/views/Utils.obj
 
@@ -599,6 +671,9 @@ help:
 	@echo ... sources/controllers/Controller.obj
 	@echo ... sources/controllers/Controller.i
 	@echo ... sources/controllers/Controller.s
+	@echo ... sources/mappers/ClienteMapper.obj
+	@echo ... sources/mappers/ClienteMapper.i
+	@echo ... sources/mappers/ClienteMapper.s
 	@echo ... sources/model/AluguerMaterial.obj
 	@echo ... sources/model/AluguerMaterial.i
 	@echo ... sources/model/AluguerMaterial.s
@@ -644,6 +719,12 @@ help:
 	@echo ... sources/model/Utilizador.obj
 	@echo ... sources/model/Utilizador.i
 	@echo ... sources/model/Utilizador.s
+	@echo ... sources/services/ClienteService.obj
+	@echo ... sources/services/ClienteService.i
+	@echo ... sources/services/ClienteService.s
+	@echo ... sources/services/SessaoService.obj
+	@echo ... sources/services/SessaoService.i
+	@echo ... sources/services/SessaoService.s
 	@echo ... sources/views/Utils.obj
 	@echo ... sources/views/Utils.i
 	@echo ... sources/views/Utils.s

@@ -353,6 +353,51 @@ CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\IDGenerator.cpp" -o CMakeFiles\EventManager.dir\sources\model\IDGenerator.cpp.s
 
+CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: CMakeFiles/EventManager.dir/flags.make
+CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
+CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/ClienteService.cpp
+CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj -MF CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp"
+
+CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp" > CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.i
+
+CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp" -o CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.s
+
+CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: CMakeFiles/EventManager.dir/flags.make
+CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
+CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/mappers/ClienteMapper.cpp
+CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj -MF CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp"
+
+CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp" > CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.i
+
+CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp" -o CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.s
+
+CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj: CMakeFiles/EventManager.dir/flags.make
+CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
+CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/SessaoService.cpp
+CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj -MF CMakeFiles\EventManager.dir\sources\services\SessaoService.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\services\SessaoService.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\SessaoService.cpp"
+
+CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\SessaoService.cpp" > CMakeFiles\EventManager.dir\sources\services\SessaoService.cpp.i
+
+CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\SessaoService.cpp" -o CMakeFiles\EventManager.dir\sources\services\SessaoService.cpp.s
+
 # Object files for target EventManager
 EventManager_OBJECTS = \
 "CMakeFiles/EventManager.dir/main.cpp.obj" \
@@ -373,7 +418,10 @@ EventManager_OBJECTS = \
 "CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj" \
-"CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj"
+"CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj" \
+"CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj" \
+"CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj" \
+"CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj"
 
 # External object files for target EventManager
 EventManager_EXTERNAL_OBJECTS =
@@ -397,11 +445,14 @@ EventManager.exe: CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj
+EventManager.exe: CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj
+EventManager.exe: CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj
+EventManager.exe: CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/build.make
 EventManager.exe: CMakeFiles/EventManager.dir/linkLibs.rsp
 EventManager.exe: CMakeFiles/EventManager.dir/objects1.rsp
 EventManager.exe: CMakeFiles/EventManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable EventManager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable EventManager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EventManager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,4 +5,25 @@
 #ifndef CLIENTESERVICE_H
 #define CLIENTESERVICE_H
 
+#include "Evento.h"
+#include "ClienteInDTO.h"
+#include "ClienteOutDTO.h"
+
+class ClienteService {
+/*
+private:
+    Repo place holder
+*/
+public:
+    ClienteService(/*Repo place holder*/);
+
+    void add(const ClienteInDTO & obj);
+    void getAll(list<ClienteOutDTO>& list);
+    void getClienteByID(string ID, ClienteOutDTO & obj);
+    void getClienteByNome(string nome, ClienteOutDTO & obj);
+    void getClienteByPassword(string password, ClienteOutDTO & obj);
+    void remove(string ID, ClienteOutDTO & obj);
+    void update(string nome, ClienteInDTO & obj);
+};
+
 #endif //CLIENTESERVICE_H

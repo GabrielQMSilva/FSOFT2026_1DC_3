@@ -18,9 +18,9 @@ public:
     list<Cliente*>& getAll();
     void add(Cliente* cliente);
     bool idVerification(const string& ID);
-    Cliente* getClienteOrg(const string& ID);
-    Cliente* getClienteNome(const string& nome);
-    Cliente* getClientePassword(const string& password);
+    Cliente* getClienteByID(const string& ID);
+    Cliente* getClienteByNome(const string& nome);
+    Cliente* getClienteByPassword(const string& password);
     Cliente* remove(const string& ID);
     Cliente* update(const string& nome, const string& email, const string& password);
 

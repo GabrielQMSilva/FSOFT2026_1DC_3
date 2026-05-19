@@ -38,7 +38,7 @@ list<Cliente*>& ClienteContainer::getAll() {
     return clientes;
 }
 
-Cliente* ClienteContainer::getClienteOrg(const string& ID) {
+Cliente* ClienteContainer::getClienteByID(const string& ID) {
     Cliente* cliente = search(ID);
     if (cliente != NULL) {
         return cliente;
@@ -49,7 +49,7 @@ Cliente* ClienteContainer::getClienteOrg(const string& ID) {
     }
 }
 
-Cliente* ClienteContainer::getClienteNome(const string& nome) {
+Cliente* ClienteContainer::getClienteByNome(const string& nome) {
     Cliente* cliente = search(nome);
     if (cliente != NULL) {
         return cliente;
@@ -60,7 +60,7 @@ Cliente* ClienteContainer::getClienteNome(const string& nome) {
     }
 }
 
-Cliente* ClienteContainer::getClientePassword(const string& password) {
+Cliente* ClienteContainer::getClienteByPassword(const string& password) {
     Cliente* cliente = search(password);
     if (cliente != NULL) {
         return cliente;
