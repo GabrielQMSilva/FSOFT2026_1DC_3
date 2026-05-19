@@ -8,7 +8,7 @@
 #include "AluguerMaterial.h"
 using namespace std;
 
-void AluguerMaterial::setAluguerMaterial(const string& ID, Artista* artista) {
+void AluguerMaterial::setAluguerMaterial(const string& ID, bool estado, Artista* artista) {
     this->ID = ID;
     this->estado = estado;
     this->artista = artista;
