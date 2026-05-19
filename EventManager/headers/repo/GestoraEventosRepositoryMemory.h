@@ -11,8 +11,13 @@ private:
     static GestoraEventosRepositoryMemory* instance;
     GestoraEventos* model;
     GestoraEventosRepositoryMemory(GestoraEventos* model);
+
 public:
+    GestoraEventosRepositoryMemory(const GestoraEventosRepositoryMemory& obj) = delete;
+    GestoraEventosRepositoryMemory& operator=(const GestoraEventosRepositoryMemory&) = delete;
+    GestoraEventos* getModel() override;
     static GestoraEventosRepositoryMemory* getInstance();
+
 };
 
 #endif //GESTORAEVENTOSREPOSITORYMEMORY_H

@@ -35,6 +35,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj"
+  "CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj"

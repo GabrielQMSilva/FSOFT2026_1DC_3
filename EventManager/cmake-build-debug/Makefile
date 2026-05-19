@@ -560,6 +560,30 @@ sources/model/Utilizador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.s
 .PHONY : sources/model/Utilizador.cpp.s
 
+sources/repo/GestoraEventosRepositoryMemory.obj: sources/repo/GestoraEventosRepositoryMemory.cpp.obj
+.PHONY : sources/repo/GestoraEventosRepositoryMemory.obj
+
+# target to build an object file
+sources/repo/GestoraEventosRepositoryMemory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj
+.PHONY : sources/repo/GestoraEventosRepositoryMemory.cpp.obj
+
+sources/repo/GestoraEventosRepositoryMemory.i: sources/repo/GestoraEventosRepositoryMemory.cpp.i
+.PHONY : sources/repo/GestoraEventosRepositoryMemory.i
+
+# target to preprocess a source file
+sources/repo/GestoraEventosRepositoryMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.i
+.PHONY : sources/repo/GestoraEventosRepositoryMemory.cpp.i
+
+sources/repo/GestoraEventosRepositoryMemory.s: sources/repo/GestoraEventosRepositoryMemory.cpp.s
+.PHONY : sources/repo/GestoraEventosRepositoryMemory.s
+
+# target to generate assembly for a file
+sources/repo/GestoraEventosRepositoryMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.s
+.PHONY : sources/repo/GestoraEventosRepositoryMemory.cpp.s
+
 sources/services/ClienteService.obj: sources/services/ClienteService.cpp.obj
 .PHONY : sources/services/ClienteService.obj
 
@@ -719,6 +743,9 @@ help:
 	@echo ... sources/model/Utilizador.obj
 	@echo ... sources/model/Utilizador.i
 	@echo ... sources/model/Utilizador.s
+	@echo ... sources/repo/GestoraEventosRepositoryMemory.obj
+	@echo ... sources/repo/GestoraEventosRepositoryMemory.i
+	@echo ... sources/repo/GestoraEventosRepositoryMemory.s
 	@echo ... sources/services/ClienteService.obj
 	@echo ... sources/services/ClienteService.i
 	@echo ... sources/services/ClienteService.s

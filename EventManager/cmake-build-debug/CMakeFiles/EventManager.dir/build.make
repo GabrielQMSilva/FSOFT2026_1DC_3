@@ -401,6 +401,21 @@ CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.7\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\1240712\Documents\1DC\FSOFT\VirtualRepo\FSOFT2026_1DC_3\EventManager\sources\services\SessaoService.cpp -o CMakeFiles\EventManager.dir\sources\services\SessaoService.cpp.s
 
+CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: CMakeFiles/EventManager.dir/flags.make
+CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
+CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: C:/Users/1240712/Documents/1DC/FSOFT/VirtualRepo/FSOFT2026_1DC_3/EventManager/sources/repo/GestoraEventosRepositoryMemory.cpp
+CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\1240712\Documents\1DC\FSOFT\VirtualRepo\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.7\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj -MF CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.obj -c C:\Users\1240712\Documents\1DC\FSOFT\VirtualRepo\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp
+
+CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.7\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\1240712\Documents\1DC\FSOFT\VirtualRepo\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp > CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.i
+
+CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.7\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\1240712\Documents\1DC\FSOFT\VirtualRepo\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp -o CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.s
+
 # Object files for target EventManager
 EventManager_OBJECTS = \
 "CMakeFiles/EventManager.dir/main.cpp.obj" \
@@ -424,7 +439,8 @@ EventManager_OBJECTS = \
 "CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj" \
-"CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj"
+"CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj" \
+"CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj"
 
 # External object files for target EventManager
 EventManager_EXTERNAL_OBJECTS =
@@ -451,11 +467,12 @@ EventManager.exe: CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj
+EventManager.exe: CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/build.make
 EventManager.exe: CMakeFiles/EventManager.dir/linkLibs.rsp
 EventManager.exe: CMakeFiles/EventManager.dir/objects1.rsp
 EventManager.exe: CMakeFiles/EventManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\1240712\Documents\1DC\FSOFT\VirtualRepo\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable EventManager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\1240712\Documents\1DC\FSOFT\VirtualRepo\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable EventManager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EventManager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

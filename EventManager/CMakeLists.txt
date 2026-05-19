@@ -85,6 +85,19 @@ set(MAPPERS_SOURCE_FILES
         ${PROJECT_SOURCES_MAPPERS_DIR}/ClienteMapper.cpp
 )
 
+set(PROJECT_HEADERS_REPO_DIR
+        ${PROJECT_HEADERS_DIR}/repo)
+set(PROJECT_SOURCES_REPO_DIR
+        ${PROJECT_SOURCES_DIR}/repo)
+include_directories(
+        ${PROJECT_HEADERS_REPO_DIR}
+        ${PROJECT_SOURCES_REPO_DIR})
+set(REPO_SOURCE_FILES
+        ${PROJECT_HEADERS_REPO_DIR}/IGestoraEventosRepository.h
+        ${PROJECT_HEADERS_REPO_DIR}/GestoraEventosRepositoryMemory.h
+        ${PROJECT_SOURCES_REPO_DIR}/GestoraEventosRepositoryMemory.cpp
+)
+
 set(PROJECT_HEADERS_DTO_DIR
         ${PROJECT_HEADERS_DIR}/dto)
 include_directories(
@@ -144,4 +157,5 @@ add_executable(EventManager main.cpp
         headers/services/SessaoService.h
         sources/services/SessaoService.cpp
         headers/repo/GestoraEventosRepositoryMemory.h
+        sources/repo/GestoraEventosRepositoryMemory.cpp
 )
