@@ -45,6 +45,7 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/RecursoMaterialContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/IDGenerator.h
         ${PROJECT_SOURCES_MODEL_DIR}/IDGenerator.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/GestoraEventos.h
 )
 
 set(PROJECT_HEADERS_SERVICES_DIR
