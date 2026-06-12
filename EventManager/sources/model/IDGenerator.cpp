@@ -39,13 +39,13 @@ string IDGenerator::generateEventoID(EventoContainer& container) {
     string id;
 
     do {
-        clienteCounter++;
+        eventoCounter++;
         stringstream ss;
 
         ss << "E"
            << setw(5)
            << setfill('0')
-           << clienteCounter;
+           << eventoCounter;
         id = ss.str();
 
     } while (container.idVerification(id));
@@ -58,13 +58,13 @@ string IDGenerator::generateOrganizadorID(OrganizadorContainer& container) {
     string id;
 
     do {
-        clienteCounter++;
+        organizadorCounter++;
         stringstream ss;
 
         ss << "O"
            << setw(5)
            << setfill('0')
-           << clienteCounter;
+           << organizadorCounter;
         id = ss.str();
 
     } while (container.idVerification(id));
@@ -77,13 +77,13 @@ string IDGenerator::generateAluguerID(AluguerMaterialContainer& container) {
     string id;
 
     do {
-        clienteCounter++;
+        aluguerCounter++;
         stringstream ss;
 
         ss << "A"
            << setw(5)
            << setfill('0')
-           << clienteCounter;
+           << aluguerCounter;
         id = ss.str();
 
     } while (container.idVerification(id));

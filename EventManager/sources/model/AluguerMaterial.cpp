@@ -28,6 +28,11 @@ const string& AluguerMaterial::getID() {
     return ID;
 }
 
+const Date& AluguerMaterial::getHorario() {
+    return dataInicio;
+    return dataFim;
+}
+
 bool AluguerMaterial::operator == (const string & ID) const{
     if(this->ID == ID){
         return true;
