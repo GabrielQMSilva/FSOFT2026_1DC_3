@@ -12,7 +12,7 @@
 
 using namespace std;
 
-class mockData {
+class MockData {
 private:
   const vector<string> nomeArtistas = {
       "Arctic Monkeys",
@@ -115,11 +115,6 @@ private:
       "Chapelas Froiz",
       };
 
-  const vector<string> passClientes = {
-      "ISEP2026"
-  };
-
-
   const vector<string> nomeEventos = {
       "Rock In ISEP",
       "Top Pop",
@@ -138,6 +133,14 @@ private:
       20,
   };
 
+  void insertClientes(ClienteContainer& container);
+  void insertArtistas(ArtistaContainer& container);
+  void insertEventos(EventoContainer& container);
+  Evento * getRandomEvento(EventoContainer& container);
+  void insertAluguerMaterial(AluguerMaterialContainer& alugueres, ArtistaContainer& artistas, EventoContainer& eventos);
+
+public:
+  void generateData(GestoraEventos& gestoraEventos);
 };
 
 #endif //MOCKDATA_H

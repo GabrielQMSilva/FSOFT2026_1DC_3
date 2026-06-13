@@ -5,8 +5,12 @@
 #include <string>
 #include <list>
 #include <iostream>
+#include <iomanip>
+#include <sstream>
 #include "ClienteContainer.h"
 using namespace std;
+
+int ClienteContainer::clienteCounter = 0;
 
 bool ClienteContainer::idVerification(const string& id)
 {
@@ -30,7 +34,24 @@ Cliente* ClienteContainer::search(const string& ID){
     return NULL;
 }
 
-void ClienteContainer::add(Cliente* cliente) {
+string ClienteContainer::generateClienteID(ClienteContainer& container) {
+    string id;
+    do {
+        clienteCounter++;
+        stringstream ss;
+
+        ss << "C"
+           << setw(5)
+           << setfill('0')
+           << clienteCounter;
+        id = ss.str();
+    } while (container.idVerification(id));
+    return id;
+}
+
+void ClienteContainer::add(const string& nome, const string& email, const string& password) {
+    string ID = generateClienteID(*this);
+    Cliente* cliente = new Cliente(ID, nome, email, password);
     this->clientes.push_back(cliente);
 }
 

@@ -22,6 +22,7 @@ protected:
 public:
     Utilizador(const string& ID, const string& nome, const string& email, const string& password)
         : ID(ID), nome(nome), email(email), password(password) {}
+    Utilizador(const Utilizador& utilizador);
     virtual ~Utilizador();
     void setNome(const string& nome);
     void setEmail(const string& email);

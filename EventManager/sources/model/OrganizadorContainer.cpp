@@ -5,8 +5,12 @@
 #include <string>
 #include <list>
 #include <iostream>
+#include <iomanip>
+#include <sstream>
 #include "OrganizadorContainer.h"
 using namespace std;
+
+int OrganizadorContainer::organizadorCounter = 0;
 
 bool OrganizadorContainer::idVerification(const string& id)
 {
@@ -28,6 +32,21 @@ Organizador* OrganizadorContainer::search(const string& ID){
         }
     }
     return NULL;
+}
+
+string OrganizadorContainer::generateOrganizadorID(OrganizadorContainer& container) {
+    string id;
+    do {
+        organizadorCounter++;
+        stringstream ss;
+
+        ss << "O"
+           << setw(5)
+           << setfill('0')
+           << organizadorCounter;
+        id = ss.str();
+    } while (container.idVerification(id));
+    return id;
 }
 
 void OrganizadorContainer::add(Organizador* organizador) {

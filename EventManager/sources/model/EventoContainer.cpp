@@ -5,8 +5,12 @@
 #include <string>
 #include <list>
 #include <iostream>
+#include <iomanip>
+#include <sstream>
 #include "EventoContainer.h"
 using namespace std;
+
+int EventoContainer::eventoCounter = 0;
 
 bool EventoContainer::idVerification(const string& id)
 {
@@ -28,6 +32,21 @@ Evento* EventoContainer::search(const string& ID){
         }
     }
     return NULL;
+}
+
+string EventoContainer::generateEventoID(EventoContainer& container) {
+    string id;
+    do {
+        eventoCounter++;
+        stringstream ss;
+
+        ss << "E"
+           << setw(5)
+           << setfill('0')
+           << eventoCounter;
+        id = ss.str();
+    } while (container.idVerification(id));
+    return id;
 }
 
 list<Evento*>& EventoContainer::getAll() {

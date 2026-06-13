@@ -5,8 +5,12 @@
 #include <string>
 #include <list>
 #include <iostream>
+#include <iomanip>
+#include <sstream>
 #include "AluguerMaterialContainer.h"
 using namespace std;
+
+int AluguerMaterialContainer::aluguerCounter = 0;
 
 bool AluguerMaterialContainer::idVerification(const string& id)
 {
@@ -28,6 +32,21 @@ AluguerMaterial* AluguerMaterialContainer::search(const string& ID){
         }
     }
     return NULL;
+}
+
+string AluguerMaterialContainer::generateAluguerID(AluguerMaterialContainer& container) {
+    string id;
+    do {
+        aluguerCounter++;
+        stringstream ss;
+
+        ss << "A"
+           << setw(5)
+           << setfill('0')
+           << aluguerCounter;
+        id = ss.str();
+    } while (container.idVerification(id));
+    return id;
 }
 
 void AluguerMaterialContainer::add(AluguerMaterial* aluguerMaterial) {

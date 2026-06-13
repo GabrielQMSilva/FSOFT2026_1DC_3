@@ -13,11 +13,13 @@ class OrganizadorContainer {
 private:
     list<Organizador*> organizadores;
     Organizador* search(const string& ID);
+    static int organizadorCounter;
 
 public:
     list<Organizador*>& getAll();
     void add(Organizador* organizador);
     bool idVerification(const string& ID);
+    static string generateOrganizadorID(OrganizadorContainer& container);
     Organizador* getOrganizador(const string& ID);
     Organizador* getOrganizadorPassword(const string& password);
     Organizador* remove(const string& ID);
