@@ -26,7 +26,7 @@ int View::LoginView() {
     } while(op > 0 && op <= 3);
 
     return op;
-}
+};
 
 int View::ClienteView() {
     int op = -1;
@@ -34,17 +34,30 @@ int View::ClienteView() {
     do {
         cout << "\n\n** MENU CLIENTE **\n";
         cout << "1 - Ver Eventos\n";
-        cout << "2 - Comprar Bilhete\n";
-        cout << "3 - Carrinho\n";
-        cout << "4 - Terminar Sessão\n";
+        cout << "2 - Carrinho\n";
         cout << "\n0 - Logout\n";
 
         op = Utils::getNumber("Opcao");
 
-    } while(op > 0 && op <= 4);
+    } while(op > 0 && op <= 2);
 
     return op;
-}
+};
+
+int View::MenuListaEventos() {
+    int op = -1;
+
+    do {
+        cout << "\n\n** MENU LISTA EVENTOS **\n";
+        cout << "Selecione um evento\n";
+
+        op = Utils::getNumber("Opcao");
+
+    }while(op > 0 && op <= 3);
+
+    return op;
+
+};
 
 int View::OrganizadorView() {
     int op = -1;
@@ -62,7 +75,7 @@ int View::OrganizadorView() {
 
     }while(op > 0 && op <= 6);
     return op;
-}
+};
 
 int View::CartView() {
     int op = -1;
@@ -75,4 +88,4 @@ int View::CartView() {
         op = Utils::getNumber("Opcao");
     }while(op > 0 && op <= 2);
     return op;
-}
+};

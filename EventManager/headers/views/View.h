@@ -14,6 +14,7 @@ public:
     int OrganizadorView();
     int LoginView();
     int CartView();
+    int MenuListaEventos();
 };
 
 #endif //VIEW_H
