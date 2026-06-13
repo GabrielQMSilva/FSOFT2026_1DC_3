@@ -72,3 +72,11 @@ bool Evento::operator == (const string & ID) const{
 const string& Evento::getID() const {
     return ID;
 }
+
+const string& Evento::getNome() const {
+    return nome;
+}
+
+const string& Evento::getTipo() const {
+    return tipo;
+}

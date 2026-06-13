@@ -40,6 +40,12 @@ void ClienteService::add(const ClienteInDTO & obj){
     container.add(obj.nome, obj.email, obj.password);
 }
 
+void ClienteService::getEventos(list<Evento*>& eventos) {
+    GestoraEventos *model = this->repo->getModel();
+    EventoContainer &container = model->getEventos();
+    eventos = container.getAll();
+}
+
 void ClienteService::getAll(list<ClienteOutDTO>& dtos) {
     GestoraEventos *model = this->repo->getModel();
     ClienteContainer &container = model->getClientes();

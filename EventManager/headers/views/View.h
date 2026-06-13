@@ -6,6 +6,8 @@
 #define VIEW_H
 
 #include <string>
+#include <list>
+#include "Evento.h"
 
 using namespace std;
 
@@ -16,7 +18,7 @@ public:
     int organizadorView();
     int loginView();
     int carrinhoView();
-    int menuListaEventos();
+    int menuListaEventos(list<Evento*>& eventos);
     void printMessage(string* msg);
 };
 

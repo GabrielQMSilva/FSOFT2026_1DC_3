@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include <list>
 #include "Controller.h"
 #include "ClienteInDTO.h"
 #include "ClienteOutDTO.h"
@@ -28,9 +29,12 @@ void Controller::handleClienteLogin() {
         do {
             op = view.clienteView();
             switch (op) {
-                case 1:
-                    view.menuListaEventos();
+                case 1: {
+                    list<Evento*> eventos;
+                    clienteService->getEventos(eventos);
+                    view.menuListaEventos(eventos);
                     break;
+                }
                 case 2:
                     view.carrinhoView();
                     break;

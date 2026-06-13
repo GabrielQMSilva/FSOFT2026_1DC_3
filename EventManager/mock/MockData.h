@@ -124,6 +124,24 @@ private:
       "Jazzy Feel Good",
   };
 
+  const vector<string> tipoEventos = {
+      "Rock",
+      "Pop",
+      "Rock",
+      "Mixed",
+      "Trap",
+      "Jazz",
+  };
+
+  const vector<int> lotacaoMaxEventos = {
+      500,
+      300,
+      400,
+      500,
+      200,
+      150,
+  };
+
   const vector<int> precoEventos = {
       30,
       40,

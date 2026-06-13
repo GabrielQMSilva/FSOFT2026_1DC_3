@@ -43,19 +43,23 @@ int View::clienteView() {
     return op;
 };
 
-int View::menuListaEventos() {
+int View::menuListaEventos(list<Evento*>& eventos) {
     int op = -1;
+    int size = (int)eventos.size();
 
     do {
         cout << "\n\n** LISTA DE EVENTOS **\n";
-        cout << "Selecione um evento\n";
+        int idx = 1;
+        for (Evento* e : eventos) {
+            cout << idx++ << " - " << e->getNome() << " [" << e->getTipo() << "]\n";
+        }
+        cout << "\n0 - Voltar\n";
 
         op = Utils::getNumber("Opcao");
 
-    }while(op < 0 || op > 3);
+    } while (op < 0 || op > size);
 
     return op;
-
 };
 
 int View::organizadorView() {

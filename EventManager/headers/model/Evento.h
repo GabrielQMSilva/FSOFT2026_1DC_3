@@ -33,6 +33,8 @@ public:
     void setID(const string& ID);
     void setListaArtistas(ArtistaContainer& listaArtistas);
     const string& getID() const;
+    const string& getNome() const;
+    const string& getTipo() const;
     const string& getStrings() const;
     const string& getInts() const;
     const Date& getHorario() const;
