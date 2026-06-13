@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager"
+CMAKE_SOURCE_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -223,6 +223,54 @@ sources/exceptions/DuplicatedDataException.s: sources/exceptions/DuplicatedDataE
 sources/exceptions/DuplicatedDataException.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.s
 .PHONY : sources/exceptions/DuplicatedDataException.cpp.s
+
+sources/exceptions/InvalidDataException.obj: sources/exceptions/InvalidDataException.cpp.obj
+.PHONY : sources/exceptions/InvalidDataException.obj
+
+# target to build an object file
+sources/exceptions/InvalidDataException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj
+.PHONY : sources/exceptions/InvalidDataException.cpp.obj
+
+sources/exceptions/InvalidDataException.i: sources/exceptions/InvalidDataException.cpp.i
+.PHONY : sources/exceptions/InvalidDataException.i
+
+# target to preprocess a source file
+sources/exceptions/InvalidDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.i
+.PHONY : sources/exceptions/InvalidDataException.cpp.i
+
+sources/exceptions/InvalidDataException.s: sources/exceptions/InvalidDataException.cpp.s
+.PHONY : sources/exceptions/InvalidDataException.s
+
+# target to generate assembly for a file
+sources/exceptions/InvalidDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.s
+.PHONY : sources/exceptions/InvalidDataException.cpp.s
+
+sources/exceptions/NoDataException.obj: sources/exceptions/NoDataException.cpp.obj
+.PHONY : sources/exceptions/NoDataException.obj
+
+# target to build an object file
+sources/exceptions/NoDataException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj
+.PHONY : sources/exceptions/NoDataException.cpp.obj
+
+sources/exceptions/NoDataException.i: sources/exceptions/NoDataException.cpp.i
+.PHONY : sources/exceptions/NoDataException.i
+
+# target to preprocess a source file
+sources/exceptions/NoDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.i
+.PHONY : sources/exceptions/NoDataException.cpp.i
+
+sources/exceptions/NoDataException.s: sources/exceptions/NoDataException.cpp.s
+.PHONY : sources/exceptions/NoDataException.s
+
+# target to generate assembly for a file
+sources/exceptions/NoDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.s
+.PHONY : sources/exceptions/NoDataException.cpp.s
 
 sources/mappers/ClienteMapper.obj: sources/mappers/ClienteMapper.cpp.obj
 .PHONY : sources/mappers/ClienteMapper.obj
@@ -773,6 +821,12 @@ help:
 	@echo ... sources/exceptions/DuplicatedDataException.obj
 	@echo ... sources/exceptions/DuplicatedDataException.i
 	@echo ... sources/exceptions/DuplicatedDataException.s
+	@echo ... sources/exceptions/InvalidDataException.obj
+	@echo ... sources/exceptions/InvalidDataException.i
+	@echo ... sources/exceptions/InvalidDataException.s
+	@echo ... sources/exceptions/NoDataException.obj
+	@echo ... sources/exceptions/NoDataException.i
+	@echo ... sources/exceptions/NoDataException.s
 	@echo ... sources/mappers/ClienteMapper.obj
 	@echo ... sources/mappers/ClienteMapper.i
 	@echo ... sources/mappers/ClienteMapper.s

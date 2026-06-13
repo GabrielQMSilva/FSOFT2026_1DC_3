@@ -1,6 +1,6 @@
-CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj: \
- C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DataConsistencyException.cpp \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/DataConsistencyException.h \
+CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj: \
+ C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\InvalidDataException.cpp \
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/InvalidDataException.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

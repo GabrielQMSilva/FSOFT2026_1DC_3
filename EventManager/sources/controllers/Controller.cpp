@@ -50,6 +50,11 @@ void Controller::handleClienteRegistration() {
     }
 }
 
+void Controller::handleOrganizadorLogin() {
+    string msg = "Login de organizador ainda não implementado.";
+    view.printMessage(&msg);
+}
+
 void Controller::run() {
     int op = -1;
     do {

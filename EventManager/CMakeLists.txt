@@ -193,5 +193,9 @@ add_executable(EventManager main.cpp
         sources/exceptions/DuplicatedDataException.cpp
         headers/exceptions/DataConsistencyException.h
         sources/exceptions/DataConsistencyException.cpp
+        headers/exceptions/NoDataException.h
+        sources/exceptions/NoDataException.cpp
+        headers/exceptions/InvalidDataException.h
+        sources/exceptions/InvalidDataException.cpp
         sources/model/GestoraEventos.cpp
 )
