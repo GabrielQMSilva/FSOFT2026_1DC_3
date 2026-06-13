@@ -5,7 +5,7 @@
 #include "InvalidDataException.h"
 
 InvalidDataException::InvalidDataException(const string& data) {
-  this->data = "Erro: ["+ data + "] não é valido! ";
+  this->data = "Erro: ["+ data + "] não é valido! ";;
   }
 
   const char* InvalidDataException::what() {
