@@ -13,6 +13,8 @@ GestoraEventosRepositoryMemory::GestoraEventosRepositoryMemory(GestoraEventos *m
 }
 
 GestoraEventosRepositoryMemory* GestoraEventosRepositoryMemory::getInstance() {
-    // Mock data place holder
+    if (instance == nullptr) {
+        instance = new GestoraEventosRepositoryMemory(new GestoraEventos());
+    }
     return instance;
 }

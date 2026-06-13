@@ -2,22 +2,28 @@
 // Created by Lord Foog on 5/10/2026.
 //
 
+#include <iostream>
 #include "Controller.h"
 #include "ClienteInDTO.h"
 #include "ClienteOutDTO.h"
 #include "Utils.h"
 #include "NoDataException.h"
 #include "InvalidDataException.h"
+#include "DuplicatedDataException.h"
+
+using namespace std;
 
 Controller::Controller(ClienteService *clienteService){
     this->clienteService = clienteService;
 }
 
 void Controller::handleClienteLogin() {
+    string nome     = Utils::getString("Nome");
     string password = Utils::getString("Password");
     try {
         ClienteOutDTO sessao;
-        clienteService->getClienteByPassword(password, sessao);
+        clienteService->getClienteByNomeAndPassword(nome, password, sessao);
+
         int op = -1;
         do {
             op = view.clienteView();
@@ -40,6 +46,10 @@ void Controller::handleClienteLogin() {
 
 
 void Controller::handleClienteRegistration() {
+    cout << "\n-- Registo de Cliente --\n";
+    cout << "  Nome: 4 a 20 caracteres\n";
+    cout << "  Email: formato valido (ex: nome@dominio.com)\n";
+    cout << "  Password: minimo 6 letras e 3 digitos\n\n";
     ClienteInDTO dto;
     dto.nome     = Utils::getString("Nome");
     dto.email    = Utils::getString("Email");
@@ -49,6 +59,9 @@ void Controller::handleClienteRegistration() {
         string msg = "Cliente registado com sucesso!";
         view.printMessage(&msg);
     } catch (InvalidDataException& e) {
+        string msg = e.what();
+        view.printMessage(&msg);
+    } catch (DuplicatedDataException& e) {
         string msg = e.what();
         view.printMessage(&msg);
     }

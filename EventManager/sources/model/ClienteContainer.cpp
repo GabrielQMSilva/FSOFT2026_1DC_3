@@ -8,6 +8,8 @@
 #include <iomanip>
 #include <sstream>
 #include "ClienteContainer.h"
+#include "DuplicatedDataException.h"
+#include "NoDataException.h"
 using namespace std;
 
 int ClienteContainer::clienteCounter = 0;
@@ -34,6 +36,20 @@ Cliente* ClienteContainer::search(const string& ID){
     return NULL;
 }
 
+Cliente* ClienteContainer::searchByNome(const string& nome){
+    for (Cliente* c : clientes) {
+        if (c->getNome() == nome) return c;
+    }
+    return NULL;
+}
+
+Cliente* ClienteContainer::searchByPassword(const string& password){
+    for (Cliente* c : clientes) {
+        if (c->getPasswaord() == password) return c;
+    }
+    return NULL;
+}
+
 string ClienteContainer::generateClienteID(ClienteContainer& container) {
     string id;
     do {
@@ -50,6 +66,11 @@ string ClienteContainer::generateClienteID(ClienteContainer& container) {
 }
 
 void ClienteContainer::add(const string& nome, const string& email, const string& password) {
+    for (Cliente* c : clientes) {
+        if (c->getEmail() == email) {
+            throw DuplicatedDataException(email);
+        }
+    }
     string ID = generateClienteID(*this);
     Cliente* cliente = new Cliente(ID, nome, email, password);
     this->clientes.push_back(cliente);
@@ -71,25 +92,32 @@ Cliente* ClienteContainer::getClienteByID(const string& ID) {
 }
 
 Cliente* ClienteContainer::getClienteByNome(const string& nome) {
-    Cliente* cliente = search(nome);
+    Cliente* cliente = searchByNome(nome);
     if (cliente != NULL) {
         return cliente;
-    }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+    } else {
+        throw NoDataException(nome);
     }
 }
 
 Cliente* ClienteContainer::getClienteByPassword(const string& password) {
-    Cliente* cliente = search(password);
+    Cliente* cliente = searchByPassword(password);
     if (cliente != NULL) {
         return cliente;
-    }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+    } else {
+        throw NoDataException("password");
     }
+}
+
+Cliente* ClienteContainer::getClienteByNomeAndPassword(const string& nome, const string& password) {
+    Cliente* cliente = searchByNome(nome);
+    if (cliente == NULL) {
+        throw NoDataException(nome);
+    }
+    if (cliente->getPasswaord() != password) {
+        throw NoDataException("password");
+    }
+    return cliente;
 }
 
 Cliente *ClienteContainer::remove(const string &ID) {

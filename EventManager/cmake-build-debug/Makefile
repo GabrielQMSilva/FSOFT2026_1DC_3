@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager"
+CMAKE_SOURCE_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -151,6 +151,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+mock/MockData.obj: mock/MockData.cpp.obj
+.PHONY : mock/MockData.obj
+
+# target to build an object file
+mock/MockData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/mock/MockData.cpp.obj
+.PHONY : mock/MockData.cpp.obj
+
+mock/MockData.i: mock/MockData.cpp.i
+.PHONY : mock/MockData.i
+
+# target to preprocess a source file
+mock/MockData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/mock/MockData.cpp.i
+.PHONY : mock/MockData.cpp.i
+
+mock/MockData.s: mock/MockData.cpp.s
+.PHONY : mock/MockData.s
+
+# target to generate assembly for a file
+mock/MockData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/mock/MockData.cpp.s
+.PHONY : mock/MockData.cpp.s
 
 sources/controllers/Controller.obj: sources/controllers/Controller.cpp.obj
 .PHONY : sources/controllers/Controller.obj
@@ -812,6 +836,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mock/MockData.obj
+	@echo ... mock/MockData.i
+	@echo ... mock/MockData.s
 	@echo ... sources/controllers/Controller.obj
 	@echo ... sources/controllers/Controller.i
 	@echo ... sources/controllers/Controller.s

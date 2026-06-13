@@ -22,7 +22,7 @@ int View::loginView() {
 
         op = Utils::getNumber("Opcao");
 
-    } while(op > 0 && op <= 3);
+    } while(op < 0 || op > 3);
 
     return op;
 };
@@ -38,7 +38,7 @@ int View::clienteView() {
 
         op = Utils::getNumber("Opcao");
 
-    } while(op > 0 && op <= 2);
+    } while(op < 0 || op > 2);
 
     return op;
 };
@@ -52,7 +52,7 @@ int View::menuListaEventos() {
 
         op = Utils::getNumber("Opcao");
 
-    }while(op > 0 && op <= 3);
+    }while(op < 0 || op > 3);
 
     return op;
 
@@ -72,7 +72,7 @@ int View::organizadorView() {
 
         op = Utils::getNumber("Opcao");
 
-    }while(op > 0 && op <= 6);
+    }while(op < 0 || op > 6);
     return op;
 };
 
@@ -85,7 +85,7 @@ int View::carrinhoView() {
         cout << "0 - Retroceder\n";
 
         op = Utils::getNumber("Opcao");
-    }while(op > 0 && op <= 2);
+    }while(op < 0 || op > 2);
     return op;
 };
 

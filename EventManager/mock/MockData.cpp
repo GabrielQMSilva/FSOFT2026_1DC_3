@@ -7,7 +7,7 @@
 void MockData::insertClientes(ClienteContainer& container) {
     for (size_t i = 0; i < nomeClientes.size(); i++) {
         string email = nomeClientes[i] + "@email.com";
-        container.add(nomeClientes[i], email, "ISEP2026");
+        container.add(nomeClientes[i], email, "ELTEACH2026");
     }
 }
 

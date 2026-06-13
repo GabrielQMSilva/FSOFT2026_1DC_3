@@ -206,4 +206,6 @@ add_executable(EventManager main.cpp
         headers/exceptions/InvalidDataException.h
         sources/exceptions/InvalidDataException.cpp
         sources/model/GestoraEventos.cpp
+        mock/MockData.h
+        mock/MockData.cpp
 )

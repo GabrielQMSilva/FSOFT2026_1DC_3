@@ -14,6 +14,8 @@ class ClienteContainer {
 private:
     list<Cliente*> clientes;
     Cliente* search(const string& ID);
+    Cliente* searchByNome(const string& nome);
+    Cliente* searchByPassword(const string& password);
     static int clienteCounter;
 
 public:
@@ -24,6 +26,7 @@ public:
     Cliente* getClienteByID(const string& ID);
     Cliente* getClienteByNome(const string& nome);
     Cliente* getClienteByPassword(const string& password);
+    Cliente* getClienteByNomeAndPassword(const string& nome, const string& password);
     Cliente* remove(const string& ID);
     Cliente* update(const string& nome, const string& email, const string& password);
 

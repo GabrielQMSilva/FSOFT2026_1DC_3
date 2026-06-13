@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/main.cpp.obj"
   "CMakeFiles/EventManager.dir/main.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/mock/MockData.cpp.obj"
+  "CMakeFiles/EventManager.dir/mock/MockData.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj"

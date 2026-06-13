@@ -8,6 +8,10 @@ using namespace std;
 
 int main() {
     GestoraEventosRepositoryMemory * repo = GestoraEventosRepositoryMemory::getInstance();
+
+    MockData mockData;
+    mockData.generateData(*repo->getModel());
+
     ClienteService *clienteService = new ClienteService(repo);
 
     Controller controller(clienteService);
@@ -17,4 +21,3 @@ int main() {
 
     return 0;
 }
-
