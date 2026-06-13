@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/main.cpp" "CMakeFiles/EventManager.dir/main.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/main.cpp.obj.d"
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/controllers/Controller.cpp" "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj.d"
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/exceptions/DataConsistencyException.cpp" "CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj.d"
@@ -34,6 +35,31 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/services/SessaoService.cpp" "CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj.d"
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/views/Utils.cpp" "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj.d"
   "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/views/View.cpp" "CMakeFiles/EventManager.dir/sources/views/View.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/views/View.cpp.obj.d"
+=======
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/main.cpp" "CMakeFiles/EventManager.dir/main.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/main.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/controllers/Controller.cpp" "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/mappers/ClienteMapper.cpp" "CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/AluguerMaterial.cpp" "CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/AluguerMaterialContainer.cpp" "CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Artista.cpp" "CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/ArtistaContainer.cpp" "CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Cliente.cpp" "CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/ClienteContainer.cpp" "CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Date.cpp" "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Evento.cpp" "CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/EventoContainer.cpp" "CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/IDGenerator.cpp" "CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Organizador.cpp" "CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/OrganizadorContainer.cpp" "CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/RecursoMaterial.cpp" "CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/RecursoMaterialContainer.cpp" "CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Utilizador.cpp" "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/repo/GestoraEventosRepositoryMemory.cpp" "CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/ClienteService.cpp" "CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/SessaoService.cpp" "CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/Utils.cpp" "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj.d"
+  "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/View.cpp" "CMakeFiles/EventManager.dir/sources/views/View.cpp.obj" "gcc" "CMakeFiles/EventManager.dir/sources/views/View.cpp.obj.d"
+>>>>>>> a18196777af6f08675db9e34175f912ae87d6ce2
   )
 
 # Targets to which this target links which contain Fortran sources.
