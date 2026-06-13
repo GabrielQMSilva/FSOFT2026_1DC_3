@@ -1,5 +1,5 @@
 CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj: \
- C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\OrganizadorContainer.cpp \
+ C:\Users\Lord\ Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\OrganizadorContainer.cpp \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -151,8 +151,8 @@ CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/OrganizadorContainer.h \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Organizador.h \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Cliente.h \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Utilizador.h \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Historico.h
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/OrganizadorContainer.h \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Organizador.h \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Cliente.h \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Utilizador.h \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/EVENTM~1/headers/model/Historico.h

@@ -129,6 +129,14 @@ set(REPO_SOURCE_FILES
         ${PROJECT_SOURCES_REPO_DIR}/GestoraEventosRepositoryMemory.cpp
 )
 
+set(PROJECT_MOCK_DIR ${PROJECT_SOURCE_DIR}/mock)
+include_directories(
+        ${PROJECT_MOCK_DIR})
+set(MOCK_SOURCE_FILES
+        ${PROJECT_MOCK_DIR}/MockData.h
+        ${PROJECT_MOCK_DIR}/MockData.cpp
+)
+
 set(PROJECT_HEADERS_DTO_DIR
         ${PROJECT_HEADERS_DIR}/dto)
 include_directories(

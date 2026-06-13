@@ -9,6 +9,10 @@
 #include "NoDataException.h"
 #include "InvalidDataException.h"
 
+Controller::Controller(ClienteService *clienteService){
+    this->clienteService = clienteService;
+}
+
 void Controller::handleClienteLogin() {
     string password = Utils::getString("Password");
     try {

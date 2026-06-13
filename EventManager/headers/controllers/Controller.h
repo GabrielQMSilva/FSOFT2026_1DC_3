@@ -10,18 +10,17 @@
 #include "SessaoService.h"
 
 class Controller {
-public:
-    enum class Role { UTILIZADOR, CLIENTE, ORGANIZADOR };
-
-    void run();
 
 private:
     View view;
-    ClienteService *clienteService;
+    ClienteService* clienteService;
 
     void handleClienteLogin();
     void handleOrganizadorLogin();
     void handleClienteRegistration();
+public:
+    Controller(ClienteService* clienteService);
+    void run();
 };
 
 #endif //CONTROLLER_H
