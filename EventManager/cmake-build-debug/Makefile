@@ -176,6 +176,54 @@ sources/controllers/Controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.s
 .PHONY : sources/controllers/Controller.cpp.s
 
+sources/exceptions/DataConsistencyException.obj: sources/exceptions/DataConsistencyException.cpp.obj
+.PHONY : sources/exceptions/DataConsistencyException.obj
+
+# target to build an object file
+sources/exceptions/DataConsistencyException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj
+.PHONY : sources/exceptions/DataConsistencyException.cpp.obj
+
+sources/exceptions/DataConsistencyException.i: sources/exceptions/DataConsistencyException.cpp.i
+.PHONY : sources/exceptions/DataConsistencyException.i
+
+# target to preprocess a source file
+sources/exceptions/DataConsistencyException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.i
+.PHONY : sources/exceptions/DataConsistencyException.cpp.i
+
+sources/exceptions/DataConsistencyException.s: sources/exceptions/DataConsistencyException.cpp.s
+.PHONY : sources/exceptions/DataConsistencyException.s
+
+# target to generate assembly for a file
+sources/exceptions/DataConsistencyException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.s
+.PHONY : sources/exceptions/DataConsistencyException.cpp.s
+
+sources/exceptions/DuplicatedDataException.obj: sources/exceptions/DuplicatedDataException.cpp.obj
+.PHONY : sources/exceptions/DuplicatedDataException.obj
+
+# target to build an object file
+sources/exceptions/DuplicatedDataException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj
+.PHONY : sources/exceptions/DuplicatedDataException.cpp.obj
+
+sources/exceptions/DuplicatedDataException.i: sources/exceptions/DuplicatedDataException.cpp.i
+.PHONY : sources/exceptions/DuplicatedDataException.i
+
+# target to preprocess a source file
+sources/exceptions/DuplicatedDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.i
+.PHONY : sources/exceptions/DuplicatedDataException.cpp.i
+
+sources/exceptions/DuplicatedDataException.s: sources/exceptions/DuplicatedDataException.cpp.s
+.PHONY : sources/exceptions/DuplicatedDataException.s
+
+# target to generate assembly for a file
+sources/exceptions/DuplicatedDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.s
+.PHONY : sources/exceptions/DuplicatedDataException.cpp.s
+
 sources/mappers/ClienteMapper.obj: sources/mappers/ClienteMapper.cpp.obj
 .PHONY : sources/mappers/ClienteMapper.obj
 
@@ -415,6 +463,30 @@ sources/model/EventoContainer.s: sources/model/EventoContainer.cpp.s
 sources/model/EventoContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.s
 .PHONY : sources/model/EventoContainer.cpp.s
+
+sources/model/GestoraEventos.obj: sources/model/GestoraEventos.cpp.obj
+.PHONY : sources/model/GestoraEventos.obj
+
+# target to build an object file
+sources/model/GestoraEventos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj
+.PHONY : sources/model/GestoraEventos.cpp.obj
+
+sources/model/GestoraEventos.i: sources/model/GestoraEventos.cpp.i
+.PHONY : sources/model/GestoraEventos.i
+
+# target to preprocess a source file
+sources/model/GestoraEventos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.i
+.PHONY : sources/model/GestoraEventos.cpp.i
+
+sources/model/GestoraEventos.s: sources/model/GestoraEventos.cpp.s
+.PHONY : sources/model/GestoraEventos.s
+
+# target to generate assembly for a file
+sources/model/GestoraEventos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.s
+.PHONY : sources/model/GestoraEventos.cpp.s
 
 sources/model/IDGenerator.obj: sources/model/IDGenerator.cpp.obj
 .PHONY : sources/model/IDGenerator.obj
@@ -695,6 +767,12 @@ help:
 	@echo ... sources/controllers/Controller.obj
 	@echo ... sources/controllers/Controller.i
 	@echo ... sources/controllers/Controller.s
+	@echo ... sources/exceptions/DataConsistencyException.obj
+	@echo ... sources/exceptions/DataConsistencyException.i
+	@echo ... sources/exceptions/DataConsistencyException.s
+	@echo ... sources/exceptions/DuplicatedDataException.obj
+	@echo ... sources/exceptions/DuplicatedDataException.i
+	@echo ... sources/exceptions/DuplicatedDataException.s
 	@echo ... sources/mappers/ClienteMapper.obj
 	@echo ... sources/mappers/ClienteMapper.i
 	@echo ... sources/mappers/ClienteMapper.s
@@ -725,6 +803,9 @@ help:
 	@echo ... sources/model/EventoContainer.obj
 	@echo ... sources/model/EventoContainer.i
 	@echo ... sources/model/EventoContainer.s
+	@echo ... sources/model/GestoraEventos.obj
+	@echo ... sources/model/GestoraEventos.i
+	@echo ... sources/model/GestoraEventos.s
 	@echo ... sources/model/IDGenerator.obj
 	@echo ... sources/model/IDGenerator.i
 	@echo ... sources/model/IDGenerator.s

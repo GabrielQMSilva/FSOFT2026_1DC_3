@@ -8,6 +8,24 @@ set(PROJECT_HEADERS_DIR
 set(PROJECT_SOURCES_DIR
         ${PROJECT_SOURCE_DIR}/sources)
 
+set(PROJECT_HEADERS_EXCEPTIONS_DIR
+        ${PROJECT_HEADERS_DIR}/exceptions)
+set(PROJECT_SOURCES_EXCEPTIONS_DIR
+        ${PROJECT_SOURCES_DIR}/exceptions)
+include_directories(
+        ${PROJECT_HEADERS_EXCEPTIONS_DIR}
+        ${PROJECT_SOURCES_EXCEPTIONS_DIR})
+set(EXCEPTIONS_SOURCE_FILES
+        ${PROJECT_HEADERS_EXCEPTIONS_DIR}/DataConsistencyException.h
+        ${PROJECT_SOURCES_EXCEPTIONS_DIR}/DataConsistencyException.cpp
+        ${PROJECT_HEADERS_EXCEPTIONS_DIR}/DuplicatedDataException.h
+        ${PROJECT_SOURCES_EXCEPTIONS_DIR}/DuplicatedDataException.cpp
+        ${PROJECT_HEADERS_EXCEPTIONS_DIR}/InvalidDataException.h
+        ${PROJECT_SOURCES_EXCEPTIONS_DIR}/InvalidDataException.cpp
+        ${PROJECT_HEADERS_EXCEPTIONS_DIR}/NoDataException.h
+        ${PROJECT_SOURCES_EXCEPTIONS_DIR}/NoDataException.cpp
+)
+
 set(PROJECT_HEADERS_MODEL_DIR
         ${PROJECT_HEADERS_DIR}/model)
 set(PROJECT_SOURCES_MODEL_DIR
@@ -160,4 +178,9 @@ add_executable(EventManager main.cpp
         sources/services/SessaoService.cpp
         headers/repo/GestoraEventosRepositoryMemory.h
         sources/repo/GestoraEventosRepositoryMemory.cpp
+        headers/exceptions/DuplicatedDataException.h
+        sources/exceptions/DuplicatedDataException.cpp
+        headers/exceptions/DataConsistencyException.h
+        sources/exceptions/DataConsistencyException.cpp
+        sources/model/GestoraEventos.cpp
 )

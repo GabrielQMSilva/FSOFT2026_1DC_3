@@ -1,7 +1,7 @@
 //
 // Created by gabri on 12/06/2026.
 //
-
+#include "DuplicatedDataException.h"
 #include "MockData.h"
 
 void MockData::insertClientes(ClienteContainer& container) {
@@ -10,6 +10,16 @@ void MockData::insertClientes(ClienteContainer& container) {
         container.add(nomeClientes[i], email, "ISEP2026");
     }
 }
+
+/*void MockData::insertEventos(EventoContainer& container) {
+    for (size_t i = 0; i < nomeEventos.size(); i++) {
+        try {
+            container.add(nomeEventos[i]);
+        } catch (DuplicatedDataException& e) {
+            // do nothing
+        }
+    }
+}*/
 
 void MockData::generateData(GestoraEventos& gestoraEventos){
   	srand (time(NULL));

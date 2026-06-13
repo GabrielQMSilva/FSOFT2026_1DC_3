@@ -28,7 +28,7 @@ private:
 public:
     GestoraEventos();
     GestoraEventos(const string& nome);
-    GestoraEventos(const GestoraEventos& clientes);
+    GestoraEventos(const GestoraEventos& obj);
 
     const string& getNome() const;
     void setNome(const string& nome);

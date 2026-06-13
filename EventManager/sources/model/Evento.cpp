@@ -7,6 +7,15 @@
 #include "Evento.h"
 using namespace std;
 
+Evento::Evento(const string &nome, const string &tipo, ArtistaContainer &listaArtistas, int lotacao, int lotacaoMaxima, Date &horario, const string &ID)
+  : nome(nome),
+    tipo(tipo),
+    ID(ID),
+    listaArtistas(listaArtistas),
+    lotacao(lotacao),
+    lotacaoMaxima(lotacaoMaxima),
+    horario(horario) {}
+
 bool Evento::stringValidation(const string& nome) {
     bool result = false;
     if(nome.length() > 3 && nome.length() <= 20) {

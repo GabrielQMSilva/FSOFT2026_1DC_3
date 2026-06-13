@@ -53,7 +53,9 @@ list<Evento*>& EventoContainer::getAll() {
     return this->eventos;
 }
 
-void EventoContainer::add(Evento* evento) {
+void EventoContainer::add(const string& nome, const string& tipo, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario) {
+    string ID = generateEventoID(*this);
+    Evento* evento = new Evento(nome, tipo, listaArtistas, lotacao, lotacaoMaxima, horario, ID);
     this->eventos.push_back(evento);
 }
 

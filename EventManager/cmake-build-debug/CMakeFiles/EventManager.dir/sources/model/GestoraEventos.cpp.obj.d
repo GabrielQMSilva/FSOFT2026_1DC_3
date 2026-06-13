@@ -1,48 +1,13 @@
-CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
- C:\Users\Lord\ Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
+CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj: \
+ C:\Users\Lord\ Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\FSOFT2026_1DC_3\EventManager\sources\model\GestoraEventos.cpp \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/GestoraEventos.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/services/ClienteService.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Evento.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
@@ -59,6 +24,16 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
@@ -71,11 +46,30 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
@@ -94,6 +88,13 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/ClienteContainer.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Cliente.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
@@ -141,25 +142,16 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Date.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/ClienteContainer.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Cliente.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Utilizador.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Historico.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/ArtistaContainer.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Artista.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/dto/ClienteInDTO.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/dto/ClienteOutDTO.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/repo/IGestoraEventosRepository.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/GestoraEventos.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/OrganizadorContainer.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Organizador.h \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/ArtistaContainer.h \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Artista.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/EventoContainer.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Evento.h \
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Date.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/AluguerMaterialContainer.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/AluguerMaterial.h \
  C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/RecursoMaterialContainer.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/RecursoMaterial.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/mappers/ClienteMapper.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/Cliente.h \
- C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/EXCEPT~1/DataConsistencyException.h
+ C:/Users/LORDFO~1/DOCUME~1/Aulas/ISEP/1o_ano/FSOFT/VIRTUA~1/FSOFT2~1/FSOFT2~1/EVENTM~1/headers/model/RecursoMaterial.h

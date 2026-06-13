@@ -8,14 +8,15 @@
 #include "Evento.h"
 #include "ClienteInDTO.h"
 #include "ClienteOutDTO.h"
+#include "IGestoraEventosRepository.h"
 
 class ClienteService {
-/*
+
 private:
-    Repo place holder
-*/
+    IGestoraEventosRepository* repo;
+
 public:
-    ClienteService(/*Repo place holder*/);
+    ClienteService(IGestoraEventosRepository* repo);
 
     void add(const ClienteInDTO & obj);
     void getAll(list<ClienteOutDTO>& list);
