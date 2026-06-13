@@ -10,11 +10,12 @@ using namespace std;
 class View {
 public:
     View();
-    int ClienteView();
-    int OrganizadorView();
-    int LoginView();
-    int CartView();
-    int MenuListaEventos();
+    int clienteView();
+    int organizadorView();
+    int loginView();
+    int carrinhoView();
+    int menuListaEventos();
+    void printMessage(string* msg);
 };
 
 #endif //VIEW_H

@@ -5,6 +5,8 @@
 #include <iostream>
 #include "Utilizador.h"
 
+Utilizador::~Utilizador() = default;
+
 bool Utilizador::stringValidation(const string& nome) {
     bool result = false;
     if(nome.length() > 3 && nome.length() <= 20) {

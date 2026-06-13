@@ -17,11 +17,9 @@ private:
 public:
     Cliente(const string& ID, const string& nome, const string& email, const string& password)
         : Utilizador(ID, nome, email, password) {}
-    Cliente(const Cliente& cliente) : Utilizador(cliente) {}
     void setHistorico(string historico);
     const string& getHistorico();
 
-    bool operator == (const string& ID) const;
 };
 
 #endif //CLIENTE_H

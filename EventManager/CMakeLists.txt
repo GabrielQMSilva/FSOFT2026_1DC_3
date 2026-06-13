@@ -17,6 +17,7 @@ include_directories(
         ${PROJECT_SOURCES_MODEL_DIR})
 set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/Utilizador.h
+        ${PROJECT_HEADERS_MODEL_DIR}/Utilizador.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Cliente.h
         ${PROJECT_SOURCES_MODEL_DIR}/Cliente.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ClienteContainer.h
