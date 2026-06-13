@@ -70,9 +70,9 @@ int View::CartView() {
         cout << "\n\n** MENU CARRINHO **\n";
         cout << "1 - Efetuar Compra\n";
         cout << "2 - Remover Bilhetes\n";
-        cout << "3 - Retroceder\n";
+        cout << "0 - Retroceder\n";
 
         op = Utils::getNumber("Opcao");
-    }while(op > 0 && op <= 3);
+    }while(op > 0 && op <= 2);
     return op;
 }
