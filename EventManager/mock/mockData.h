@@ -102,8 +102,6 @@ private:
       "Jamal Pretoriano",
       "Diddy Blud",
       "Bobber Kurwa",
-      "Jalin Bapau",
-      "Nicolau Maduro",
       "Kin Moreno",
       "Mister Magoo",
       "Walter White",
@@ -114,7 +112,13 @@ private:
       "André Hu",
       "André Ironic",
       "Henrique Mau",
+      "Chapelas Froiz",
       };
+
+  const vector<string> passClientes = {
+      "ISEP2026"
+  };
+
 
   const vector<string> nomeEventos = {
       "Rock In ISEP",
