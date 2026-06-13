@@ -39,11 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "EventManager::@6890427a1f51a3e7e1df",
-<<<<<<<< HEAD:EventManager/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fcc4e076afe1db349c66.json
-					"jsonFile" : "target-EventManager-Debug-011f7e5045777b6bd3e2.json",
-========
-					"jsonFile" : "target-EventManager-Debug-996a1aee87c37d5777f3.json",
->>>>>>>> a18196777af6f08675db9e34175f912ae87d6ce2:EventManager/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ab4b2ca34dc85a158bfb.json
+					"jsonFile" : "target-EventManager-Debug-8708d14529a86d78bcbd.json",
 					"name" : "EventManager",
 					"projectIndex" : 0
 				}
@@ -53,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/cmake-build-debug",
-		"source" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager"
+		"build" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/cmake-build-debug",
+		"source" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager"
 	},
 	"version" : 
 	{

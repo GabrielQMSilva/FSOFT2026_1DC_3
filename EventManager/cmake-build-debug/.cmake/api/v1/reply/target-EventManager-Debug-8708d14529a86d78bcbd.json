@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 130,
+				"line" : 141,
 				"parent" : 0
 			},
 			{
@@ -40,37 +40,43 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 33,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 74,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 86,
+				"line" : 85,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 100,
+				"line" : 97,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 112,
+				"line" : 111,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
 				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 134,
 				"parent" : 0
 			}
 		]
@@ -88,99 +94,63 @@
 			[
 				{
 					"backtrace" : 2,
-<<<<<<<< HEAD:EventManager/cmake-build-debug/.cmake/api/v1/reply/target-EventManager-Debug-011f7e5045777b6bd3e2.json
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/headers/exceptions"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/controllers"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/exceptions"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/controllers"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/headers/model"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/model"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/headers/services"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/services"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/headers/Views"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/services"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/Views"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/headers/mappers"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/Views"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/mappers"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/Views"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/headers/repo"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/mappers"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/sources/repo"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/mappers"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/FSOFT2026_1DC_3/EventManager/headers/dto"
-========
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model"
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/repo"
 				},
 				{
-					"backtrace" : 2,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model"
+					"backtrace" : 8,
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/repo"
 				},
 				{
-					"backtrace" : 3,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/services"
-				},
-				{
-					"backtrace" : 3,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/Views"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/Views"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/mappers"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/mappers"
-				},
-				{
-					"backtrace" : 6,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/repo"
-				},
-				{
-					"backtrace" : 6,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/repo"
-				},
-				{
-					"backtrace" : 7,
-					"path" : "C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/dto"
->>>>>>>> a18196777af6f08675db9e34175f912ae87d6ce2:EventManager/cmake-build-debug/.cmake/api/v1/reply/target-EventManager-Debug-996a1aee87c37d5777f3.json
+					"backtrace" : 9,
+					"path" : "C:/Users/Lord Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/dto"
 				}
 			],
 			"language" : "CXX",
