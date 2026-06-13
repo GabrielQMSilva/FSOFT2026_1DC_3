@@ -2,11 +2,11 @@
 // Created by Lord Foog on 5/9/2026.
 //
 #include <iostream>
-
+#include <iomanip>
 #include <list>
-
 #include "View.h"
 #include "Utils.h"
+
 View::View() {
 }
 
@@ -80,19 +80,70 @@ int View::organizadorView() {
     return op;
 };
 
-int View::carrinhoView() {
+int View::carrinhoView(list<pair<Evento*, int>>& carrinho) {
     int op = -1;
-    do{
+    do {
         cout << "\n\n** CARRINHO **\n";
-        cout << "1 - Efetuar Compra\n";
+        if (carrinho.empty()) {
+            cout << "  (carrinho vazio)\n";
+        } else {
+            float total = 0.0f;
+            for (auto& item : carrinho) {
+                cout << "  " << item.first->getNome()
+                     << " x" << item.second
+                     << "  -  " << fixed << setprecision(2)
+                     << item.first->getPreco() * item.second << " EUR\n";
+                total += item.first->getPreco() * item.second;
+            }
+            cout << "  -----------------------\n";
+            cout << "  Total: " << fixed << setprecision(2) << total << " EUR\n";
+        }
+        cout << "\n1 - Efetuar Compra\n";
         cout << "2 - Remover Bilhetes\n";
         cout << "0 - Retroceder\n";
 
         op = Utils::getNumber("Opcao");
-    }while(op < 0 || op > 2);
+    } while (op < 0 || op > 2);
     return op;
 };
+
+int View::menuDetalheEvento(Evento* evento) {
+    int year, month, day, hour, minute;
+    evento->getHorario().getDate(year, month, day, hour, minute);
+
+    cout << "\n\n** DETALHES DO EVENTO **\n";
+    cout << "Nome  : " << evento->getNome() << "\n";
+    cout << "Tipo  : " << evento->getTipo() << "\n";
+    cout << "Data  : " << setfill('0')
+         << setw(2) << day << "/"
+         << setw(2) << month << "/"
+         << year
+         << " às "
+         << setw(2) << hour << ":"
+         << setw(2) << minute << "\n";
+    cout << "Preco : " << fixed << setprecision(2) << evento->getPreco() << " EUR\n";
+
+    cout << "Artistas:\n";
+    list<Artista*>& artistas = evento->getListaArtistas().getAll();
+    if (artistas.empty()) {
+        cout << "  (sem artistas definidos)\n";
+    } else {
+        for (Artista* a : artistas) {
+            cout << "  - " << a->getNome() << "\n";
+        }
+    }
+
+    int op = -1;
+    do {
+        cout << "\n1 - Adicionar ao Carrinho\n";
+        cout << "0 - Voltar\n";
+        op = Utils::getNumber("Opcao");
+    } while (op < 0 || op > 1);
+    return op;
+}
 
 void View::printMessage(string *msg) {
     cout << *msg << endl;
 }
+
+

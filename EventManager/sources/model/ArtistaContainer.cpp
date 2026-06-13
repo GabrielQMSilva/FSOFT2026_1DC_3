@@ -5,6 +5,7 @@
 #include <list>
 #include <iostream>
 #include "ArtistaContainer.h"
+#include "NoDataException.h"
 using namespace std;
 
 void ArtistaContainer::add(Artista* artista) {
@@ -30,9 +31,7 @@ Artista* ArtistaContainer::getArtista(const string& nome) {
     if (artista != NULL) {
         return artista;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Artista não existe.");
     }
 }
 
@@ -50,9 +49,7 @@ Artista *ArtistaContainer::remove(const string& nome) {
         delete artista;
         return artista;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Artista não existe.");
     }
 }
 
@@ -62,9 +59,7 @@ Artista* ArtistaContainer::update(const string& nome, int membros, const string&
         artista->setArtista(nome, membros, agencia, budget);
         return artista;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Artista não existe.");
     }
 }
 

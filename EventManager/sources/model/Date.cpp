@@ -1,5 +1,6 @@
 #include <string>
 #include "Date.h"
+#include "InvalidDataException.h"
 #include <iostream>
 using namespace std;
 
@@ -72,11 +73,10 @@ void Date::setDate(int year, int month, int day,int hour, int minute){
 			this->hour = hour;
 			this->minute = minute;
 		}
-	/*   -- INVALID DATA EXCEPTION PLACE HOLDER --
 	else{
-		string msg =to_string(day)+ "/"+to_string(month)+"/"+to_string(year);
+		string msg = to_string(day) + "/" + to_string(month) + "/" + to_string(year);
 		throw InvalidDataException(msg);
-	} */
+	}
 }
 void Date::getDate(int& year, int& month, int& day,int& hour,int& minute) const{
 	day = this->day;

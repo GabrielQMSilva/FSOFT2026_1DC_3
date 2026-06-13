@@ -7,6 +7,7 @@
 
 #include <string>
 #include <list>
+#include <utility>
 #include "Evento.h"
 
 using namespace std;
@@ -17,8 +18,9 @@ public:
     int clienteView();
     int organizadorView();
     int loginView();
-    int carrinhoView();
+    int carrinhoView(list<pair<Evento*, int>>& carrinho);
     int menuListaEventos(list<Evento*>& eventos);
+    int menuDetalheEvento(Evento* evento);
     void printMessage(string* msg);
 };
 

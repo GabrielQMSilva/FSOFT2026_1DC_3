@@ -85,9 +85,7 @@ Cliente* ClienteContainer::getClienteByID(const string& ID) {
     if (cliente != NULL) {
         return cliente;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Cliente não existe.");
     }
 }
 
@@ -134,9 +132,7 @@ Cliente *ClienteContainer::remove(const string &ID) {
         delete cliente;
         return cliente;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Cliente não existe.");
     }
 }
 
@@ -148,9 +144,7 @@ Cliente* ClienteContainer::update(const string& nome, const string& email, const
         cliente->setPassword(password);
         return cliente;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Cliente não existe.");
     }
 }
 

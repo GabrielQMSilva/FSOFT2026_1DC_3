@@ -8,6 +8,7 @@
 #include <iomanip>
 #include <sstream>
 #include "EventoContainer.h"
+#include "NoDataException.h"
 using namespace std;
 
 int EventoContainer::eventoCounter = 0;
@@ -53,9 +54,9 @@ list<Evento*>& EventoContainer::getAll() {
     return this->eventos;
 }
 
-void EventoContainer::add(const string& nome, const string& tipo, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario) {
+void EventoContainer::add(const string& nome, const string& tipo, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, float preco, Date& horario) {
     string ID = generateEventoID(*this);
-    Evento* evento = new Evento(nome, tipo, listaArtistas, lotacao, lotacaoMaxima, horario, ID);
+    Evento* evento = new Evento(nome, tipo, listaArtistas, lotacao, lotacaoMaxima, preco, horario, ID);
     this->eventos.push_back(evento);
 }
 
@@ -64,9 +65,7 @@ Evento* EventoContainer::getEventoORG(const string& ID) {
     if (evento != NULL) {
         return evento;
     }else{
-        cout << "Evento não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Evento não existe.");
     }
 }
 
@@ -75,9 +74,7 @@ Evento* EventoContainer::getEventoCL(const string& nome) {
     if (evento != NULL) {
         return evento;
     }else{
-        cout << "Evento não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Evento não existe.");
     }
 }
 
@@ -95,9 +92,7 @@ Evento* EventoContainer::remove(const string& ID) {
         delete evento;
         return evento;
     }else{
-        cout << "Evento não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Evento não existe.");
     }
 }
 
@@ -109,8 +104,6 @@ Evento* EventoContainer::update(const string& nome, const string& tipo, const st
         evento->setListaArtistas(listaArtistas);
         return evento;
     }else{
-        cout << "Evento não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Evento não existe.");
     }
 }

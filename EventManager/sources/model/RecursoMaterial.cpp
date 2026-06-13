@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include "RecursoMaterial.h"
+#include "InvalidDataException.h"
 using namespace std;
 
 bool RecursoMaterial::stringValidation(const string& tipo) {
@@ -24,21 +25,15 @@ bool RecursoMaterial::quantidadeValidation(int quantidade) {
 }
 
 void RecursoMaterial::setTipo(const string& tipo) {
-    if(stringValidation(tipo)) {
-        this-> tipo = tipo;
-    }else{
-        cout << "Tipo de Material Inválido!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
+    if (!stringValidation(tipo))
+        throw InvalidDataException("Tipo de Material Inválido! Deve ter entre 4 e 40 caracteres.");
+    this->tipo = tipo;
 }
 
 void RecursoMaterial::setQuantidade(int quantidade) {
-    if (quantidadeValidation(quantidade)) {
-        this-> quantidade = quantidade;
-    }else{
-        cout << "Quantidade de material inválida!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
+    if (!quantidadeValidation(quantidade))
+        throw InvalidDataException("Quantidade de material inválida! Deve ser entre 1 e 50.");
+    this->quantidade = quantidade;
 }
 
 const string& RecursoMaterial::getTipo() {

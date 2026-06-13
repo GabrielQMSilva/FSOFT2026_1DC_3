@@ -6,6 +6,7 @@
 #include <list>
 #include <iostream>
 #include "RecursoMaterialContainer.h"
+#include "NoDataException.h"
 using namespace std;
 
 void RecursoMaterialContainer::add(RecursoMaterial* recursoMaterial) {
@@ -31,9 +32,7 @@ RecursoMaterial* RecursoMaterialContainer::getRM(const string& ID) {
     if (recursoMaterial != NULL) {
         return recursoMaterial;
     }else{
-        cout << "Aluguer não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Recurso não existe.");
     }
 }
 
@@ -51,9 +50,7 @@ RecursoMaterial* RecursoMaterialContainer::remove(const string &ID) {
         delete recursoMaterial;
         return recursoMaterial;
     }else{
-        cout << "Aluguer não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Recurso não existe.");
     }
 }
 
@@ -63,8 +60,6 @@ RecursoMaterial* RecursoMaterialContainer::update(const string& ID, int quantida
         recursoMaterial->setQuantidade(quantidade);
         return recursoMaterial;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Recurso não existe.");
     }
 }

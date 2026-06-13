@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <list>
+#include <utility>
 #include "Controller.h"
 #include "ClienteInDTO.h"
 #include "ClienteOutDTO.h"
@@ -25,6 +26,8 @@ void Controller::handleClienteLogin() {
         ClienteOutDTO sessao;
         clienteService->getClienteByNomeAndPassword(nome, password, sessao);
 
+        list<pair<Evento*, int>> carrinho;
+
         int op = -1;
         do {
             op = view.clienteView();
@@ -32,12 +35,42 @@ void Controller::handleClienteLogin() {
                 case 1: {
                     list<Evento*> eventos;
                     clienteService->getEventos(eventos);
-                    view.menuListaEventos(eventos);
+                    int escolha = view.menuListaEventos(eventos);
+                    if (escolha != 0) {
+                        auto it = eventos.begin();
+                        advance(it, escolha - 1);
+                        if (view.menuDetalheEvento(*it) == 1) {
+                            int qty = Utils::getNumber("Quantidade de bilhetes");
+                            if (qty > 0) {
+                                Evento* ev = *it;
+                                bool found = false;
+                                for (auto& item : carrinho) {
+                                    if (item.first == ev) {
+                                        item.second += qty;
+                                        found = true;
+                                        break;
+                                    }
+                                }
+                                if (!found) carrinho.push_back({ev, qty});
+                            }
+                        }
+                    }
                     break;
                 }
-                case 2:
-                    view.carrinhoView();
+                case 2: {
+                    int cartOp = view.carrinhoView(carrinho);
+                    if (cartOp == 2 && !carrinho.empty()) {
+                        list<Evento*> cartEventos;
+                        for (auto& item : carrinho) cartEventos.push_back(item.first);
+                        int removeEscolha = view.menuListaEventos(cartEventos);
+                        if (removeEscolha != 0) {
+                            auto it = carrinho.begin();
+                            advance(it, removeEscolha - 1);
+                            carrinho.erase(it);
+                        }
+                    }
                     break;
+                }
                 default:
                     break;
             }

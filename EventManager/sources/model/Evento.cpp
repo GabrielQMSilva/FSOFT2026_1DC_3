@@ -5,15 +5,17 @@
 #include <iostream>
 #include <string>
 #include "Evento.h"
+#include "InvalidDataException.h"
 using namespace std;
 
-Evento::Evento(const string &nome, const string &tipo, ArtistaContainer &listaArtistas, int lotacao, int lotacaoMaxima, Date &horario, const string &ID)
+Evento::Evento(const string &nome, const string &tipo, ArtistaContainer &listaArtistas, int lotacao, int lotacaoMaxima, float preco, Date &horario, const string &ID)
   : nome(nome),
     tipo(tipo),
     ID(ID),
     listaArtistas(listaArtistas),
     lotacao(lotacao),
     lotacaoMaxima(lotacaoMaxima),
+    preco(preco),
     horario(horario) {}
 
 bool Evento::stringValidation(const string& nome) {
@@ -33,24 +35,16 @@ bool Evento::intValidation(const int& lotacaoMaxima) {
 }
 
 void Evento::setDetails(const string &nome, const string &tipo, int lotacaoMaxima, Date &horario) {
-    if (stringValidation(nome)) {
-        this->nome = nome;
-    }else{
-        cout << "Nome inválido!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
-    if (stringValidation(tipo)) {
-        this->tipo = tipo;
-    }else{
-        cout << "Tipo inválido!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
-    if (intValidation(lotacaoMaxima)) {
-        this->lotacaoMaxima = lotacaoMaxima;
-    }else{
-        cout << "Número inválido!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
+    if (!stringValidation(nome))
+        throw InvalidDataException("Nome inválido! Deve ter entre 4 e 20 caracteres.");
+    if (!stringValidation(tipo))
+        throw InvalidDataException("Tipo inválido! Deve ter entre 4 e 20 caracteres.");
+    if (!intValidation(lotacaoMaxima))
+        throw InvalidDataException("Lotação máxima inválida! Deve ser entre 1 e 500.");
+
+    this->nome = nome;
+    this->tipo = tipo;
+    this->lotacaoMaxima = lotacaoMaxima;
     this->horario = horario;
 }
 
@@ -79,4 +73,20 @@ const string& Evento::getNome() const {
 
 const string& Evento::getTipo() const {
     return tipo;
+}
+
+float Evento::getPreco() const {
+    return preco;
+}
+
+const Date& Evento::getHorario() const {
+    return horario;
+}
+
+ArtistaContainer& Evento::getListaArtistas() {
+    return listaArtistas;
+}
+
+ClienteContainer& Evento::getListaClientes() {
+    return listaClientes;
 }

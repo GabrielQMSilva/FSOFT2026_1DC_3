@@ -23,12 +23,13 @@ private:
     ClienteContainer listaClientes;
     int lotacao;
     int lotacaoMaxima;
+    float preco;
     Date horario;
     bool stringValidation(const string& nome);
     bool intValidation(const int& lotacaoMaxima);
 
 public:
-    Evento(const string& nome, const string& tipo, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario, const string& ID);
+    Evento(const string& nome, const string& tipo, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, float preco, Date& horario, const string& ID);
     void setDetails(const string& nome, const string& tipo, int lotacaoMaxima, Date& horario);
     void setID(const string& ID);
     void setListaArtistas(ArtistaContainer& listaArtistas);
@@ -38,6 +39,7 @@ public:
     const string& getStrings() const;
     const string& getInts() const;
     const Date& getHorario() const;
+    float getPreco() const;
     ArtistaContainer& getListaArtistas();
     ClienteContainer& getListaClientes();
 

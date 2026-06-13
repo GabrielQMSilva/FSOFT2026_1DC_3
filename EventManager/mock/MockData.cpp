@@ -2,6 +2,7 @@
 // Created by gabri on 12/06/2026.
 //
 #include "MockData.h"
+#include "Artista.h"
 
 void MockData::insertClientes(ClienteContainer& container) {
     for (size_t i = 0; i < nomeClientes.size(); i++) {
@@ -19,9 +20,23 @@ void MockData::insertEventos(EventoContainer& container) {
         Date(2026, 11, 20, 21, 0),
         Date(2026, 12, 12, 19, 0),
     };
-    ArtistaContainer emptyArtistas;
+
+    // Artist names per event, grouped by genre
+    vector<vector<string>> artistasPorEvento = {
+        {"Arctic Monkeys", "Kings Of Leon", "Van Halen", "Black Sabbath", "Pearl Jam"},         // Rock In ISEP
+        {"Olivia Rodrigo", "Harry Styles", "ABBA", "Duran Duran", "a-ha"},                     // Top Pop
+        {"Red Hot Chili Peppers", "Pink Floyd", "Radiohead", "The Strokes", "Dire Straits"},  // Alchemy Live
+        {"Rolling Stones", "U2", "David Bowie", "Queen", "The Police"},                        // Live Aid
+        {"LON3R JOHNY", "Wet Bed Gang", "Julinho Ksd", "Yeat", "twikipedia"},                  // Trap Irony
+        {"Yamandu Costa", "Django Reinhardt", "John Mayer", "Laufey", "Mazzy Star"},           // Jazzy Feel Good
+    };
+
+    vector<ArtistaContainer> artistaContainers(nomeEventos.size());
     for (size_t i = 0; i < nomeEventos.size(); i++) {
-        container.add(nomeEventos[i], tipoEventos[i], emptyArtistas, 0, lotacaoMaxEventos[i], horarios[i]);
+        for (const string& nome : artistasPorEvento[i]) {
+            artistaContainers[i].add(new Artista(nome, 1, "Agencia", 1000.0f));
+        }
+        container.add(nomeEventos[i], tipoEventos[i], artistaContainers[i], 0, lotacaoMaxEventos[i], (float)precoEventos[i], horarios[i]);
     }
 }
 

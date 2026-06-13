@@ -5,7 +5,11 @@
 #include <iostream>
 #include <string>
 #include "Artista.h"
+#include "InvalidDataException.h"
 using namespace std;
+
+Artista::Artista(const string& nome, int membros, const string& agencia, float budget)
+    : nome(nome), membros(membros), agencia(agencia), budget(budget) {}
 
 bool Artista::stringValidation(const string& nome) {
     bool result = false;
@@ -24,25 +28,17 @@ bool Artista::membrosValidation(int membros) {
 }
 
 void Artista::setArtista(const string& nome, int membros, const string& agencia, float budget) {
-    if (stringValidation(nome)) {
-        this->nome = nome;
-    }else{
-        cout << "Nome inválido!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
-    if (stringValidation(agencia)) {
-        this->agencia = agencia;
-    }else{
-        cout << "Agencia inválida!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
-    if (membrosValidation(membros)) {
-        this->membros = membros;
-    }else{
-        cout << "Número inválido!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
-    this->budget = budget;
+    if (!stringValidation(nome))
+        throw InvalidDataException("Nome inválido! Deve ter entre 4 e 20 caracteres.");
+    if (!stringValidation(agencia))
+        throw InvalidDataException("Agência inválida! Deve ter entre 4 e 20 caracteres.");
+    if (!membrosValidation(membros))
+        throw InvalidDataException("Número de membros inválido! Deve ser entre 1 e 6.");
+
+    this->nome    = nome;
+    this->agencia = agencia;
+    this->membros = membros;
+    this->budget  = budget;
 }
 
 const string& Artista::getNome() {

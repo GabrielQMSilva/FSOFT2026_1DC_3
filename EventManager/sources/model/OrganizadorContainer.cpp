@@ -8,6 +8,7 @@
 #include <iomanip>
 #include <sstream>
 #include "OrganizadorContainer.h"
+#include "NoDataException.h"
 using namespace std;
 
 int OrganizadorContainer::organizadorCounter = 0;
@@ -62,9 +63,7 @@ Organizador* OrganizadorContainer::getOrganizador(const string& ID) {
     if (organizador != NULL) {
         return organizador;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Organizador não existe.");
     }
 }
 
@@ -73,9 +72,7 @@ Organizador* OrganizadorContainer::getOrganizadorPassword(const string& password
     if (organizador != NULL) {
         return organizador;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Organizador não existe.");
     }
 }
 
@@ -95,9 +92,7 @@ Organizador *OrganizadorContainer::remove(const string &ID) {
         delete organizador;
         return organizador;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Organizador não existe.");
     }
 }
 
@@ -109,8 +104,6 @@ Organizador* OrganizadorContainer::update(const string& nome, const string& emai
         organizador->setPassword(password);
         return organizador;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Organizador não existe.");
     }
 }

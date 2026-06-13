@@ -8,6 +8,7 @@
 #include <iomanip>
 #include <sstream>
 #include "AluguerMaterialContainer.h"
+#include "NoDataException.h"
 using namespace std;
 
 int AluguerMaterialContainer::aluguerCounter = 0;
@@ -62,9 +63,7 @@ AluguerMaterial* AluguerMaterialContainer::getAM(const string& ID) {
     if (aluguerMaterial != NULL) {
         return aluguerMaterial;
     }else{
-        cout << "Aluguer não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Aluguer não existe.");
     }
 }
 
@@ -82,9 +81,7 @@ AluguerMaterial* AluguerMaterialContainer::remove(const string &ID) {
         delete aluguerMaterial;
         return aluguerMaterial;
     }else{
-        cout << "Aluguer não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Aluguer não existe.");
     }
 }
 
@@ -94,8 +91,6 @@ AluguerMaterial* AluguerMaterialContainer::update(const string& ID, bool estado)
         aluguerMaterial->setEstado(estado);
         return aluguerMaterial;
     }else{
-        cout << "Cliente não existe. " << endl;
-        /* -- NO DATA EXCEPTION PLACE HOLDER -- */
-        return NULL;
+        throw NoDataException("Aluguer não existe.");
     }
 }

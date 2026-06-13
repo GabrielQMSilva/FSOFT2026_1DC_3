@@ -4,6 +4,7 @@
 #include <cctype>
 #include <iostream>
 #include "Utilizador.h"
+#include "InvalidDataException.h"
 
 Utilizador::~Utilizador() = default;
 
@@ -55,28 +56,19 @@ bool Utilizador::passwordValidation(const string& password)
 }
 
 void Utilizador::setNome(const string& nome) {
-    if (stringValidation(nome)) {
-        this->nome = nome;
-    }else{
-        cout << "Nome inválido!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
+    if (!stringValidation(nome))
+        throw InvalidDataException("Nome inválido! Deve ter entre 4 e 20 caracteres.");
+    this->nome = nome;
 }
 void Utilizador::setEmail(const string& email) {
-    if (emailValidation(email)) {
-        this->email = email;
-    }else{
-        cout << "Email inválido!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
+    if (!emailValidation(email))
+        throw InvalidDataException("Email inválido!");
+    this->email = email;
 }
 void Utilizador::setPassword(const string& password) {
-    if (passwordValidation(password)) {
-        this->password = password;
-    }else {
-        cout << "Password inválida!" << endl;
-        /* -- INVALID DATA EXCEPTION PLACE HOLDER -- */
-    }
+    if (!passwordValidation(password))
+        throw InvalidDataException("Password inválida! Deve ter no mínimo 6 letras e 3 dígitos.");
+    this->password = password;
 }
 
 void Utilizador::setID() {
