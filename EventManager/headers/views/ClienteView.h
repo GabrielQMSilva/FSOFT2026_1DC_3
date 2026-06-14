@@ -6,8 +6,10 @@
 #define CLIENTEVIEW_H
 
 #include <string>
+#include <list>
 #include "View.h"
 #include "ClienteInDTO.h"
+#include "ClienteOutDTO.h"
 
 using namespace std;
 
@@ -22,6 +24,7 @@ private:
 public:
     ClienteView();
     ClienteInDTO handleClienteRegistration();
+    void printClientes(list<ClienteOutDTO>& clientes);
 };
 
 #endif //CLIENTEVIEW_H

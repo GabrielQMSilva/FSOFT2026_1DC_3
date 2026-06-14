@@ -57,7 +57,7 @@ bool Date::isValid(int year, int month, int day,int hour,int minute){
 
 Date::Date(){
 	//default date
-	setDate(1,1, 1900,0,0);
+	setDate(1900, 1, 1, 0, 0);
 }
 Date::Date(int year, int month, int day,int hour,int minute){
 	setDate(year,month,day,hour,minute);

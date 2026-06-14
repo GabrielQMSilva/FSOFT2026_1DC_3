@@ -704,6 +704,30 @@ sources/services/ClienteService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.s
 .PHONY : sources/services/ClienteService.cpp.s
 
+sources/services/EventoService.obj: sources/services/EventoService.cpp.obj
+.PHONY : sources/services/EventoService.obj
+
+# target to build an object file
+sources/services/EventoService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj
+.PHONY : sources/services/EventoService.cpp.obj
+
+sources/services/EventoService.i: sources/services/EventoService.cpp.i
+.PHONY : sources/services/EventoService.i
+
+# target to preprocess a source file
+sources/services/EventoService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.i
+.PHONY : sources/services/EventoService.cpp.i
+
+sources/services/EventoService.s: sources/services/EventoService.cpp.s
+.PHONY : sources/services/EventoService.s
+
+# target to generate assembly for a file
+sources/services/EventoService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.s
+.PHONY : sources/services/EventoService.cpp.s
+
 sources/services/OrganizadorService.obj: sources/services/OrganizadorService.cpp.obj
 .PHONY : sources/services/OrganizadorService.obj
 
@@ -751,6 +775,30 @@ sources/views/ClienteView.s: sources/views/ClienteView.cpp.s
 sources/views/ClienteView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.s
 .PHONY : sources/views/ClienteView.cpp.s
+
+sources/views/EventoView.obj: sources/views/EventoView.cpp.obj
+.PHONY : sources/views/EventoView.obj
+
+# target to build an object file
+sources/views/EventoView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj
+.PHONY : sources/views/EventoView.cpp.obj
+
+sources/views/EventoView.i: sources/views/EventoView.cpp.i
+.PHONY : sources/views/EventoView.i
+
+# target to preprocess a source file
+sources/views/EventoView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.i
+.PHONY : sources/views/EventoView.cpp.i
+
+sources/views/EventoView.s: sources/views/EventoView.cpp.s
+.PHONY : sources/views/EventoView.s
+
+# target to generate assembly for a file
+sources/views/EventoView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.s
+.PHONY : sources/views/EventoView.cpp.s
 
 sources/views/Utils.obj: sources/views/Utils.cpp.obj
 .PHONY : sources/views/Utils.obj
@@ -881,12 +929,18 @@ help:
 	@echo ... sources/services/ClienteService.obj
 	@echo ... sources/services/ClienteService.i
 	@echo ... sources/services/ClienteService.s
+	@echo ... sources/services/EventoService.obj
+	@echo ... sources/services/EventoService.i
+	@echo ... sources/services/EventoService.s
 	@echo ... sources/services/OrganizadorService.obj
 	@echo ... sources/services/OrganizadorService.i
 	@echo ... sources/services/OrganizadorService.s
 	@echo ... sources/views/ClienteView.obj
 	@echo ... sources/views/ClienteView.i
 	@echo ... sources/views/ClienteView.s
+	@echo ... sources/views/EventoView.obj
+	@echo ... sources/views/EventoView.i
+	@echo ... sources/views/EventoView.s
 	@echo ... sources/views/Utils.obj
 	@echo ... sources/views/Utils.i
 	@echo ... sources/views/Utils.s

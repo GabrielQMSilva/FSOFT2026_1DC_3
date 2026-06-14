@@ -24,6 +24,25 @@ int Utils::getNumber(const string&  label){
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     return number;
 }
+float Utils::getFloat(const string& label) {
+    float number;
+    bool flag = false;
+    do {
+        cout << label << ": ";
+        flag = false;
+        cin >> number;
+        if (cin.fail()) {
+            cout << "Não é um número, porfavor insira um número!" << endl;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            flag = true;
+        }
+    } while (flag == true);
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    return number;
+}
+
 string Utils::getString(const string&  label){
     string input;
     cout<<label<<": ";

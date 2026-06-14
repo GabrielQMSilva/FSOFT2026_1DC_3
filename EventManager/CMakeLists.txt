@@ -180,6 +180,8 @@ add_executable(EventManager main.cpp
         headers/views/Utils.h
         headers/views/ClienteView.h
         sources/views/ClienteView.cpp
+        headers/views/EventoView.h
+        sources/views/EventoView.cpp
         sources/model/AluguerMaterialContainer.cpp
         sources/model/ArtistaContainer.cpp
         sources/model/EventoContainer.cpp
@@ -194,8 +196,11 @@ add_executable(EventManager main.cpp
         headers/services/ClienteService.h
         sources/services/OrganizadorService.cpp
         headers/services/OrganizadorService.h
+        sources/services/EventoService.cpp
+        headers/services/EventoService.h
         headers/dto/ClienteInDTO.h
         headers/dto/ClienteOutDTO.h
+        headers/dto/EventoInDTO.h
         headers/mappers/ClienteMapper.h
         sources/mappers/ClienteMapper.cpp
         headers/model/GestoraEventos.h

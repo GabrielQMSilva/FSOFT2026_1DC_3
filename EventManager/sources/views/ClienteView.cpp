@@ -33,6 +33,20 @@ bool ClienteView::validatePassword(const string& password) {
     return letters >= 6 && digits >= 3;
 }
 
+void ClienteView::printClientes(list<ClienteOutDTO>& clientes) {
+    cout << "\n\n** LISTA DE CLIENTES **\n";
+    if (clientes.empty()) {
+        cout << "  (sem clientes registados)\n";
+    } else {
+        for (ClienteOutDTO& c : clientes) {
+            cout << "  ID    : " << c.ID << "\n";
+            cout << "  Nome  : " << c.nome << "\n";
+            cout << "  Email : " << c.email << "\n";
+            cout << "  ----------------------\n";
+        }
+    }
+}
+
 ClienteInDTO ClienteView::handleClienteRegistration() {
     cout << "\n-- Registo de Cliente --\n";
     cout << "  Nome: 4 a 20 caracteres\n";

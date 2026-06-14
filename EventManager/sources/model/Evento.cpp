@@ -83,6 +83,8 @@ int Evento::getLotacao() const {
 }
 
 void Evento::decreaseLotacao(int quantidade) {
+    if (lotacao - quantidade < 0)
+        throw InvalidDataException("Lugares insuficientes para o evento: " + nome);
     lotacao -= quantidade;
 }
 

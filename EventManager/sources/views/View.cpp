@@ -70,13 +70,12 @@ int View::organizadorView() {
         cout << "2 - Editar Evento\n";
         cout << "3 - Remover Evento\n";
         cout << "4 - Listar Eventos\n";
-        cout << "5 - Ver Participantes\n";
-        cout << "6 - Terminar Sessão\n";
+        cout << "5 - Ver Clientes\n";
         cout << "\n0 - Logout\n";
 
         op = Utils::getNumber("Opcao");
 
-    }while(op < 0 || op > 6);
+    }while(op < 0 || op > 5);
     return op;
 };
 

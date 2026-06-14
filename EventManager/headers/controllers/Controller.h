@@ -7,7 +7,9 @@
 
 #include "View.h"
 #include "ClienteView.h"
+#include "EventoView.h"
 #include "ClienteService.h"
+#include "EventoService.h"
 #include "OrganizadorService.h"
 #include "SessaoService.h"
 
@@ -16,14 +18,16 @@ class Controller {
 private:
     View view;
     ClienteView clienteView;
+    EventoView eventoView;
     ClienteService* clienteService;
+    EventoService* eventoService;
     OrganizadorService* organizadorService;
 
     void handleClienteLogin();
     void handleOrganizadorLogin();
     void handleClienteRegistration();
 public:
-    Controller(ClienteService* clienteService, OrganizadorService* organizadorService);
+    Controller(ClienteService* clienteService, EventoService* eventoService, OrganizadorService* organizadorService);
     void run();
 };
 

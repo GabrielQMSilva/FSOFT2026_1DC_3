@@ -14,8 +14,9 @@
 
 using namespace std;
 
-Controller::Controller(ClienteService *clienteService, OrganizadorService *organizadorService) {
+Controller::Controller(ClienteService *clienteService, EventoService *eventoService, OrganizadorService *organizadorService) {
     this->clienteService = clienteService;
+    this->eventoService = eventoService;
     this->organizadorService = organizadorService;
 }
 
@@ -60,11 +61,22 @@ void Controller::handleClienteLogin() {
                 case 2: {
                     int cartOp = view.carrinhoView(carrinho);
                     if (cartOp == 1 && !carrinho.empty()) {
-                        for (auto& item : carrinho)
-                            item.first->decreaseLotacao(item.second);
-                        carrinho.clear();
-                        string msg = "Compra efetuada com sucesso";
-                        view.printMessage(&msg);
+                        bool valid = true;
+                        for (auto& item : carrinho) {
+                            if (item.second > item.first->getLotacao()) {
+                                string msg = "Lugares insuficientes para o evento: " + item.first->getNome();
+                                view.printMessage(&msg);
+                                valid = false;
+                                break;
+                            }
+                        }
+                        if (valid) {
+                            for (auto& item : carrinho)
+                                item.first->decreaseLotacao(item.second);
+                            carrinho.clear();
+                            string msg = "Compra efetuada com sucesso";
+                            view.printMessage(&msg);
+                        }
                     } else if (cartOp == 2 && !carrinho.empty()) {
                         list<Evento*> cartEventos;
                         for (auto& item : carrinho) cartEventos.push_back(item.first);
@@ -120,9 +132,43 @@ void Controller::handleOrganizadorLogin() {
                     view.menuListaEventos(eventos);
                     break;
                 }
-                case 6:
-                    op = 0;
+                case 5: {
+                    list<ClienteOutDTO> clientes;
+                    clienteService->getAll(clientes);
+                    clienteView.printClientes(clientes);
                     break;
+                }
+                case 1: {
+                    try {
+                        EventoInDTO dto = eventoView.handleCriarEvento();
+                        eventoService->add(dto);
+                        string msg = "Evento criado com sucesso!";
+                        view.printMessage(&msg);
+                    } catch (InvalidDataException& e) {
+                        string msg = e.what();
+                        view.printMessage(&msg);
+                    }
+                    break;
+                }
+                case 2: {
+                    try {
+                        list<Evento*> eventos;
+                        clienteService->getEventos(eventos);
+                        int escolha = view.menuListaEventos(eventos);
+                        if (escolha != 0) {
+                            auto it = eventos.begin();
+                            advance(it, escolha - 1);
+                            EventoInDTO dto = eventoView.editEvento(*it);
+                            eventoService->update((*it)->getID(), dto);
+                            string msg = "Evento atualizado com sucesso!";
+                            view.printMessage(&msg);
+                        }
+                    } catch (InvalidDataException& e) {
+                        string msg = e.what();
+                        view.printMessage(&msg);
+                    }
+                    break;
+                }
                 default:
                     if (op != 0) {
                         string msg = "Funcionalidade não implementada.";

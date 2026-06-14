@@ -10,6 +10,7 @@ using namespace std;
 class Utils{
 public:
     static int getNumber(const string&  label);
+    static float getFloat(const string& label);
     static string getString(const string&  label);
     static string getID(const string&  label);
 
