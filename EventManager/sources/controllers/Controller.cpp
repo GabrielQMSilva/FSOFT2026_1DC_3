@@ -59,7 +59,13 @@ void Controller::handleClienteLogin() {
                 }
                 case 2: {
                     int cartOp = view.carrinhoView(carrinho);
-                    if (cartOp == 2 && !carrinho.empty()) {
+                    if (cartOp == 1 && !carrinho.empty()) {
+                        for (auto& item : carrinho)
+                            item.first->decreaseLotacao(item.second);
+                        carrinho.clear();
+                        string msg = "Compra efetuada com sucesso";
+                        view.printMessage(&msg);
+                    } else if (cartOp == 2 && !carrinho.empty()) {
                         list<Evento*> cartEventos;
                         for (auto& item : carrinho) cartEventos.push_back(item.first);
                         int removeEscolha = view.menuListaEventos(cartEventos);

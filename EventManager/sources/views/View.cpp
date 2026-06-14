@@ -122,6 +122,7 @@ int View::menuDetalheEvento(Evento* evento) {
          << setw(2) << hour << ":"
          << setw(2) << minute << "\n";
     cout << "Preco : " << fixed << setprecision(2) << evento->getPreco() << " EUR\n";
+    cout << "Lugares disponíveis: " << evento->getLotacao() << "\n";
 
     cout << "Artistas:\n";
     list<Artista*>& artistas = evento->getListaArtistas().getAll();
@@ -145,5 +146,4 @@ int View::menuDetalheEvento(Evento* evento) {
 void View::printMessage(string *msg) {
     cout << *msg << endl;
 }
-
 

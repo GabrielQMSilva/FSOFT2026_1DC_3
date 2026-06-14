@@ -8,13 +8,12 @@
 #include "InvalidDataException.h"
 using namespace std;
 
-Evento::Evento(const string &nome, const string &tipo, ArtistaContainer &listaArtistas, int lotacao, int lotacaoMaxima, float preco, Date &horario, const string &ID)
+Evento::Evento(const string &nome, const string &tipo, ArtistaContainer &listaArtistas, int lotacao, float preco, Date &horario, const string &ID)
   : nome(nome),
     tipo(tipo),
     ID(ID),
     listaArtistas(listaArtistas),
     lotacao(lotacao),
-    lotacaoMaxima(lotacaoMaxima),
     preco(preco),
     horario(horario) {}
 
@@ -26,25 +25,25 @@ bool Evento::stringValidation(const string& nome) {
     return result;
 }
 
-bool Evento::intValidation(const int& lotacaoMaxima) {
+bool Evento::intValidation(const int& lotacao) {
     bool result = false;
-    if(lotacaoMaxima > 0 && lotacaoMaxima <= 500) {
+    if(lotacao > 0 && lotacao <= 500) {
         result = true;
     }
     return result;
 }
 
-void Evento::setDetails(const string &nome, const string &tipo, int lotacaoMaxima, Date &horario) {
+void Evento::setDetails(const string &nome, const string &tipo, int lotacao, Date &horario) {
     if (!stringValidation(nome))
         throw InvalidDataException("Nome inválido! Deve ter entre 4 e 20 caracteres.");
     if (!stringValidation(tipo))
         throw InvalidDataException("Tipo inválido! Deve ter entre 4 e 20 caracteres.");
-    if (!intValidation(lotacaoMaxima))
+    if (!intValidation(lotacao))
         throw InvalidDataException("Lotação máxima inválida! Deve ser entre 1 e 500.");
 
     this->nome = nome;
     this->tipo = tipo;
-    this->lotacaoMaxima = lotacaoMaxima;
+    this->lotacao = lotacao;
     this->horario = horario;
 }
 
@@ -77,6 +76,14 @@ const string& Evento::getTipo() const {
 
 float Evento::getPreco() const {
     return preco;
+}
+
+int Evento::getLotacao() const {
+    return lotacao;
+}
+
+void Evento::decreaseLotacao(int quantidade) {
+    lotacao -= quantidade;
 }
 
 const Date& Evento::getHorario() const {

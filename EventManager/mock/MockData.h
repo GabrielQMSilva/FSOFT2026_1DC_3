@@ -133,13 +133,13 @@ private:
       "Jazz",
   };
 
-  const vector<int> lotacaoMaxEventos = {
-      500,
-      300,
-      400,
-      500,
-      200,
+  const vector<int> lotacaoEventos = {
+      320,
       150,
+      200,
+      480,
+      90,
+      60,
   };
 
   const vector<int> precoEventos = {

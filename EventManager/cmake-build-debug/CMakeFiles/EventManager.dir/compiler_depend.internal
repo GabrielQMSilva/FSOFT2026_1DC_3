@@ -1343,6 +1343,7 @@ CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/NoDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/AluguerMaterial.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/AluguerMaterialContainer.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Artista.h
@@ -1484,6 +1485,7 @@ CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/InvalidDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Artista.h
 
 CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj
@@ -1627,6 +1629,7 @@ CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/NoDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Artista.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/ArtistaContainer.h
 
@@ -2071,6 +2074,7 @@ CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/InvalidDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Date.h
 
 CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj
@@ -2214,6 +2218,7 @@ CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/InvalidDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Artista.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/ArtistaContainer.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Cliente.h
@@ -2376,6 +2381,7 @@ CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/NoDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Artista.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/ArtistaContainer.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Cliente.h
@@ -3011,6 +3017,7 @@ CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/NoDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Cliente.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Historico.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Organizador.h
@@ -3153,6 +3160,7 @@ CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/InvalidDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/RecursoMaterial.h
 
 CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj
@@ -3296,6 +3304,7 @@ CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/NoDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/RecursoMaterial.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/RecursoMaterialContainer.h
 
@@ -3435,6 +3444,7 @@ CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h
  C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wctype.h
+ C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/InvalidDataException.h
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Utilizador.h
 
 CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj

@@ -54,9 +54,9 @@ list<Evento*>& EventoContainer::getAll() {
     return this->eventos;
 }
 
-void EventoContainer::add(const string& nome, const string& tipo, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, float preco, Date& horario) {
+void EventoContainer::add(const string& nome, const string& tipo, ArtistaContainer& listaArtistas, int lotacao, float preco, Date& horario) {
     string ID = generateEventoID(*this);
-    Evento* evento = new Evento(nome, tipo, listaArtistas, lotacao, lotacaoMaxima, preco, horario, ID);
+    Evento* evento = new Evento(nome, tipo, listaArtistas, lotacao, preco, horario, ID);
     this->eventos.push_back(evento);
 }
 
@@ -96,11 +96,11 @@ Evento* EventoContainer::remove(const string& ID) {
     }
 }
 
-Evento* EventoContainer::update(const string& nome, const string& tipo, const string& ID, ArtistaContainer& listaArtistas, int lotacao, int lotacaoMaxima, Date& horario) {
+Evento* EventoContainer::update(const string& nome, const string& tipo, const string& ID, ArtistaContainer& listaArtistas, int lotacao, Date& horario) {
     Evento* evento = search(ID);
     if (evento != NULL) {
         evento->setID(ID);
-        evento->setDetails(nome, tipo, lotacaoMaxima, horario);
+        evento->setDetails(nome, tipo, lotacao, horario);
         evento->setListaArtistas(listaArtistas);
         return evento;
     }else{

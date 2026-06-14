@@ -36,7 +36,7 @@ void MockData::insertEventos(EventoContainer& container) {
         for (const string& nome : artistasPorEvento[i]) {
             artistaContainers[i].add(new Artista(nome, 1, "Agencia", 1000.0f));
         }
-        container.add(nomeEventos[i], tipoEventos[i], artistaContainers[i], 0, lotacaoMaxEventos[i], (float)precoEventos[i], horarios[i]);
+        container.add(nomeEventos[i], tipoEventos[i], artistaContainers[i], lotacaoEventos[i], (float)precoEventos[i], horarios[i]);
     }
 }
 
