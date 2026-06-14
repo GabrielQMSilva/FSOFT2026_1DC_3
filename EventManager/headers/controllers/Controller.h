@@ -6,6 +6,7 @@
 #define CONTROLLER_H
 
 #include "View.h"
+#include "ClienteView.h"
 #include "ClienteService.h"
 #include "SessaoService.h"
 
@@ -13,6 +14,7 @@ class Controller {
 
 private:
     View view;
+    ClienteView clienteView;
     ClienteService* clienteService;
 
     void handleClienteLogin();

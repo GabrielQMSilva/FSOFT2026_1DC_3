@@ -39,15 +39,6 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/services/ClienteService.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Evento.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
@@ -56,6 +47,12 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -66,9 +63,12 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/locale.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
+ C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
@@ -163,5 +163,4 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/mappers/ClienteMapper.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Cliente.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/DataConsistencyException.h \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/InvalidDataException.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/DuplicatedDataException.h

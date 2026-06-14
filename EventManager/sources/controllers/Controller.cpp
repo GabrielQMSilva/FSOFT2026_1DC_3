@@ -2,7 +2,6 @@
 // Created by Lord Foog on 5/10/2026.
 //
 
-#include <iostream>
 #include <list>
 #include <utility>
 #include "Controller.h"
@@ -15,7 +14,7 @@
 
 using namespace std;
 
-Controller::Controller(ClienteService *clienteService){
+Controller::Controller(ClienteService *clienteService) {
     this->clienteService = clienteService;
 }
 
@@ -88,16 +87,10 @@ void Controller::handleClienteLogin() {
 }
 
 
+
 void Controller::handleClienteRegistration() {
-    cout << "\n-- Registo de Cliente --\n";
-    cout << "  Nome: 4 a 20 caracteres\n";
-    cout << "  Email: formato valido (ex: nome@dominio.com)\n";
-    cout << "  Password: minimo 6 letras e 3 digitos\n\n";
-    ClienteInDTO dto;
-    dto.nome     = Utils::getString("Nome");
-    dto.email    = Utils::getString("Email");
-    dto.password = Utils::getString("Password");
     try {
+        ClienteInDTO dto = clienteView.handleClienteRegistration();
         clienteService->add(dto);
         string msg = "Cliente registado com sucesso!";
         view.printMessage(&msg);

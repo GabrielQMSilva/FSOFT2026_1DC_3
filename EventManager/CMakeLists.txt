@@ -102,6 +102,10 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/Utils.h
         ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp
+        ${PROJECT_HEADERS_VIEWS_DIR}/ClienteView.h
+        ${PROJECT_SOURCES_VIEWS_DIR}/ClienteView.cpp
+        ${PROJECT_HEADERS_VIEWS_DIR}/EventoView.h
+        ${PROJECT_SOURCES_VIEWS_DIR}/EventoView.cpp
 )
 
 set(PROJECT_HEADERS_MAPPERS_DIR
@@ -174,6 +178,8 @@ add_executable(EventManager main.cpp
         sources/views/Utils.cpp
         headers/views/View.h
         headers/views/Utils.h
+        headers/views/ClienteView.h
+        sources/views/ClienteView.cpp
         sources/model/AluguerMaterialContainer.cpp
         sources/model/ArtistaContainer.cpp
         sources/model/EventoContainer.cpp

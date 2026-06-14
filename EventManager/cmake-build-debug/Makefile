@@ -776,6 +776,30 @@ sources/services/SessaoService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.s
 .PHONY : sources/services/SessaoService.cpp.s
 
+sources/views/ClienteView.obj: sources/views/ClienteView.cpp.obj
+.PHONY : sources/views/ClienteView.obj
+
+# target to build an object file
+sources/views/ClienteView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj
+.PHONY : sources/views/ClienteView.cpp.obj
+
+sources/views/ClienteView.i: sources/views/ClienteView.cpp.i
+.PHONY : sources/views/ClienteView.i
+
+# target to preprocess a source file
+sources/views/ClienteView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.i
+.PHONY : sources/views/ClienteView.cpp.i
+
+sources/views/ClienteView.s: sources/views/ClienteView.cpp.s
+.PHONY : sources/views/ClienteView.s
+
+# target to generate assembly for a file
+sources/views/ClienteView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.s
+.PHONY : sources/views/ClienteView.cpp.s
+
 sources/views/Utils.obj: sources/views/Utils.cpp.obj
 .PHONY : sources/views/Utils.obj
 
@@ -914,6 +938,9 @@ help:
 	@echo ... sources/services/SessaoService.obj
 	@echo ... sources/services/SessaoService.i
 	@echo ... sources/services/SessaoService.s
+	@echo ... sources/views/ClienteView.obj
+	@echo ... sources/views/ClienteView.i
+	@echo ... sources/views/ClienteView.s
 	@echo ... sources/views/Utils.obj
 	@echo ... sources/views/Utils.i
 	@echo ... sources/views/Utils.s

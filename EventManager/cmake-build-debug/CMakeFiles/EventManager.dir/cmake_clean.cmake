@@ -53,6 +53,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj.d"
+  "CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj"
+  "CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj"
   "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj.d"
   "CMakeFiles/EventManager.dir/sources/views/View.cpp.obj"
