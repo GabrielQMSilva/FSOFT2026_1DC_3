@@ -95,6 +95,9 @@ void Controller::handleClienteLogin() {
                     break;
             }
         } while (op != 0);
+    } catch (InvalidDataException& e) {
+        string msg = e.what();
+        view.printMessage(&msg);
     } catch (NoDataException& e) {
         string msg = e.what();
         view.printMessage(&msg);

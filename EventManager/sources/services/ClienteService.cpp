@@ -17,9 +17,6 @@ ClienteService::ClienteService(IGestoraEventosRepository* repo) {
 
 void ClienteService::add(const ClienteInDTO & obj){
     GestoraEventos *model = this->repo->getModel();
-    if (model->getBlacklist().contains(obj.nome)) {
-        throw InvalidDataException("Registo recusado: nome em blacklist.");
-    }
     ClienteContainer& container = model->getClientes();
     container.add(obj.nome, obj.email, obj.password);
 }
@@ -60,6 +57,9 @@ void ClienteService::getClienteByPassword(string password, ClienteOutDTO & obj) 
 
 void ClienteService::getClienteByNomeAndPassword(string nome, string password, ClienteOutDTO & obj) {
     GestoraEventos *model = this->repo->getModel();
+    if (model->getBlacklist().contains(nome)) {
+        throw InvalidDataException("Login recusado: nome em blacklist.");
+    }
     ClienteContainer &container = model->getClientes();
     Cliente * cliente = container.getClienteByNomeAndPassword(nome, password);
     ClienteMapper::model2DTO(cliente, obj);
