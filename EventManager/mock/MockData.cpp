@@ -11,6 +11,12 @@ void MockData::insertClientes(ClienteContainer& container) {
     }
 }
 
+void MockData::insertOrganizadores(OrganizadorContainer& container) {
+    for (size_t i = 0; i < nomeOrganizadores.size(); i++) {
+        container.add(nomeClientes[i], emailOrganizadores[i], passwordOrganizadores[i]);
+    }
+}
+
 void MockData::insertEventos(EventoContainer& container) {
     vector<Date> horarios = {
         Date(2026, 7, 15, 20, 0),

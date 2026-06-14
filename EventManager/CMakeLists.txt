@@ -153,10 +153,8 @@ set(DTO_SOURCE_FILES
 add_executable(EventManager main.cpp
         headers/model/Utilizador.h
         headers/model/Cliente.h
-        sources/model/Cliente.cpp
         headers/model/ClienteContainer.h
         headers/model/Organizador.h
-        sources/model/Organizador.cpp
         headers/model/OrganizadorContainer.h
         headers/model/Date.h
         sources/model/Date.cpp

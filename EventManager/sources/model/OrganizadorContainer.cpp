@@ -9,6 +9,7 @@
 #include <sstream>
 #include "OrganizadorContainer.h"
 #include "NoDataException.h"
+#include "DuplicatedDataException.h"
 using namespace std;
 
 int OrganizadorContainer::organizadorCounter = 0;
@@ -50,7 +51,14 @@ string OrganizadorContainer::generateOrganizadorID(OrganizadorContainer& contain
     return id;
 }
 
-void OrganizadorContainer::add(Organizador* organizador) {
+void OrganizadorContainer::add(const string& nome, const string& email, const string& password) {
+    for (Organizador* p : organizadores) {
+        if (p->getEmail() == email) {
+            throw DuplicatedDataException(email);
+        }
+    }
+    string ID = generateOrganizadorID(*this);
+    Organizador* organizador = new Organizador(ID, nome, email, password);
     this->organizadores.push_back(organizador);
 }
 

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager
+CMAKE_SOURCE_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -416,30 +416,6 @@ sources/model/ArtistaContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.s
 .PHONY : sources/model/ArtistaContainer.cpp.s
 
-sources/model/Cliente.obj: sources/model/Cliente.cpp.obj
-.PHONY : sources/model/Cliente.obj
-
-# target to build an object file
-sources/model/Cliente.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.obj
-.PHONY : sources/model/Cliente.cpp.obj
-
-sources/model/Cliente.i: sources/model/Cliente.cpp.i
-.PHONY : sources/model/Cliente.i
-
-# target to preprocess a source file
-sources/model/Cliente.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.i
-.PHONY : sources/model/Cliente.cpp.i
-
-sources/model/Cliente.s: sources/model/Cliente.cpp.s
-.PHONY : sources/model/Cliente.s
-
-# target to generate assembly for a file
-sources/model/Cliente.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Cliente.cpp.s
-.PHONY : sources/model/Cliente.cpp.s
-
 sources/model/ClienteContainer.obj: sources/model/ClienteContainer.cpp.obj
 .PHONY : sources/model/ClienteContainer.obj
 
@@ -583,30 +559,6 @@ sources/model/IDGenerator.s: sources/model/IDGenerator.cpp.s
 sources/model/IDGenerator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.s
 .PHONY : sources/model/IDGenerator.cpp.s
-
-sources/model/Organizador.obj: sources/model/Organizador.cpp.obj
-.PHONY : sources/model/Organizador.obj
-
-# target to build an object file
-sources/model/Organizador.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.obj
-.PHONY : sources/model/Organizador.cpp.obj
-
-sources/model/Organizador.i: sources/model/Organizador.cpp.i
-.PHONY : sources/model/Organizador.i
-
-# target to preprocess a source file
-sources/model/Organizador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.i
-.PHONY : sources/model/Organizador.cpp.i
-
-sources/model/Organizador.s: sources/model/Organizador.cpp.s
-.PHONY : sources/model/Organizador.s
-
-# target to generate assembly for a file
-sources/model/Organizador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Organizador.cpp.s
-.PHONY : sources/model/Organizador.cpp.s
 
 sources/model/OrganizadorContainer.obj: sources/model/OrganizadorContainer.cpp.obj
 .PHONY : sources/model/OrganizadorContainer.obj
@@ -893,9 +845,6 @@ help:
 	@echo ... sources/model/ArtistaContainer.obj
 	@echo ... sources/model/ArtistaContainer.i
 	@echo ... sources/model/ArtistaContainer.s
-	@echo ... sources/model/Cliente.obj
-	@echo ... sources/model/Cliente.i
-	@echo ... sources/model/Cliente.s
 	@echo ... sources/model/ClienteContainer.obj
 	@echo ... sources/model/ClienteContainer.i
 	@echo ... sources/model/ClienteContainer.s
@@ -914,9 +863,6 @@ help:
 	@echo ... sources/model/IDGenerator.obj
 	@echo ... sources/model/IDGenerator.i
 	@echo ... sources/model/IDGenerator.s
-	@echo ... sources/model/Organizador.obj
-	@echo ... sources/model/Organizador.i
-	@echo ... sources/model/Organizador.s
 	@echo ... sources/model/OrganizadorContainer.obj
 	@echo ... sources/model/OrganizadorContainer.i
 	@echo ... sources/model/OrganizadorContainer.s

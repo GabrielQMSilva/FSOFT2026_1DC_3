@@ -17,7 +17,7 @@ private:
 
 public:
     list<Organizador*>& getAll();
-    void add(Organizador* organizador);
+    void add(const string& nome, const string& email, const string& password);
     bool idVerification(const string& ID);
     static string generateOrganizadorID(OrganizadorContainer& container);
     Organizador* getOrganizador(const string& ID);

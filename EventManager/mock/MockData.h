@@ -115,6 +115,24 @@ private:
       "Chapelas Froiz",
       };
 
+  const vector<string> nomeOrganizadores = {
+      "Murias",
+      "Gabri",
+      "Joao Jose",
+  };
+
+  const vector<string> emailOrganizadores = {
+      "1240712@isep.ipp.pt",
+      "1241190@isep.ipp.pt",
+      "1240715@isep.ipp.pt",
+  };
+
+  const vector<string> passwordOrganizadores ={
+      "BANGALO2026",
+      "CABANA2026",
+      "EDIFICIO2026",
+  };
+
   const vector<string> nomeEventos = {
       "Rock In ISEP",
       "Top Pop",
@@ -152,6 +170,7 @@ private:
   };
 
   void insertClientes(ClienteContainer& container);
+  void insertOrganizadores(OrganizadorContainer& container);
   void insertArtistas(ArtistaContainer& container);
   void insertEventos(EventoContainer& container);
   Evento * getRandomEvento(EventoContainer& container);
