@@ -35,8 +35,6 @@ public:
     const string& getID() const;
     const string& getNome() const;
     const string& getTipo() const;
-    const string& getStrings() const;
-    const string& getInts() const;
     const Date& getHorario() const;
     float getPreco() const;
     int getLotacao() const;

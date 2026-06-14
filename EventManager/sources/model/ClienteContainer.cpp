@@ -43,13 +43,6 @@ Cliente* ClienteContainer::searchByNome(const string& nome){
     return NULL;
 }
 
-Cliente* ClienteContainer::searchByPassword(const string& password){
-    for (Cliente* c : clientes) {
-        if (c->getPasswaord() == password) return c;
-    }
-    return NULL;
-}
-
 string ClienteContainer::generateClienteID(ClienteContainer& container) {
     string id;
     do {
@@ -80,30 +73,12 @@ list<Cliente*>& ClienteContainer::getAll() {
     return clientes;
 }
 
-Cliente* ClienteContainer::getClienteByID(const string& ID) {
-    Cliente* cliente = search(ID);
-    if (cliente != NULL) {
-        return cliente;
-    }else{
-        throw NoDataException("Cliente não existe.");
-    }
-}
-
 Cliente* ClienteContainer::getClienteByNome(const string& nome) {
     Cliente* cliente = searchByNome(nome);
     if (cliente != NULL) {
         return cliente;
     } else {
         throw NoDataException(nome);
-    }
-}
-
-Cliente* ClienteContainer::getClienteByPassword(const string& password) {
-    Cliente* cliente = searchByPassword(password);
-    if (cliente != NULL) {
-        return cliente;
-    } else {
-        throw NoDataException("password");
     }
 }
 
@@ -126,7 +101,7 @@ Cliente *ClienteContainer::remove(const string &ID) {
             break;
         }
     }
-    if (it == this->clientes.end()) {
+    if (it != this->clientes.end()) {
         cliente = *it;
         this->clientes.erase(it);
         delete cliente;

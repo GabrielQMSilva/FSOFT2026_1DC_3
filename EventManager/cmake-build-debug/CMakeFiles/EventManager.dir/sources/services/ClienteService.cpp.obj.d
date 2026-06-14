@@ -145,7 +145,6 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/ClienteContainer.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Cliente.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Utilizador.h \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Historico.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/ArtistaContainer.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Artista.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/dto/ClienteInDTO.h \
@@ -163,6 +162,5 @@ CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Blacklist.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/mappers/ClienteMapper.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/model/Cliente.h \
- C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/DataConsistencyException.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/DuplicatedDataException.h \
  C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/headers/exceptions/InvalidDataException.h

@@ -60,24 +60,6 @@ void EventoContainer::add(const string& nome, const string& tipo, ArtistaContain
     this->eventos.push_back(evento);
 }
 
-Evento* EventoContainer::getEventoORG(const string& ID) {
-    Evento* evento = search(ID);
-    if (evento != NULL) {
-        return evento;
-    }else{
-        throw NoDataException("Evento não existe.");
-    }
-}
-
-Evento* EventoContainer::getEventoCL(const string& nome) {
-    Evento* evento = search(nome);
-    if (evento != NULL) {
-        return evento;
-    }else{
-        throw NoDataException("Evento não existe.");
-    }
-}
-
 Evento* EventoContainer::remove(const string& ID) {
     Evento* evento = NULL;
     list<Evento*>::iterator it = this->eventos.begin();

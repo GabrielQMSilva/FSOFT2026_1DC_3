@@ -27,15 +27,6 @@ RecursoMaterial* RecursoMaterialContainer::search(const string& tipo){
     return NULL;
 }
 
-RecursoMaterial* RecursoMaterialContainer::getRM(const string& ID) {
-    RecursoMaterial* recursoMaterial = search(ID);
-    if (recursoMaterial != NULL) {
-        return recursoMaterial;
-    }else{
-        throw NoDataException("Recurso não existe.");
-    }
-}
-
 RecursoMaterial* RecursoMaterialContainer::remove(const string &ID) {
     RecursoMaterial* recursoMaterial = NULL;
     list<RecursoMaterial*>::iterator it = this->recursos.begin();
@@ -44,7 +35,7 @@ RecursoMaterial* RecursoMaterialContainer::remove(const string &ID) {
             break;
         }
     }
-    if (it == this->recursos.end()) {
+    if (it != this->recursos.end()) {
         recursoMaterial = *it;
         this->recursos.erase(it);
         delete recursoMaterial;

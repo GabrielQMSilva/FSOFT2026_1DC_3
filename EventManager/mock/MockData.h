@@ -301,10 +301,7 @@ private:
 
   void insertClientes(ClienteContainer& container);
   void insertOrganizadores(OrganizadorContainer& container);
-  void insertArtistas(ArtistaContainer& container);
   void insertEventos(EventoContainer& container);
-  Evento * getRandomEvento(EventoContainer& container);
-  void insertAluguerMaterial(AluguerMaterialContainer& alugueres, ArtistaContainer& artistas, EventoContainer& eventos);
 
 public:
   void generateData(GestoraEventos& gestoraEventos);

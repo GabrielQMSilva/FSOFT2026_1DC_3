@@ -75,15 +75,6 @@ Organizador* OrganizadorContainer::getOrganizador(const string& ID) {
     }
 }
 
-Organizador* OrganizadorContainer::getOrganizadorPassword(const string& password) {
-    Organizador* organizador = search(password);
-    if (organizador != NULL) {
-        return organizador;
-    }else{
-        throw NoDataException("Organizador não existe.");
-    }
-}
-
 Organizador* OrganizadorContainer::getOrganizadorByEmailAndPassword(const string& email, const string& password) {
     for (Organizador* o : organizadores) {
         if (o->getEmail() == email && o->getPasswaord() == password) {
@@ -103,7 +94,7 @@ Organizador *OrganizadorContainer::remove(const string &ID) {
             break;
         }
     }
-    if (it == this->organizadores.end()) {
+    if (it != this->organizadores.end()) {
         organizador = *it;
         this->organizadores.erase(it);
         delete organizador;

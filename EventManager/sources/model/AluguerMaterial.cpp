@@ -8,13 +8,6 @@
 #include "AluguerMaterial.h"
 using namespace std;
 
-void AluguerMaterial::setAluguerMaterial(const string& ID, bool estado, Artista* artista) {
-    this->ID = ID;
-    this->estado = estado;
-    this->artista = artista;
-    /* Vai existir validação de dados para o artista quando o ArtistaContainer estiver feito */
-}
-
 void AluguerMaterial::setEstado(bool estado) {
     this->estado = estado;
 }
@@ -30,7 +23,6 @@ const string& AluguerMaterial::getID() {
 
 const Date& AluguerMaterial::getHorario() {
     return dataInicio;
-    return dataFim;
 }
 
 bool AluguerMaterial::operator == (const string & ID) const{

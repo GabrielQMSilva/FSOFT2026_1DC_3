@@ -26,12 +26,10 @@ public:
     void setNome(const string& nome);
     void setEmail(const string& email);
     void setPassword(const string& password);
-    void setID();
     const string& getNome();
     const string& getEmail();
     const string& getPasswaord();
     const string& getID();
-    void terminarSessao();
 
     virtual bool operator == (const string& ID) const;
 };

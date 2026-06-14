@@ -71,11 +71,6 @@ void Utilizador::setPassword(const string& password) {
     this->password = password;
 }
 
-void Utilizador::setID() {
-    this->ID = ID;
-}
-
-
 const string& Utilizador::getNome() {
     return nome;
 }
@@ -96,8 +91,3 @@ bool Utilizador::operator == (const string & ID) const{
     return false;
 }
 
-void Utilizador::terminarSessao() {
-    cout << "A encerrar sessão... " << endl;
-    system("cls");
-    cout << "Sessão encerrada. " << endl;
-}

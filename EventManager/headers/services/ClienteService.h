@@ -21,9 +21,7 @@ public:
     void add(const ClienteInDTO & obj);
     void getAll(list<ClienteOutDTO>& list);
     void getEventos(list<Evento*>& eventos);
-    void getClienteByID(string ID, ClienteOutDTO & obj);
     void getClienteByNome(string nome, ClienteOutDTO & obj);
-    void getClienteByPassword(string password, ClienteOutDTO & obj);
     void getClienteByNomeAndPassword(string nome, string password, ClienteOutDTO & obj);
     void remove(string ID, ClienteOutDTO & obj);
     void update(string nome, ClienteInDTO & obj);

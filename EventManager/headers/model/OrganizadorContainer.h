@@ -21,7 +21,6 @@ public:
     bool idVerification(const string& ID);
     static string generateOrganizadorID(OrganizadorContainer& container);
     Organizador* getOrganizador(const string& ID);
-    Organizador* getOrganizadorPassword(const string& password);
     Organizador* getOrganizadorByEmailAndPassword(const string& email, const string& password);
     Organizador* remove(const string& ID);
     Organizador* update(const string& nome, const string& email, const string& password);

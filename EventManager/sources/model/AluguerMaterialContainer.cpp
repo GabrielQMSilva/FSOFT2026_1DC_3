@@ -58,15 +58,6 @@ list<AluguerMaterial*>& AluguerMaterialContainer::getAll() {
     return alugueres;
 }
 
-AluguerMaterial* AluguerMaterialContainer::getAM(const string& ID) {
-    AluguerMaterial* aluguerMaterial = search(ID);
-    if (aluguerMaterial != NULL) {
-        return aluguerMaterial;
-    }else{
-        throw NoDataException("Aluguer não existe.");
-    }
-}
-
 AluguerMaterial* AluguerMaterialContainer::remove(const string &ID) {
     AluguerMaterial* aluguerMaterial = NULL;
     list<AluguerMaterial*>::iterator it = this->alugueres.begin();
@@ -75,7 +66,7 @@ AluguerMaterial* AluguerMaterialContainer::remove(const string &ID) {
             break;
         }
     }
-    if (it == this->alugueres.end()) {
+    if (it != this->alugueres.end()) {
         aluguerMaterial = *it;
         this->alugueres.erase(it);
         delete aluguerMaterial;

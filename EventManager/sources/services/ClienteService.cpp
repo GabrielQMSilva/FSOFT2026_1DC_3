@@ -5,7 +5,6 @@
 #include <list>
 #include "ClienteService.h"
 #include "ClienteMapper.h"
-#include "DataConsistencyException.h"
 #include "DuplicatedDataException.h"
 #include "InvalidDataException.h"
 
@@ -34,24 +33,10 @@ void ClienteService::getAll(list<ClienteOutDTO>& dtos) {
     ClienteMapper::listModel2listDTO(Clientes, dtos);
 }
 
-void ClienteService::getClienteByID(string ID, ClienteOutDTO & obj) {
-    GestoraEventos *model = this->repo->getModel();
-    ClienteContainer &container = model->getClientes();
-    Cliente * Cliente = container.getClienteByID(ID);
-    ClienteMapper::model2DTO(Cliente, obj);
-}
-
 void ClienteService::getClienteByNome(string nome, ClienteOutDTO & obj) {
     GestoraEventos *model = this->repo->getModel();
     ClienteContainer &container = model->getClientes();
     Cliente * Cliente = container.getClienteByNome(nome);
-    ClienteMapper::model2DTO(Cliente, obj);
-}
-
-void ClienteService::getClienteByPassword(string password, ClienteOutDTO & obj) {
-    GestoraEventos *model = this->repo->getModel();
-    ClienteContainer &container = model->getClientes();
-    Cliente * Cliente = container.getClienteByPassword(password);
     ClienteMapper::model2DTO(Cliente, obj);
 }
 
@@ -64,21 +49,6 @@ void ClienteService::getClienteByNomeAndPassword(string nome, string password, C
     Cliente * cliente = container.getClienteByNomeAndPassword(nome, password);
     ClienteMapper::model2DTO(cliente, obj);
 }
-
-/*void ClienteService::remove(string ID, ClienteOutDTO & obj) {
-    GestoraEventos *model = this->repo->getModel();
-    ClienteContainer &container = model->getClientes();
-    Cliente * Cliente = container.get(number);
-    EnrollContainer &enroll_container = model->getEnrollContainer();
-    list<tuple<Subject *, int>> enroll = enroll_container.get(number);
-    if(enroll.empty()) {
-        ClienteMapper::model2DTO(Cliente, obj);
-    }
-    else{
-        string msg = "Cliente: " + to_string(number);
-        throw DataConsistencyException(msg);
-    }
-}*/
 
 void ClienteService::update(string nome, ClienteInDTO & obj) {
     GestoraEventos *model = this->repo->getModel();

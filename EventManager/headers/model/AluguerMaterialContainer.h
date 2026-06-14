@@ -20,7 +20,6 @@ public:
     void add(AluguerMaterial* aluguerMaterial);
     bool idVerification(const string& ID);
     static string generateAluguerID(AluguerMaterialContainer& container);
-    AluguerMaterial* getAM(const string& ID);
     AluguerMaterial* remove(const string& ID);
     AluguerMaterial* update(const string& ID, bool estado);
 

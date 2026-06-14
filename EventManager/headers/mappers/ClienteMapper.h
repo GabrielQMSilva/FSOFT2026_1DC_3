@@ -5,9 +5,11 @@
 #ifndef CLIENTEMAPPER_H
 #define CLIENTEMAPPER_H
 
+#include <list>
 #include "Cliente.h"
 #include "ClienteOutDTO.h"
 #include "ClienteInDTO.h"
+using namespace std;
 
 
 class ClienteMapper{

@@ -22,8 +22,6 @@ public:
     void add(const string& nome, const string& tipo, ArtistaContainer& listaArtistas, int lotacao, float preco, Date& horario);
     bool idVerification(const string& ID);
     static string generateEventoID(EventoContainer& container);
-    Evento* getEventoORG(const string& ID);
-    Evento* getEventoCL(const string& nome);
     Evento* update(const string& nome, const string& tipo, const string& ID, ArtistaContainer& listaArtistas, int lotacao, Date& horario);
     Evento* remove(const string& ID);
 

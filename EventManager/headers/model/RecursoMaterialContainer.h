@@ -17,7 +17,6 @@ private:
 public:
     list<RecursoMaterial*>& getAll();
     void add(RecursoMaterial* recursoMaterial);
-    RecursoMaterial* getRM(const string& tipo);
     RecursoMaterial* remove(const string& tipo);
     RecursoMaterial* update(const string& tipo, int quantdade);
 

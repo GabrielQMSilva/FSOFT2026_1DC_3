@@ -20,10 +20,10 @@ bool Date:: isLeapYear(int year){
 }
 bool Date::isValid(int year, int month, int day,int hour,int minute){
 	bool result = true;
-	if (minute < 0 && minute > 59) {
+	if (minute < 0 || minute > 59) {
 		result = false;
 	}
-	if (  hour < 0 && hour > 23 ) {
+	if (hour < 0 || hour > 23) {
 		result = false;
 	}
 	if(day <= 0 || day > 31 || month <= 0 || month > 12){
