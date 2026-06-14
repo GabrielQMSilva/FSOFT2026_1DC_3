@@ -11,9 +11,6 @@ using namespace std;
 int main() {
     GestoraEventosRepositoryMemory * repo = GestoraEventosRepositoryMemory::getInstance();
 
-    MockData mockData;
-    mockData.generateData(*repo->getModel());
-
     ClienteService *clienteService = new ClienteService(repo);
     EventoService *eventoService = new EventoService(repo);
     OrganizadorService *organizadorService = new OrganizadorService(repo);
