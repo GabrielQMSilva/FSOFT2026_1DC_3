@@ -3,10 +3,13 @@
 //
 #include "MockData.h"
 #include "Artista.h"
+#include <algorithm>
 
 void MockData::insertClientes(ClienteContainer& container) {
     for (size_t i = 0; i < nomeClientes.size(); i++) {
-        string email = nomeClientes[i] + "@email.com";
+        string emailPrefix = nomeClientes[i];
+        emailPrefix.erase(remove(emailPrefix.begin(), emailPrefix.end(), ' '), emailPrefix.end());
+        string email = emailPrefix + "@gmail.com";
         container.add(nomeClientes[i], email, "ELTEACH2026");
     }
 }
