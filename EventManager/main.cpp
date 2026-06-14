@@ -2,6 +2,7 @@
 #include "GestoraEventos.h"
 #include "MockData.h"
 #include "Controller.h"
+#include "OrganizadorService.h"
 #include "GestoraEventosRepositoryMemory.h"
 
 using namespace std;
@@ -13,11 +14,13 @@ int main() {
     mockData.generateData(*repo->getModel());
 
     ClienteService *clienteService = new ClienteService(repo);
+    OrganizadorService *organizadorService = new OrganizadorService(repo);
 
-    Controller controller(clienteService);
+    Controller controller(clienteService, organizadorService);
     controller.run();
 
     delete clienteService;
+    delete organizadorService;
 
     return 0;
 }

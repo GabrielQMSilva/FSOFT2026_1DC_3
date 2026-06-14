@@ -13,7 +13,7 @@ void MockData::insertClientes(ClienteContainer& container) {
 
 void MockData::insertOrganizadores(OrganizadorContainer& container) {
     for (size_t i = 0; i < nomeOrganizadores.size(); i++) {
-        container.add(nomeClientes[i], emailOrganizadores[i], passwordOrganizadores[i]);
+        container.add(nomeOrganizadores[i], emailOrganizadores[i], passwordOrganizadores[i]);
     }
 }
 
@@ -49,5 +49,6 @@ void MockData::insertEventos(EventoContainer& container) {
 void MockData::generateData(GestoraEventos& gestoraEventos){
     srand(time(NULL));
     insertClientes(gestoraEventos.getClientes());
+    insertOrganizadores(gestoraEventos.getOrganizadores());
     insertEventos(gestoraEventos.getEventos());
 }

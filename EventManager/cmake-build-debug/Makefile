@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager"
+CMAKE_SOURCE_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -704,29 +704,29 @@ sources/services/ClienteService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.s
 .PHONY : sources/services/ClienteService.cpp.s
 
-sources/services/SessaoService.obj: sources/services/SessaoService.cpp.obj
-.PHONY : sources/services/SessaoService.obj
+sources/services/OrganizadorService.obj: sources/services/OrganizadorService.cpp.obj
+.PHONY : sources/services/OrganizadorService.obj
 
 # target to build an object file
-sources/services/SessaoService.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.obj
-.PHONY : sources/services/SessaoService.cpp.obj
+sources/services/OrganizadorService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj
+.PHONY : sources/services/OrganizadorService.cpp.obj
 
-sources/services/SessaoService.i: sources/services/SessaoService.cpp.i
-.PHONY : sources/services/SessaoService.i
+sources/services/OrganizadorService.i: sources/services/OrganizadorService.cpp.i
+.PHONY : sources/services/OrganizadorService.i
 
 # target to preprocess a source file
-sources/services/SessaoService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.i
-.PHONY : sources/services/SessaoService.cpp.i
+sources/services/OrganizadorService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.i
+.PHONY : sources/services/OrganizadorService.cpp.i
 
-sources/services/SessaoService.s: sources/services/SessaoService.cpp.s
-.PHONY : sources/services/SessaoService.s
+sources/services/OrganizadorService.s: sources/services/OrganizadorService.cpp.s
+.PHONY : sources/services/OrganizadorService.s
 
 # target to generate assembly for a file
-sources/services/SessaoService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/SessaoService.cpp.s
-.PHONY : sources/services/SessaoService.cpp.s
+sources/services/OrganizadorService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.s
+.PHONY : sources/services/OrganizadorService.cpp.s
 
 sources/views/ClienteView.obj: sources/views/ClienteView.cpp.obj
 .PHONY : sources/views/ClienteView.obj
@@ -881,9 +881,9 @@ help:
 	@echo ... sources/services/ClienteService.obj
 	@echo ... sources/services/ClienteService.i
 	@echo ... sources/services/ClienteService.s
-	@echo ... sources/services/SessaoService.obj
-	@echo ... sources/services/SessaoService.i
-	@echo ... sources/services/SessaoService.s
+	@echo ... sources/services/OrganizadorService.obj
+	@echo ... sources/services/OrganizadorService.i
+	@echo ... sources/services/OrganizadorService.s
 	@echo ... sources/views/ClienteView.obj
 	@echo ... sources/views/ClienteView.i
 	@echo ... sources/views/ClienteView.s

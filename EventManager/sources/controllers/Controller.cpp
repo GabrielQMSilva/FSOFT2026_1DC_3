@@ -14,8 +14,9 @@
 
 using namespace std;
 
-Controller::Controller(ClienteService *clienteService) {
+Controller::Controller(ClienteService *clienteService, OrganizadorService *organizadorService) {
     this->clienteService = clienteService;
+    this->organizadorService = organizadorService;
 }
 
 void Controller::handleClienteLogin() {
@@ -104,8 +105,36 @@ void Controller::handleClienteRegistration() {
 }
 
 void Controller::handleOrganizadorLogin() {
-    string msg = "Login de organizador ainda não implementado.";
-    view.printMessage(&msg);
+    string email    = Utils::getString("Email");
+    string password = Utils::getString("Password");
+    try {
+        Organizador* organizador = organizadorService->getOrganizadorByEmailAndPassword(email, password);
+
+        int op = -1;
+        do {
+            op = view.organizadorView();
+            switch (op) {
+                case 4: {
+                    list<Evento*> eventos;
+                    clienteService->getEventos(eventos);
+                    view.menuListaEventos(eventos);
+                    break;
+                }
+                case 6:
+                    op = 0;
+                    break;
+                default:
+                    if (op != 0) {
+                        string msg = "Funcionalidade não implementada.";
+                        view.printMessage(&msg);
+                    }
+                    break;
+            }
+        } while (op != 0);
+    } catch (NoDataException& e) {
+        string msg = e.what();
+        view.printMessage(&msg);
+    }
 }
 
 void Controller::run() {

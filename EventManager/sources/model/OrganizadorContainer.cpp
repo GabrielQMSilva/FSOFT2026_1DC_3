@@ -84,6 +84,15 @@ Organizador* OrganizadorContainer::getOrganizadorPassword(const string& password
     }
 }
 
+Organizador* OrganizadorContainer::getOrganizadorByEmailAndPassword(const string& email, const string& password) {
+    for (Organizador* o : organizadores) {
+        if (o->getEmail() == email && o->getPasswaord() == password) {
+            return o;
+        }
+    }
+    throw NoDataException("Email ou password incorretos.");
+}
+
 
 
 Organizador *OrganizadorContainer::remove(const string &ID) {

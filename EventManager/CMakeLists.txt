@@ -88,6 +88,8 @@ include_directories(
 set(SERVICES_SOURCE_FILES
         ${PROJECT_HEADERS_SERVICES_DIR}/ClienteService.h
         ${PROJECT_SOURCES_SERVICES_DIR}/ClienteService.cpp
+        ${PROJECT_HEADERS_SERVICES_DIR}/OrganizadorService.h
+        ${PROJECT_SOURCES_SERVICES_DIR}/OrganizadorService.cpp
 )
 
 set(PROJECT_HEADERS_VIEWS_DIR
@@ -190,15 +192,14 @@ add_executable(EventManager main.cpp
         headers/model/Historico.h
         sources/services/ClienteService.cpp
         headers/services/ClienteService.h
+        sources/services/OrganizadorService.cpp
+        headers/services/OrganizadorService.h
         headers/dto/ClienteInDTO.h
         headers/dto/ClienteOutDTO.h
         headers/mappers/ClienteMapper.h
         sources/mappers/ClienteMapper.cpp
         headers/model/GestoraEventos.h
         headers/repo/IGestoraEventosRepository.h
-        headers/dto/SessaoDTO.h
-        headers/services/SessaoService.h
-        sources/services/SessaoService.cpp
         headers/repo/GestoraEventosRepositoryMemory.h
         sources/repo/GestoraEventosRepositoryMemory.cpp
         headers/exceptions/DuplicatedDataException.h
