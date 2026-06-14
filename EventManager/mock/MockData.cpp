@@ -29,9 +29,9 @@ void MockData::insertEventos(EventoContainer& container) {
 
     // Artist names per event, grouped by genre
     vector<vector<string>> artistasPorEvento = {
-        {"Arctic Monkeys", "Kings Of Leon", "Van Halen", "Black Sabbath", "Pearl Jam"},         // Rock In ISEP
+        {"Arctic Monkeys", "Kings of Leon", "Van Halen", "Black Sabbath", "Pearl Jam"},        // Rock In ISEP
         {"Olivia Rodrigo", "Harry Styles", "ABBA", "Duran Duran", "a-ha"},                     // Top Pop
-        {"Red Hot Chili Peppers", "Pink Floyd", "Radiohead", "The Strokes", "Dire Straits"},  // Alchemy Live
+        {"Red Hot Chili Peppers", "Pink Floyd", "Radiohead", "The Strokes", "Dire Straits"},   // Alchemy Live
         {"Rolling Stones", "U2", "David Bowie", "Queen", "The Police"},                        // Live Aid
         {"LON3R JOHNY", "Wet Bed Gang", "Julinho Ksd", "Yeat", "twikipedia"},                  // Trap Irony
         {"Yamandu Costa", "Django Reinhardt", "John Mayer", "Laufey", "Mazzy Star"},           // Jazzy Feel Good
@@ -40,7 +40,16 @@ void MockData::insertEventos(EventoContainer& container) {
     vector<ArtistaContainer> artistaContainers(nomeEventos.size());
     for (size_t i = 0; i < nomeEventos.size(); i++) {
         for (const string& nome : artistasPorEvento[i]) {
-            artistaContainers[i].add(new Artista(nome, 1, "Agencia", 1000.0f));
+            int membros = 1;
+            float artistBudget = 1000.0f;
+            for (size_t j = 0; j < nomeArtistas.size(); j++) {
+                if (nomeArtistas[j] == nome) {
+                    membros = numeroMembros[j];
+                    artistBudget = budget[j];
+                    break;
+                }
+            }
+            artistaContainers[i].add(new Artista(nome, membros, "Agencia", artistBudget));
         }
         container.add(nomeEventos[i], tipoEventos[i], artistaContainers[i], lotacaoEventos[i], (float)precoEventos[i], horarios[i]);
     }

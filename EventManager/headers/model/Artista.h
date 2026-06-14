@@ -21,6 +21,8 @@ public:
     Artista(const string& nome, int membros, const string& agencia, float budget);
     void setArtista(const string& nome, int membros, const string& agencia, float budget);
     const string& getNome();
+    int getMembros();
+    float getBudget();
 
     bool operator == (const string& nome) const;
 

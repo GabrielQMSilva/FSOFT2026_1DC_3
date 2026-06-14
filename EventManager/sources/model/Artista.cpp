@@ -45,6 +45,14 @@ const string& Artista::getNome() {
     return nome;
 }
 
+int Artista::getMembros() {
+    return membros;
+}
+
+float Artista::getBudget() {
+    return budget;
+}
+
 bool Artista::operator == (const string & nome) const{
     if(this->nome == nome){
         return true;

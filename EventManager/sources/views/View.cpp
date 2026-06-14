@@ -142,6 +142,40 @@ int View::menuDetalheEvento(Evento* evento) {
     return op;
 }
 
+void View::menuDetalheEventoOrganizador(Evento* evento) {
+    int year, month, day, hour, minute;
+    evento->getHorario().getDate(year, month, day, hour, minute);
+
+    cout << "\n\n** DETALHES DO EVENTO **\n";
+    cout << "Nome  : " << evento->getNome() << "\n";
+    cout << "Tipo  : " << evento->getTipo() << "\n";
+    cout << "Data  : " << setfill('0')
+         << setw(2) << day << "/"
+         << setw(2) << month << "/"
+         << year
+         << " as "
+         << setw(2) << hour << ":"
+         << setw(2) << minute << "\n";
+    cout << "Preco : " << fixed << setprecision(2) << evento->getPreco() << " EUR\n";
+    cout << "Lotacao: " << evento->getLotacao() << " lugares\n";
+
+    cout << "\nArtistas:\n";
+    list<Artista*>& artistas = evento->getListaArtistas().getAll();
+    if (artistas.empty()) {
+        cout << "  (sem artistas definidos)\n";
+    } else {
+        for (Artista* a : artistas) {
+            cout << "  - " << a->getNome()
+                 << " | Membros: " << a->getMembros()
+                 << " | Budget: " << fixed << setprecision(2) << a->getBudget() << " EUR\n";
+        }
+    }
+
+    cout << "\nPressione Enter para voltar...";
+    cin.ignore();
+    cin.get();
+}
+
 void View::printMessage(string *msg) {
     cout << *msg << endl;
 }

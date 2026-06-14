@@ -129,7 +129,12 @@ void Controller::handleOrganizadorLogin() {
                 case 4: {
                     list<Evento*> eventos;
                     clienteService->getEventos(eventos);
-                    view.menuListaEventos(eventos);
+                    int escolha = view.menuListaEventos(eventos);
+                    if (escolha != 0) {
+                        auto it = eventos.begin();
+                        advance(it, escolha - 1);
+                        view.menuDetalheEventoOrganizador(*it);
+                    }
                     break;
                 }
                 case 5: {

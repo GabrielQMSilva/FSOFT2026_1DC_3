@@ -21,6 +21,7 @@ public:
     int carrinhoView(list<pair<Evento*, int>>& carrinho);
     int menuListaEventos(list<Evento*>& eventos);
     int menuDetalheEvento(Evento* evento);
+    void menuDetalheEventoOrganizador(Evento* evento);
     void printMessage(string* msg);
 };
 
