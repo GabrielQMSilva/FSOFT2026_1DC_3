@@ -204,6 +204,8 @@ add_executable(EventManager main.cpp
         headers/mappers/ClienteMapper.h
         sources/mappers/ClienteMapper.cpp
         headers/model/GestoraEventos.h
+        headers/model/Blacklist.h
+        sources/model/Blacklist.cpp
         headers/repo/IGestoraEventosRepository.h
         headers/repo/GestoraEventosRepositoryMemory.h
         sources/repo/GestoraEventosRepositoryMemory.cpp

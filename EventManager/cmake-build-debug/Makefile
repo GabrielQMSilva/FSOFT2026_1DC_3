@@ -416,6 +416,30 @@ sources/model/ArtistaContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.s
 .PHONY : sources/model/ArtistaContainer.cpp.s
 
+sources/model/Blacklist.obj: sources/model/Blacklist.cpp.obj
+.PHONY : sources/model/Blacklist.obj
+
+# target to build an object file
+sources/model/Blacklist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj
+.PHONY : sources/model/Blacklist.cpp.obj
+
+sources/model/Blacklist.i: sources/model/Blacklist.cpp.i
+.PHONY : sources/model/Blacklist.i
+
+# target to preprocess a source file
+sources/model/Blacklist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.i
+.PHONY : sources/model/Blacklist.cpp.i
+
+sources/model/Blacklist.s: sources/model/Blacklist.cpp.s
+.PHONY : sources/model/Blacklist.s
+
+# target to generate assembly for a file
+sources/model/Blacklist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.s
+.PHONY : sources/model/Blacklist.cpp.s
+
 sources/model/ClienteContainer.obj: sources/model/ClienteContainer.cpp.obj
 .PHONY : sources/model/ClienteContainer.obj
 
@@ -893,6 +917,9 @@ help:
 	@echo ... sources/model/ArtistaContainer.obj
 	@echo ... sources/model/ArtistaContainer.i
 	@echo ... sources/model/ArtistaContainer.s
+	@echo ... sources/model/Blacklist.obj
+	@echo ... sources/model/Blacklist.i
+	@echo ... sources/model/Blacklist.s
 	@echo ... sources/model/ClienteContainer.obj
 	@echo ... sources/model/ClienteContainer.i
 	@echo ... sources/model/ClienteContainer.s

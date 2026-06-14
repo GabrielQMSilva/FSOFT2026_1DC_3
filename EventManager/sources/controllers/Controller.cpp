@@ -11,6 +11,8 @@
 #include "NoDataException.h"
 #include "InvalidDataException.h"
 #include "DuplicatedDataException.h"
+#include <list>
+#include <string>
 
 using namespace std;
 
@@ -193,9 +195,46 @@ void Controller::handleOrganizadorLogin() {
                     }
                     break;
                 }
+                case 6: {
+                    int blOp = -1;
+                    do {
+                        list<string> blacklist;
+                        organizadorService->getBlacklist(blacklist);
+                        blOp = view.menuBlacklist(blacklist);
+                        switch (blOp) {
+                            case 1: {
+                                string nome = Utils::getString("Nome a adicionar");
+                                try {
+                                    organizadorService->addToBlacklist(nome);
+                                    string msg = "Nome adicionado a blacklist.";
+                                    view.printMessage(&msg);
+                                } catch (DuplicatedDataException& e) {
+                                    string msg = e.what();
+                                    view.printMessage(&msg);
+                                }
+                                break;
+                            }
+                            case 2: {
+                                string nome = Utils::getString("Nome a remover");
+                                try {
+                                    organizadorService->removeFromBlacklist(nome);
+                                    string msg = "Nome removido da blacklist.";
+                                    view.printMessage(&msg);
+                                } catch (NoDataException& e) {
+                                    string msg = e.what();
+                                    view.printMessage(&msg);
+                                }
+                                break;
+                            }
+                            default:
+                                break;
+                        }
+                    } while (blOp != 0);
+                    break;
+                }
                 default:
                     if (op != 0) {
-                        string msg = "Funcionalidade não implementada.";
+                        string msg = "Funcionalidade nao implementada.";
                         view.printMessage(&msg);
                     }
                     break;

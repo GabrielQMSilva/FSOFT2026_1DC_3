@@ -22,6 +22,7 @@ public:
     int menuListaEventos(list<Evento*>& eventos);
     int menuDetalheEvento(Evento* evento);
     void menuDetalheEventoOrganizador(Evento* evento);
+    int menuBlacklist(list<string>& blacklist);
     void printMessage(string* msg);
 };
 

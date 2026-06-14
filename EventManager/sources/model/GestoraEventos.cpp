@@ -19,6 +19,7 @@ GestoraEventos::GestoraEventos(const GestoraEventos& obj) {
     this->eventos = obj.eventos;
     this->alugueres = obj.alugueres;
     this->recursos = obj.recursos;
+    this->blacklist = obj.blacklist;
 }
 
 const string& GestoraEventos::getNome() const {
@@ -51,4 +52,8 @@ AluguerMaterialContainer & GestoraEventos::getAlugueres() {
 
 RecursoMaterialContainer & GestoraEventos::getRecursos() {
     return this->recursos;
+}
+
+Blacklist & GestoraEventos::getBlacklist() {
+    return this->blacklist;
 }

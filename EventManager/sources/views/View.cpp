@@ -71,11 +71,12 @@ int View::organizadorView() {
         cout << "3 - Remover Evento\n";
         cout << "4 - Listar Eventos\n";
         cout << "5 - Ver Clientes\n";
+        cout << "6 - Gerir Blacklist\n";
         cout << "\n0 - Logout\n";
 
         op = Utils::getNumber("Opcao");
 
-    }while(op < 0 || op > 5);
+    }while(op < 0 || op > 6);
     return op;
 };
 
@@ -174,6 +175,26 @@ void View::menuDetalheEventoOrganizador(Evento* evento) {
     cout << "\nPressione Enter para voltar...";
     cin.ignore();
     cin.get();
+}
+
+int View::menuBlacklist(list<string>& blacklist) {
+    int op = -1;
+    do {
+        cout << "\n\n** MENU BLACKLIST **\n";
+        if (blacklist.empty()) {
+            cout << "  (blacklist vazia)\n";
+        } else {
+            int idx = 1;
+            for (const string& nome : blacklist) {
+                cout << idx++ << " - " << nome << "\n";
+            }
+        }
+        cout << "\n1 - Adicionar Nome\n";
+        cout << "2 - Remover Nome\n";
+        cout << "0 - Voltar\n";
+        op = Utils::getNumber("Opcao");
+    } while (op < 0 || op > 2);
+    return op;
 }
 
 void View::printMessage(string *msg) {

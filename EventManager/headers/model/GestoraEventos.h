@@ -12,6 +12,7 @@
 #include "EventoContainer.h"
 #include "AluguerMaterialContainer.h"
 #include "RecursoMaterialContainer.h"
+#include "Blacklist.h"
 /* #include "BilheteContainer.h" */
 
 
@@ -24,6 +25,7 @@ private:
     EventoContainer eventos;
     AluguerMaterialContainer alugueres;
     RecursoMaterialContainer recursos;
+    Blacklist blacklist;
 
 public:
     GestoraEventos();
@@ -39,6 +41,7 @@ public:
     EventoContainer& getEventos();
     AluguerMaterialContainer& getAlugueres();
     RecursoMaterialContainer& getRecursos();
+    Blacklist& getBlacklist();
 };
 
 #endif //GESTORAEVENTOS_H

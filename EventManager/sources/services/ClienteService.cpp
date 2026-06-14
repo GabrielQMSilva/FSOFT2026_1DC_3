@@ -7,6 +7,7 @@
 #include "ClienteMapper.h"
 #include "DataConsistencyException.h"
 #include "DuplicatedDataException.h"
+#include "InvalidDataException.h"
 
 using namespace std;
 
@@ -16,6 +17,9 @@ ClienteService::ClienteService(IGestoraEventosRepository* repo) {
 
 void ClienteService::add(const ClienteInDTO & obj){
     GestoraEventos *model = this->repo->getModel();
+    if (model->getBlacklist().contains(obj.nome)) {
+        throw InvalidDataException("Registo recusado: nome em blacklist.");
+    }
     ClienteContainer& container = model->getClientes();
     container.add(obj.nome, obj.email, obj.password);
 }

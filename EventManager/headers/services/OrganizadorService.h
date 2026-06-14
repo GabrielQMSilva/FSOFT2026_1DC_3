@@ -5,8 +5,12 @@
 #ifndef ORGANIZADORSERVICE_H
 #define ORGANIZADORSERVICE_H
 
+#include <list>
+#include <string>
 #include "Organizador.h"
 #include "IGestoraEventosRepository.h"
+
+using namespace std;
 
 class OrganizadorService {
 private:
@@ -14,6 +18,9 @@ private:
 public:
     OrganizadorService(IGestoraEventosRepository* repo);
     Organizador* getOrganizadorByEmailAndPassword(const string& email, const string& password);
+    void addToBlacklist(const string& nome);
+    void removeFromBlacklist(const string& nome);
+    void getBlacklist(list<string>& nomes);
 };
 
 #endif //ORGANIZADORSERVICE_H
