@@ -15,6 +15,7 @@ public:
     EventoService(IGestoraEventosRepository* repo);
     void add(EventoInDTO& dto);
     void update(const string& ID, EventoInDTO& dto);
+    void remove(const string& ID);
 };
 
 #endif //EVENTOSERVICE_H

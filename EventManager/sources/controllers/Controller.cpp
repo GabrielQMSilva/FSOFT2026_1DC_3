@@ -174,6 +174,25 @@ void Controller::handleOrganizadorLogin() {
                     }
                     break;
                 }
+                case 3: {
+                    try {
+                        list<Evento*> eventos;
+                        clienteService->getEventos(eventos);
+                        int escolha = view.menuListaEventos(eventos);
+                        if (escolha != 0) {
+                            auto it = eventos.begin();
+                            advance(it, escolha - 1);
+                            string id = (*it)->getID();
+                            eventoService->remove(id);
+                            string msg = "Evento removido com sucesso!";
+                            view.printMessage(&msg);
+                        }
+                    } catch (NoDataException& e) {
+                        string msg = e.what();
+                        view.printMessage(&msg);
+                    }
+                    break;
+                }
                 default:
                     if (op != 0) {
                         string msg = "Funcionalidade não implementada.";
