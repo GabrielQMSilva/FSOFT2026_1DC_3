@@ -185,12 +185,12 @@ int View::menuBlacklist(list<string>& blacklist) {
             cout << "  (blacklist vazia)\n";
         } else {
             int idx = 1;
-            for (const string& nome : blacklist) {
-                cout << idx++ << " - " << nome << "\n";
+            for (const string& id : blacklist) {
+                cout << idx++ << " - " << id << "\n";
             }
         }
-        cout << "\n1 - Adicionar Nome\n";
-        cout << "2 - Remover Nome\n";
+        cout << "\n1 - Adicionar ID\n";
+        cout << "2 - Remover ID\n";
         cout << "0 - Voltar\n";
         op = Utils::getNumber("Opcao");
     } while (op < 0 || op > 2);

@@ -65,14 +65,6 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/EventoContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Date.h
         ${PROJECT_SOURCES_MODEL_DIR}/Date.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/AluguerMaterial.h
-        ${PROJECT_SOURCES_MODEL_DIR}/AluguerMaterial.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/AluguerMaterialContainer.h
-        ${PROJECT_SOURCES_MODEL_DIR}/AluguerMaterialContainer.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/RecursoMaterial.h
-        ${PROJECT_SOURCES_MODEL_DIR}/RecursoMaterial.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/RecursoMaterialContainer.h
-        ${PROJECT_SOURCES_MODEL_DIR}/RecursoMaterialContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/IDGenerator.h
         ${PROJECT_SOURCES_MODEL_DIR}/IDGenerator.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/GestoraEventos.h
@@ -166,12 +158,6 @@ add_executable(EventManager main.cpp
         headers/model/Artista.h
         sources/model/Artista.cpp
         headers/model/ArtistaContainer.h
-        headers/model/AluguerMaterial.h
-        sources/model/AluguerMaterial.cpp
-        headers/model/AluguerMaterialContainer.h
-        headers/model/RecursoMaterial.h
-        sources/model/RecursoMaterial.cpp
-        headers/model/RecursoMaterialContainer.h
         sources/model/ClienteContainer.cpp
         sources/model/Utilizador.cpp
         sources/views/View.cpp
@@ -182,16 +168,11 @@ add_executable(EventManager main.cpp
         sources/views/ClienteView.cpp
         headers/views/EventoView.h
         sources/views/EventoView.cpp
-        sources/model/AluguerMaterialContainer.cpp
         sources/model/ArtistaContainer.cpp
         sources/model/EventoContainer.cpp
         sources/model/OrganizadorContainer.cpp
-        sources/model/RecursoMaterialContainer.cpp
         headers/controllers/Controller.h
         sources/controllers/Controller.cpp
-        headers/model/IDGenerator.h
-        sources/model/IDGenerator.cpp
-        headers/model/Historico.h
         sources/services/ClienteService.cpp
         headers/services/ClienteService.h
         sources/services/OrganizadorService.cpp

@@ -29,6 +29,12 @@ void Controller::handleClienteLogin() {
         ClienteOutDTO sessao;
         clienteService->getClienteByNomeAndPassword(nome, password, sessao);
 
+        if (organizadorService->isBlacklisted(sessao.ID)) {
+            string msg = "Acesso negado: cliente na blacklist.";
+            view.printMessage(&msg);
+            return;
+        }
+
         list<pair<Evento*, int>> carrinho;
 
         int op = -1;
@@ -206,10 +212,13 @@ void Controller::handleOrganizadorLogin() {
                         blOp = view.menuBlacklist(blacklist);
                         switch (blOp) {
                             case 1: {
-                                string nome = Utils::getString("Nome a adicionar");
+                                string id = Utils::getString("ID do cliente a adicionar");
                                 try {
-                                    organizadorService->addToBlacklist(nome);
-                                    string msg = "Nome adicionado a blacklist.";
+                                    organizadorService->addToBlacklist(id);
+                                    string msg = "ID adicionado a blacklist.";
+                                    view.printMessage(&msg);
+                                } catch (NoDataException& e) {
+                                    string msg = e.what();
                                     view.printMessage(&msg);
                                 } catch (DuplicatedDataException& e) {
                                     string msg = e.what();
@@ -218,10 +227,10 @@ void Controller::handleOrganizadorLogin() {
                                 break;
                             }
                             case 2: {
-                                string nome = Utils::getString("Nome a remover");
+                                string id = Utils::getString("ID do cliente a remover");
                                 try {
-                                    organizadorService->removeFromBlacklist(nome);
-                                    string msg = "Nome removido da blacklist.";
+                                    organizadorService->removeFromBlacklist(id);
+                                    string msg = "ID removido da blacklist.";
                                     view.printMessage(&msg);
                                 } catch (NoDataException& e) {
                                     string msg = e.what();

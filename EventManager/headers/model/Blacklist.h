@@ -7,12 +7,12 @@ using namespace std;
 
 class Blacklist {
 private:
-    list<string> nomes;
+    list<string> ids;
 public:
     Blacklist();
-    void add(const string& nome);
-    void remove(const string& nome);
-    bool contains(const string& nome) const;
+    void add(const string& id);
+    void remove(const string& id);
+    bool contains(const string& id) const;
     list<string>& getAll();
 };
 

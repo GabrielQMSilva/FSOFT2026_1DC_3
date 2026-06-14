@@ -2,21 +2,21 @@
 
 Blacklist::Blacklist() {}
 
-void Blacklist::add(const string& nome) {
-    nomes.push_back(nome);
+void Blacklist::add(const string& id) {
+    ids.push_back(id);
 }
 
-void Blacklist::remove(const string& nome) {
-    nomes.remove(nome);
+void Blacklist::remove(const string& id) {
+    ids.remove(id);
 }
 
-bool Blacklist::contains(const string& nome) const {
-    for (const string& n : nomes) {
-        if (n == nome) return true;
+bool Blacklist::contains(const string& id) const {
+    for (const string& i : ids) {
+        if (i == id) return true;
     }
     return false;
 }
 
 list<string>& Blacklist::getAll() {
-    return nomes;
+    return ids;
 }

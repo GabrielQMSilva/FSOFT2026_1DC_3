@@ -17,8 +17,6 @@ GestoraEventos::GestoraEventos(const GestoraEventos& obj) {
     this->organizadores = obj.organizadores;
     this->artistas = obj.artistas;
     this->eventos = obj.eventos;
-    this->alugueres = obj.alugueres;
-    this->recursos = obj.recursos;
     this->blacklist = obj.blacklist;
 }
 
@@ -44,14 +42,6 @@ ArtistaContainer & GestoraEventos::getArtistas() {
 
 EventoContainer & GestoraEventos::getEventos() {
     return this->eventos;
-}
-
-AluguerMaterialContainer & GestoraEventos::getAlugueres() {
-    return this->alugueres;
-}
-
-RecursoMaterialContainer & GestoraEventos::getRecursos() {
-    return this->recursos;
 }
 
 Blacklist & GestoraEventos::getBlacklist() {

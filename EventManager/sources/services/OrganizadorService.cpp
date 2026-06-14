@@ -16,25 +16,32 @@ Organizador* OrganizadorService::getOrganizadorByEmailAndPassword(const string& 
     return container.getOrganizadorByEmailAndPassword(email, password);
 }
 
-void OrganizadorService::addToBlacklist(const string& nome) {
+void OrganizadorService::addToBlacklist(const string& id) {
     GestoraEventos* model = this->repo->getModel();
-    Blacklist& blacklist = model->getBlacklist();
-    if (blacklist.contains(nome)) {
-        throw DuplicatedDataException("Nome ja esta na blacklist: " + nome);
+    if (!model->getClientes().idVerification(id)) {
+        throw NoDataException("Cliente nao encontrado com ID: " + id);
     }
-    blacklist.add(nome);
+    Blacklist& blacklist = model->getBlacklist();
+    if (blacklist.contains(id)) {
+        throw DuplicatedDataException("ID ja esta na blacklist: " + id);
+    }
+    blacklist.add(id);
 }
 
-void OrganizadorService::removeFromBlacklist(const string& nome) {
+void OrganizadorService::removeFromBlacklist(const string& id) {
     GestoraEventos* model = this->repo->getModel();
     Blacklist& blacklist = model->getBlacklist();
-    if (!blacklist.contains(nome)) {
-        throw NoDataException("Nome nao encontrado na blacklist: " + nome);
+    if (!blacklist.contains(id)) {
+        throw NoDataException("ID nao encontrado na blacklist: " + id);
     }
-    blacklist.remove(nome);
+    blacklist.remove(id);
 }
 
-void OrganizadorService::getBlacklist(list<string>& nomes) {
+void OrganizadorService::getBlacklist(list<string>& ids) {
     GestoraEventos* model = this->repo->getModel();
-    nomes = model->getBlacklist().getAll();
+    ids = model->getBlacklist().getAll();
+}
+
+bool OrganizadorService::isBlacklisted(const string& id) {
+    return this->repo->getModel()->getBlacklist().contains(id);
 }

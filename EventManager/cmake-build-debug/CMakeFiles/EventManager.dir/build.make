@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager"
+CMAKE_SOURCE_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EventManager.dir/depend.make
@@ -70,468 +70,393 @@ include CMakeFiles/EventManager.dir/flags.make
 
 CMakeFiles/EventManager.dir/main.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/main.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/main.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/main.cpp
+CMakeFiles/EventManager.dir/main.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/main.cpp
 CMakeFiles/EventManager.dir/main.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EventManager.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/main.cpp.obj -MF CMakeFiles\EventManager.dir\main.cpp.obj.d -o CMakeFiles\EventManager.dir\main.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EventManager.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/main.cpp.obj -MF CMakeFiles\EventManager.dir\main.cpp.obj.d -o CMakeFiles\EventManager.dir\main.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\main.cpp
 
 CMakeFiles/EventManager.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\main.cpp" > CMakeFiles\EventManager.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\main.cpp > CMakeFiles\EventManager.dir\main.cpp.i
 
 CMakeFiles/EventManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\main.cpp" -o CMakeFiles\EventManager.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\main.cpp -o CMakeFiles\EventManager.dir\main.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Date.cpp
+CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Date.cpp
 CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Date.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Date.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Date.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Date.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Date.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Date.cpp
 
 CMakeFiles/EventManager.dir/sources/model/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/Date.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Date.cpp" > CMakeFiles\EventManager.dir\sources\model\Date.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Date.cpp > CMakeFiles\EventManager.dir\sources\model\Date.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/Date.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Date.cpp" -o CMakeFiles\EventManager.dir\sources\model\Date.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Date.cpp -o CMakeFiles\EventManager.dir\sources\model\Date.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Evento.cpp
+CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Evento.cpp
 CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Evento.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Evento.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Evento.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Evento.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Evento.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Evento.cpp
 
 CMakeFiles/EventManager.dir/sources/model/Evento.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/Evento.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Evento.cpp" > CMakeFiles\EventManager.dir\sources\model\Evento.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Evento.cpp > CMakeFiles\EventManager.dir\sources\model\Evento.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/Evento.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/Evento.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Evento.cpp" -o CMakeFiles\EventManager.dir\sources\model\Evento.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Evento.cpp -o CMakeFiles\EventManager.dir\sources\model\Evento.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Artista.cpp
+CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Artista.cpp
 CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Artista.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Artista.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Artista.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Artista.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Artista.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Artista.cpp
 
 CMakeFiles/EventManager.dir/sources/model/Artista.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/Artista.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Artista.cpp" > CMakeFiles\EventManager.dir\sources\model\Artista.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Artista.cpp > CMakeFiles\EventManager.dir\sources\model\Artista.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/Artista.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/Artista.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Artista.cpp" -o CMakeFiles\EventManager.dir\sources\model\Artista.cpp.s
-
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj: CMakeFiles/EventManager.dir/flags.make
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/AluguerMaterial.cpp
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\AluguerMaterial.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\AluguerMaterial.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\AluguerMaterial.cpp"
-
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\AluguerMaterial.cpp" > CMakeFiles\EventManager.dir\sources\model\AluguerMaterial.cpp.i
-
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\AluguerMaterial.cpp" -o CMakeFiles\EventManager.dir\sources\model\AluguerMaterial.cpp.s
-
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj: CMakeFiles/EventManager.dir/flags.make
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/RecursoMaterial.cpp
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\RecursoMaterial.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\RecursoMaterial.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\RecursoMaterial.cpp"
-
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\RecursoMaterial.cpp" > CMakeFiles\EventManager.dir\sources\model\RecursoMaterial.cpp.i
-
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\RecursoMaterial.cpp" -o CMakeFiles\EventManager.dir\sources\model\RecursoMaterial.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Artista.cpp -o CMakeFiles\EventManager.dir\sources\model\Artista.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/ClienteContainer.cpp
+CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/ClienteContainer.cpp
 CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\ClienteContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\ClienteContainer.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ClienteContainer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\ClienteContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\ClienteContainer.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ClienteContainer.cpp
 
 CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ClienteContainer.cpp" > CMakeFiles\EventManager.dir\sources\model\ClienteContainer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ClienteContainer.cpp > CMakeFiles\EventManager.dir\sources\model\ClienteContainer.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ClienteContainer.cpp" -o CMakeFiles\EventManager.dir\sources\model\ClienteContainer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ClienteContainer.cpp -o CMakeFiles\EventManager.dir\sources\model\ClienteContainer.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Utilizador.cpp
+CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Utilizador.cpp
 CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Utilizador.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Utilizador.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Utilizador.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Utilizador.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Utilizador.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Utilizador.cpp
 
 CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Utilizador.cpp" > CMakeFiles\EventManager.dir\sources\model\Utilizador.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Utilizador.cpp > CMakeFiles\EventManager.dir\sources\model\Utilizador.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Utilizador.cpp" -o CMakeFiles\EventManager.dir\sources\model\Utilizador.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Utilizador.cpp -o CMakeFiles\EventManager.dir\sources\model\Utilizador.cpp.s
 
 CMakeFiles/EventManager.dir/sources/views/View.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/views/View.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/views/View.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/View.cpp
+CMakeFiles/EventManager.dir/sources/views/View.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/View.cpp
 CMakeFiles/EventManager.dir/sources/views/View.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EventManager.dir/sources/views/View.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/views/View.cpp.obj -MF CMakeFiles\EventManager.dir\sources\views\View.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\views\View.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\View.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EventManager.dir/sources/views/View.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/views/View.cpp.obj -MF CMakeFiles\EventManager.dir\sources\views\View.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\views\View.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\View.cpp
 
 CMakeFiles/EventManager.dir/sources/views/View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/views/View.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\View.cpp" > CMakeFiles\EventManager.dir\sources\views\View.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\View.cpp > CMakeFiles\EventManager.dir\sources\views\View.cpp.i
 
 CMakeFiles/EventManager.dir/sources/views/View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/views/View.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\View.cpp" -o CMakeFiles\EventManager.dir\sources\views\View.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\View.cpp -o CMakeFiles\EventManager.dir\sources\views\View.cpp.s
 
 CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/Utils.cpp
+CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/Utils.cpp
 CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj -MF CMakeFiles\EventManager.dir\sources\views\Utils.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\views\Utils.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\Utils.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj -MF CMakeFiles\EventManager.dir\sources\views\Utils.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\views\Utils.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\Utils.cpp
 
 CMakeFiles/EventManager.dir/sources/views/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/views/Utils.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\Utils.cpp" > CMakeFiles\EventManager.dir\sources\views\Utils.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\Utils.cpp > CMakeFiles\EventManager.dir\sources\views\Utils.cpp.i
 
 CMakeFiles/EventManager.dir/sources/views/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/views/Utils.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\Utils.cpp" -o CMakeFiles\EventManager.dir\sources\views\Utils.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\Utils.cpp -o CMakeFiles\EventManager.dir\sources\views\Utils.cpp.s
 
 CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/ClienteView.cpp
+CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/ClienteView.cpp
 CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj -MF CMakeFiles\EventManager.dir\sources\views\ClienteView.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\views\ClienteView.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\ClienteView.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj -MF CMakeFiles\EventManager.dir\sources\views\ClienteView.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\views\ClienteView.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\ClienteView.cpp
 
 CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\ClienteView.cpp" > CMakeFiles\EventManager.dir\sources\views\ClienteView.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\ClienteView.cpp > CMakeFiles\EventManager.dir\sources\views\ClienteView.cpp.i
 
 CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\ClienteView.cpp" -o CMakeFiles\EventManager.dir\sources\views\ClienteView.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\ClienteView.cpp -o CMakeFiles\EventManager.dir\sources\views\ClienteView.cpp.s
 
 CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/EventoView.cpp
+CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/views/EventoView.cpp
 CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj -MF CMakeFiles\EventManager.dir\sources\views\EventoView.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\views\EventoView.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\EventoView.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj -MF CMakeFiles\EventManager.dir\sources\views\EventoView.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\views\EventoView.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\EventoView.cpp
 
 CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\EventoView.cpp" > CMakeFiles\EventManager.dir\sources\views\EventoView.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\EventoView.cpp > CMakeFiles\EventManager.dir\sources\views\EventoView.cpp.i
 
 CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\EventoView.cpp" -o CMakeFiles\EventManager.dir\sources\views\EventoView.cpp.s
-
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj: CMakeFiles/EventManager.dir/flags.make
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/AluguerMaterialContainer.cpp
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\AluguerMaterialContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\AluguerMaterialContainer.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\AluguerMaterialContainer.cpp"
-
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\AluguerMaterialContainer.cpp" > CMakeFiles\EventManager.dir\sources\model\AluguerMaterialContainer.cpp.i
-
-CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\AluguerMaterialContainer.cpp" -o CMakeFiles\EventManager.dir\sources\model\AluguerMaterialContainer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\views\EventoView.cpp -o CMakeFiles\EventManager.dir\sources\views\EventoView.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/ArtistaContainer.cpp
+CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/ArtistaContainer.cpp
 CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\ArtistaContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\ArtistaContainer.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ArtistaContainer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\ArtistaContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\ArtistaContainer.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ArtistaContainer.cpp
 
 CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ArtistaContainer.cpp" > CMakeFiles\EventManager.dir\sources\model\ArtistaContainer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ArtistaContainer.cpp > CMakeFiles\EventManager.dir\sources\model\ArtistaContainer.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ArtistaContainer.cpp" -o CMakeFiles\EventManager.dir\sources\model\ArtistaContainer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\ArtistaContainer.cpp -o CMakeFiles\EventManager.dir\sources\model\ArtistaContainer.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/EventoContainer.cpp
+CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/EventoContainer.cpp
 CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\EventoContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\EventoContainer.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\EventoContainer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\EventoContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\EventoContainer.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\EventoContainer.cpp
 
 CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\EventoContainer.cpp" > CMakeFiles\EventManager.dir\sources\model\EventoContainer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\EventoContainer.cpp > CMakeFiles\EventManager.dir\sources\model\EventoContainer.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\EventoContainer.cpp" -o CMakeFiles\EventManager.dir\sources\model\EventoContainer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\EventoContainer.cpp -o CMakeFiles\EventManager.dir\sources\model\EventoContainer.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/OrganizadorContainer.cpp
+CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/OrganizadorContainer.cpp
 CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\OrganizadorContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\OrganizadorContainer.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\OrganizadorContainer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\OrganizadorContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\OrganizadorContainer.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\OrganizadorContainer.cpp
 
 CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\OrganizadorContainer.cpp" > CMakeFiles\EventManager.dir\sources\model\OrganizadorContainer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\OrganizadorContainer.cpp > CMakeFiles\EventManager.dir\sources\model\OrganizadorContainer.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\OrganizadorContainer.cpp" -o CMakeFiles\EventManager.dir\sources\model\OrganizadorContainer.cpp.s
-
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj: CMakeFiles/EventManager.dir/flags.make
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/RecursoMaterialContainer.cpp
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\RecursoMaterialContainer.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\RecursoMaterialContainer.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\RecursoMaterialContainer.cpp"
-
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\RecursoMaterialContainer.cpp" > CMakeFiles\EventManager.dir\sources\model\RecursoMaterialContainer.cpp.i
-
-CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\RecursoMaterialContainer.cpp" -o CMakeFiles\EventManager.dir\sources\model\RecursoMaterialContainer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\OrganizadorContainer.cpp -o CMakeFiles\EventManager.dir\sources\model\OrganizadorContainer.cpp.s
 
 CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/controllers/Controller.cpp
+CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/controllers/Controller.cpp
 CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj -MF CMakeFiles\EventManager.dir\sources\controllers\Controller.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\controllers\Controller.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\controllers\Controller.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj -MF CMakeFiles\EventManager.dir\sources\controllers\Controller.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\controllers\Controller.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\controllers\Controller.cpp
 
 CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\controllers\Controller.cpp" > CMakeFiles\EventManager.dir\sources\controllers\Controller.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\controllers\Controller.cpp > CMakeFiles\EventManager.dir\sources\controllers\Controller.cpp.i
 
 CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\controllers\Controller.cpp" -o CMakeFiles\EventManager.dir\sources\controllers\Controller.cpp.s
-
-CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj: CMakeFiles/EventManager.dir/flags.make
-CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/IDGenerator.cpp
-CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\IDGenerator.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\IDGenerator.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\IDGenerator.cpp"
-
-CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\IDGenerator.cpp" > CMakeFiles\EventManager.dir\sources\model\IDGenerator.cpp.i
-
-CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\IDGenerator.cpp" -o CMakeFiles\EventManager.dir\sources\model\IDGenerator.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\controllers\Controller.cpp -o CMakeFiles\EventManager.dir\sources\controllers\Controller.cpp.s
 
 CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/ClienteService.cpp
+CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/ClienteService.cpp
 CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj -MF CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj -MF CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp
 
 CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp" > CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp > CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.i
 
 CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp" -o CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\ClienteService.cpp -o CMakeFiles\EventManager.dir\sources\services\ClienteService.cpp.s
 
 CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/OrganizadorService.cpp
+CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/OrganizadorService.cpp
 CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj -MF CMakeFiles\EventManager.dir\sources\services\OrganizadorService.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\services\OrganizadorService.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\OrganizadorService.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj -MF CMakeFiles\EventManager.dir\sources\services\OrganizadorService.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\services\OrganizadorService.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\OrganizadorService.cpp
 
 CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\OrganizadorService.cpp" > CMakeFiles\EventManager.dir\sources\services\OrganizadorService.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\OrganizadorService.cpp > CMakeFiles\EventManager.dir\sources\services\OrganizadorService.cpp.i
 
 CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\OrganizadorService.cpp" -o CMakeFiles\EventManager.dir\sources\services\OrganizadorService.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\OrganizadorService.cpp -o CMakeFiles\EventManager.dir\sources\services\OrganizadorService.cpp.s
 
 CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/EventoService.cpp
+CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/services/EventoService.cpp
 CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj -MF CMakeFiles\EventManager.dir\sources\services\EventoService.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\services\EventoService.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\EventoService.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj -MF CMakeFiles\EventManager.dir\sources\services\EventoService.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\services\EventoService.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\EventoService.cpp
 
 CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\EventoService.cpp" > CMakeFiles\EventManager.dir\sources\services\EventoService.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\EventoService.cpp > CMakeFiles\EventManager.dir\sources\services\EventoService.cpp.i
 
 CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\EventoService.cpp" -o CMakeFiles\EventManager.dir\sources\services\EventoService.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\services\EventoService.cpp -o CMakeFiles\EventManager.dir\sources\services\EventoService.cpp.s
 
 CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/mappers/ClienteMapper.cpp
+CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/mappers/ClienteMapper.cpp
 CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj -MF CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.obj -MF CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp
 
 CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp" > CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp > CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.i
 
 CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp" -o CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\mappers\ClienteMapper.cpp -o CMakeFiles\EventManager.dir\sources\mappers\ClienteMapper.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Blacklist.cpp
+CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/Blacklist.cpp
 CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Blacklist.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Blacklist.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Blacklist.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\Blacklist.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\Blacklist.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Blacklist.cpp
 
 CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Blacklist.cpp" > CMakeFiles\EventManager.dir\sources\model\Blacklist.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Blacklist.cpp > CMakeFiles\EventManager.dir\sources\model\Blacklist.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/Blacklist.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Blacklist.cpp" -o CMakeFiles\EventManager.dir\sources\model\Blacklist.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\Blacklist.cpp -o CMakeFiles\EventManager.dir\sources\model\Blacklist.cpp.s
 
 CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/repo/GestoraEventosRepositoryMemory.cpp
+CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/repo/GestoraEventosRepositoryMemory.cpp
 CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj -MF CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.obj -MF CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp
 
 CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp" > CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp > CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.i
 
 CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/repo/GestoraEventosRepositoryMemory.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp" -o CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\repo\GestoraEventosRepositoryMemory.cpp -o CMakeFiles\EventManager.dir\sources\repo\GestoraEventosRepositoryMemory.cpp.s
 
 CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions/DuplicatedDataException.cpp
+CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions/DuplicatedDataException.cpp
 CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj -MF CMakeFiles\EventManager.dir\sources\exceptions\DuplicatedDataException.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\exceptions\DuplicatedDataException.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DuplicatedDataException.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.obj -MF CMakeFiles\EventManager.dir\sources\exceptions\DuplicatedDataException.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\exceptions\DuplicatedDataException.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DuplicatedDataException.cpp
 
 CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DuplicatedDataException.cpp" > CMakeFiles\EventManager.dir\sources\exceptions\DuplicatedDataException.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DuplicatedDataException.cpp > CMakeFiles\EventManager.dir\sources\exceptions\DuplicatedDataException.cpp.i
 
 CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/exceptions/DuplicatedDataException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DuplicatedDataException.cpp" -o CMakeFiles\EventManager.dir\sources\exceptions\DuplicatedDataException.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DuplicatedDataException.cpp -o CMakeFiles\EventManager.dir\sources\exceptions\DuplicatedDataException.cpp.s
 
 CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions/DataConsistencyException.cpp
+CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions/DataConsistencyException.cpp
 CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj -MF CMakeFiles\EventManager.dir\sources\exceptions\DataConsistencyException.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\exceptions\DataConsistencyException.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DataConsistencyException.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.obj -MF CMakeFiles\EventManager.dir\sources\exceptions\DataConsistencyException.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\exceptions\DataConsistencyException.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DataConsistencyException.cpp
 
 CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DataConsistencyException.cpp" > CMakeFiles\EventManager.dir\sources\exceptions\DataConsistencyException.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DataConsistencyException.cpp > CMakeFiles\EventManager.dir\sources\exceptions\DataConsistencyException.cpp.i
 
 CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/exceptions/DataConsistencyException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DataConsistencyException.cpp" -o CMakeFiles\EventManager.dir\sources\exceptions\DataConsistencyException.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\DataConsistencyException.cpp -o CMakeFiles\EventManager.dir\sources\exceptions\DataConsistencyException.cpp.s
 
 CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions/NoDataException.cpp
+CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions/NoDataException.cpp
 CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj -MF CMakeFiles\EventManager.dir\sources\exceptions\NoDataException.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\exceptions\NoDataException.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\NoDataException.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.obj -MF CMakeFiles\EventManager.dir\sources\exceptions\NoDataException.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\exceptions\NoDataException.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\NoDataException.cpp
 
 CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\NoDataException.cpp" > CMakeFiles\EventManager.dir\sources\exceptions\NoDataException.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\NoDataException.cpp > CMakeFiles\EventManager.dir\sources\exceptions\NoDataException.cpp.i
 
 CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/exceptions/NoDataException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\NoDataException.cpp" -o CMakeFiles\EventManager.dir\sources\exceptions\NoDataException.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\NoDataException.cpp -o CMakeFiles\EventManager.dir\sources\exceptions\NoDataException.cpp.s
 
 CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions/InvalidDataException.cpp
+CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/exceptions/InvalidDataException.cpp
 CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj -MF CMakeFiles\EventManager.dir\sources\exceptions\InvalidDataException.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\exceptions\InvalidDataException.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\InvalidDataException.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.obj -MF CMakeFiles\EventManager.dir\sources\exceptions\InvalidDataException.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\exceptions\InvalidDataException.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\InvalidDataException.cpp
 
 CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\InvalidDataException.cpp" > CMakeFiles\EventManager.dir\sources\exceptions\InvalidDataException.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\InvalidDataException.cpp > CMakeFiles\EventManager.dir\sources\exceptions\InvalidDataException.cpp.i
 
 CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/exceptions/InvalidDataException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\InvalidDataException.cpp" -o CMakeFiles\EventManager.dir\sources\exceptions\InvalidDataException.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\exceptions\InvalidDataException.cpp -o CMakeFiles\EventManager.dir\sources\exceptions\InvalidDataException.cpp.s
 
 CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/GestoraEventos.cpp
+CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/sources/model/GestoraEventos.cpp
 CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\GestoraEventos.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\GestoraEventos.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\GestoraEventos.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.obj -MF CMakeFiles\EventManager.dir\sources\model\GestoraEventos.cpp.obj.d -o CMakeFiles\EventManager.dir\sources\model\GestoraEventos.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\GestoraEventos.cpp
 
 CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\GestoraEventos.cpp" > CMakeFiles\EventManager.dir\sources\model\GestoraEventos.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\GestoraEventos.cpp > CMakeFiles\EventManager.dir\sources\model\GestoraEventos.cpp.i
 
 CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\GestoraEventos.cpp" -o CMakeFiles\EventManager.dir\sources\model\GestoraEventos.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\sources\model\GestoraEventos.cpp -o CMakeFiles\EventManager.dir\sources\model\GestoraEventos.cpp.s
 
 CMakeFiles/EventManager.dir/mock/MockData.cpp.obj: CMakeFiles/EventManager.dir/flags.make
 CMakeFiles/EventManager.dir/mock/MockData.cpp.obj: CMakeFiles/EventManager.dir/includes_CXX.rsp
-CMakeFiles/EventManager.dir/mock/MockData.cpp.obj: C:/Users/Lord\ Foog/Documents/Aulas/ISEP/1o_ano/FSOFT/VirtualRepository/FSOFT2026_1DC_3/EventManager/mock/MockData.cpp
+CMakeFiles/EventManager.dir/mock/MockData.cpp.obj: C:/Users/gabri/Documents/GitHub/VirtualRepository/FSOFT2026_1DC_3/EventManager/mock/MockData.cpp
 CMakeFiles/EventManager.dir/mock/MockData.cpp.obj: CMakeFiles/EventManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/EventManager.dir/mock/MockData.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/mock/MockData.cpp.obj -MF CMakeFiles\EventManager.dir\mock\MockData.cpp.obj.d -o CMakeFiles\EventManager.dir\mock\MockData.cpp.obj -c "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\mock\MockData.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/EventManager.dir/mock/MockData.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EventManager.dir/mock/MockData.cpp.obj -MF CMakeFiles\EventManager.dir\mock\MockData.cpp.obj.d -o CMakeFiles\EventManager.dir\mock\MockData.cpp.obj -c C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\mock\MockData.cpp
 
 CMakeFiles/EventManager.dir/mock/MockData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EventManager.dir/mock/MockData.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\mock\MockData.cpp" > CMakeFiles\EventManager.dir\mock\MockData.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\mock\MockData.cpp > CMakeFiles\EventManager.dir\mock\MockData.cpp.i
 
 CMakeFiles/EventManager.dir/mock/MockData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EventManager.dir/mock/MockData.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\mock\MockData.cpp" -o CMakeFiles\EventManager.dir\mock\MockData.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\mock\MockData.cpp -o CMakeFiles\EventManager.dir\mock\MockData.cpp.s
 
 # Object files for target EventManager
 EventManager_OBJECTS = \
@@ -539,21 +464,16 @@ EventManager_OBJECTS = \
 "CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj" \
-"CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj" \
-"CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/views/View.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj" \
-"CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj" \
-"CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj" \
-"CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj" \
 "CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj" \
@@ -574,21 +494,16 @@ EventManager.exe: CMakeFiles/EventManager.dir/main.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/Date.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/Evento.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/Artista.cpp.obj
-EventManager.exe: CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj
-EventManager.exe: CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/ClienteContainer.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/Utilizador.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/views/View.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/views/Utils.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/views/ClienteView.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/views/EventoView.cpp.obj
-EventManager.exe: CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/ArtistaContainer.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/EventoContainer.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.obj
-EventManager.exe: CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/controllers/Controller.cpp.obj
-EventManager.exe: CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/services/ClienteService.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/services/OrganizadorService.cpp.obj
 EventManager.exe: CMakeFiles/EventManager.dir/sources/services/EventoService.cpp.obj
@@ -605,7 +520,7 @@ EventManager.exe: CMakeFiles/EventManager.dir/build.make
 EventManager.exe: CMakeFiles/EventManager.dir/linkLibs.rsp
 EventManager.exe: CMakeFiles/EventManager.dir/objects1.rsp
 EventManager.exe: CMakeFiles/EventManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable EventManager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable EventManager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EventManager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -617,6 +532,6 @@ CMakeFiles/EventManager.dir/clean:
 .PHONY : CMakeFiles/EventManager.dir/clean
 
 CMakeFiles/EventManager.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles\EventManager.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles\EventManager.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/EventManager.dir/depend
 

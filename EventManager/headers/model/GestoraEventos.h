@@ -10,10 +10,7 @@
 #include "OrganizadorContainer.h"
 #include "ArtistaContainer.h"
 #include "EventoContainer.h"
-#include "AluguerMaterialContainer.h"
-#include "RecursoMaterialContainer.h"
 #include "Blacklist.h"
-/* #include "BilheteContainer.h" */
 
 
 class GestoraEventos {
@@ -23,8 +20,6 @@ private:
     OrganizadorContainer organizadores;
     ArtistaContainer artistas;
     EventoContainer eventos;
-    AluguerMaterialContainer alugueres;
-    RecursoMaterialContainer recursos;
     Blacklist blacklist;
 
 public:
@@ -39,8 +34,6 @@ public:
     OrganizadorContainer& getOrganizadores();
     ArtistaContainer& getArtistas();
     EventoContainer& getEventos();
-    AluguerMaterialContainer& getAlugueres();
-    RecursoMaterialContainer& getRecursos();
     Blacklist& getBlacklist();
 };
 

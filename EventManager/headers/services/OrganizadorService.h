@@ -18,9 +18,10 @@ private:
 public:
     OrganizadorService(IGestoraEventosRepository* repo);
     Organizador* getOrganizadorByEmailAndPassword(const string& email, const string& password);
-    void addToBlacklist(const string& nome);
-    void removeFromBlacklist(const string& nome);
-    void getBlacklist(list<string>& nomes);
+    void addToBlacklist(const string& id);
+    void removeFromBlacklist(const string& id);
+    void getBlacklist(list<string>& ids);
+    bool isBlacklisted(const string& id);
 };
 
 #endif //ORGANIZADORSERVICE_H

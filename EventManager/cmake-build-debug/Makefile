@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager"
+CMAKE_SOURCE_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Lord Foog\Documents\Aulas\ISEP\1o_ano\FSOFT\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Documents\GitHub\VirtualRepository\FSOFT2026_1DC_3\EventManager\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -320,54 +320,6 @@ sources/mappers/ClienteMapper.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/mappers/ClienteMapper.cpp.s
 .PHONY : sources/mappers/ClienteMapper.cpp.s
 
-sources/model/AluguerMaterial.obj: sources/model/AluguerMaterial.cpp.obj
-.PHONY : sources/model/AluguerMaterial.obj
-
-# target to build an object file
-sources/model/AluguerMaterial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.obj
-.PHONY : sources/model/AluguerMaterial.cpp.obj
-
-sources/model/AluguerMaterial.i: sources/model/AluguerMaterial.cpp.i
-.PHONY : sources/model/AluguerMaterial.i
-
-# target to preprocess a source file
-sources/model/AluguerMaterial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.i
-.PHONY : sources/model/AluguerMaterial.cpp.i
-
-sources/model/AluguerMaterial.s: sources/model/AluguerMaterial.cpp.s
-.PHONY : sources/model/AluguerMaterial.s
-
-# target to generate assembly for a file
-sources/model/AluguerMaterial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/AluguerMaterial.cpp.s
-.PHONY : sources/model/AluguerMaterial.cpp.s
-
-sources/model/AluguerMaterialContainer.obj: sources/model/AluguerMaterialContainer.cpp.obj
-.PHONY : sources/model/AluguerMaterialContainer.obj
-
-# target to build an object file
-sources/model/AluguerMaterialContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.obj
-.PHONY : sources/model/AluguerMaterialContainer.cpp.obj
-
-sources/model/AluguerMaterialContainer.i: sources/model/AluguerMaterialContainer.cpp.i
-.PHONY : sources/model/AluguerMaterialContainer.i
-
-# target to preprocess a source file
-sources/model/AluguerMaterialContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.i
-.PHONY : sources/model/AluguerMaterialContainer.cpp.i
-
-sources/model/AluguerMaterialContainer.s: sources/model/AluguerMaterialContainer.cpp.s
-.PHONY : sources/model/AluguerMaterialContainer.s
-
-# target to generate assembly for a file
-sources/model/AluguerMaterialContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/AluguerMaterialContainer.cpp.s
-.PHONY : sources/model/AluguerMaterialContainer.cpp.s
-
 sources/model/Artista.obj: sources/model/Artista.cpp.obj
 .PHONY : sources/model/Artista.obj
 
@@ -560,30 +512,6 @@ sources/model/GestoraEventos.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/GestoraEventos.cpp.s
 .PHONY : sources/model/GestoraEventos.cpp.s
 
-sources/model/IDGenerator.obj: sources/model/IDGenerator.cpp.obj
-.PHONY : sources/model/IDGenerator.obj
-
-# target to build an object file
-sources/model/IDGenerator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.obj
-.PHONY : sources/model/IDGenerator.cpp.obj
-
-sources/model/IDGenerator.i: sources/model/IDGenerator.cpp.i
-.PHONY : sources/model/IDGenerator.i
-
-# target to preprocess a source file
-sources/model/IDGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.i
-.PHONY : sources/model/IDGenerator.cpp.i
-
-sources/model/IDGenerator.s: sources/model/IDGenerator.cpp.s
-.PHONY : sources/model/IDGenerator.s
-
-# target to generate assembly for a file
-sources/model/IDGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/IDGenerator.cpp.s
-.PHONY : sources/model/IDGenerator.cpp.s
-
 sources/model/OrganizadorContainer.obj: sources/model/OrganizadorContainer.cpp.obj
 .PHONY : sources/model/OrganizadorContainer.obj
 
@@ -607,54 +535,6 @@ sources/model/OrganizadorContainer.s: sources/model/OrganizadorContainer.cpp.s
 sources/model/OrganizadorContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/OrganizadorContainer.cpp.s
 .PHONY : sources/model/OrganizadorContainer.cpp.s
-
-sources/model/RecursoMaterial.obj: sources/model/RecursoMaterial.cpp.obj
-.PHONY : sources/model/RecursoMaterial.obj
-
-# target to build an object file
-sources/model/RecursoMaterial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.obj
-.PHONY : sources/model/RecursoMaterial.cpp.obj
-
-sources/model/RecursoMaterial.i: sources/model/RecursoMaterial.cpp.i
-.PHONY : sources/model/RecursoMaterial.i
-
-# target to preprocess a source file
-sources/model/RecursoMaterial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.i
-.PHONY : sources/model/RecursoMaterial.cpp.i
-
-sources/model/RecursoMaterial.s: sources/model/RecursoMaterial.cpp.s
-.PHONY : sources/model/RecursoMaterial.s
-
-# target to generate assembly for a file
-sources/model/RecursoMaterial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/RecursoMaterial.cpp.s
-.PHONY : sources/model/RecursoMaterial.cpp.s
-
-sources/model/RecursoMaterialContainer.obj: sources/model/RecursoMaterialContainer.cpp.obj
-.PHONY : sources/model/RecursoMaterialContainer.obj
-
-# target to build an object file
-sources/model/RecursoMaterialContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.obj
-.PHONY : sources/model/RecursoMaterialContainer.cpp.obj
-
-sources/model/RecursoMaterialContainer.i: sources/model/RecursoMaterialContainer.cpp.i
-.PHONY : sources/model/RecursoMaterialContainer.i
-
-# target to preprocess a source file
-sources/model/RecursoMaterialContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.i
-.PHONY : sources/model/RecursoMaterialContainer.cpp.i
-
-sources/model/RecursoMaterialContainer.s: sources/model/RecursoMaterialContainer.cpp.s
-.PHONY : sources/model/RecursoMaterialContainer.s
-
-# target to generate assembly for a file
-sources/model/RecursoMaterialContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EventManager.dir\build.make CMakeFiles/EventManager.dir/sources/model/RecursoMaterialContainer.cpp.s
-.PHONY : sources/model/RecursoMaterialContainer.cpp.s
 
 sources/model/Utilizador.obj: sources/model/Utilizador.cpp.obj
 .PHONY : sources/model/Utilizador.obj
@@ -905,12 +785,6 @@ help:
 	@echo ... sources/mappers/ClienteMapper.obj
 	@echo ... sources/mappers/ClienteMapper.i
 	@echo ... sources/mappers/ClienteMapper.s
-	@echo ... sources/model/AluguerMaterial.obj
-	@echo ... sources/model/AluguerMaterial.i
-	@echo ... sources/model/AluguerMaterial.s
-	@echo ... sources/model/AluguerMaterialContainer.obj
-	@echo ... sources/model/AluguerMaterialContainer.i
-	@echo ... sources/model/AluguerMaterialContainer.s
 	@echo ... sources/model/Artista.obj
 	@echo ... sources/model/Artista.i
 	@echo ... sources/model/Artista.s
@@ -935,18 +809,9 @@ help:
 	@echo ... sources/model/GestoraEventos.obj
 	@echo ... sources/model/GestoraEventos.i
 	@echo ... sources/model/GestoraEventos.s
-	@echo ... sources/model/IDGenerator.obj
-	@echo ... sources/model/IDGenerator.i
-	@echo ... sources/model/IDGenerator.s
 	@echo ... sources/model/OrganizadorContainer.obj
 	@echo ... sources/model/OrganizadorContainer.i
 	@echo ... sources/model/OrganizadorContainer.s
-	@echo ... sources/model/RecursoMaterial.obj
-	@echo ... sources/model/RecursoMaterial.i
-	@echo ... sources/model/RecursoMaterial.s
-	@echo ... sources/model/RecursoMaterialContainer.obj
-	@echo ... sources/model/RecursoMaterialContainer.i
-	@echo ... sources/model/RecursoMaterialContainer.s
 	@echo ... sources/model/Utilizador.obj
 	@echo ... sources/model/Utilizador.i
 	@echo ... sources/model/Utilizador.s
